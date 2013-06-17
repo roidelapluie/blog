@@ -18,6 +18,7 @@ I made a small table that will enable you to ''translate'' your custom log forma
 | `%t` | `\[%{HTTPDATE:timestamp}\]` |
 | `%r` | `%{USERNAME:method} %{URIPATHPARAM:request} HTTP/%{NUMBER:httpversion}` |
 | `%s` | `%{NUMBER:response}` |
-| `%b` | `%{NUMBER:bytes}` |
+| `%B` | `%{NUMBER:bytes}` |
+| `%b` | `(?:%{NUMBER:bytes}|-)` |
 | `\"%{Referer}i\"` | `%{QS:referer}` |
 | `\"%{User-Agent}i\"` | `%{QS:useragent}` |
