@@ -1,6 +1,5 @@
 Title: About me
 Date: 2013-06-16
-save_as: index.html
 
 I am a Linux system administrator and open-source consultant at [Inuits](https://inuits.eu), and I believe in DevOps, with focus on automation and monitoring.
 
