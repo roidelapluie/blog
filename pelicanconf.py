@@ -8,6 +8,14 @@ SITEURL = u'http://roidelapluie.be'
 
 TIMEZONE = 'Europe/Paris'
 
+import sys
+sys.path.append('./')
+
+from plugins import git_dates
+
+PLUGINS = [git_dates]
+
+
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing

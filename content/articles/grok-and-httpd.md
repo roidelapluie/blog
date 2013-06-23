@@ -1,5 +1,4 @@
 Title: Grok and httpd
-Date: 2013-06-17
 Category: Monitoring
 Tags: grok, logstash
 Slug: grok-httpd
@@ -19,6 +18,6 @@ I made a small table that will enable you to ''translate'' your custom log forma
 | `%r` | `%{USERNAME:method} %{URIPATHPARAM:request} HTTP/%{NUMBER:httpversion}` |
 | `%s` | `%{NUMBER:response}` |
 | `%B` | `%{NUMBER:bytes}` |
-| `%b` | `(?:%{NUMBER:bytes}|-)` |
+| `%b` | `(?:%{NUMBER:bytes}`&#124;`-)` |
 | `\"%{Referer}i\"` | `%{QS:referer}` |
 | `\"%{User-Agent}i\"` | `%{QS:useragent}` |
