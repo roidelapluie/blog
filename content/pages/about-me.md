@@ -1,12 +1,15 @@
 Title: About me
 
-I am a Linux system administrator and open-source consultant at [Inuits](https://inuits.eu), and I believe in DevOps, with focus on automation and monitoring.
+Julien Pivotto is a young Open-Source consultant at [Inuits](https://inuits.eu) where he is helping organisations with the deployment of long-term solutions based on Open-source infrastructure.
+
+He is a strong believer in the devops movement and has technical focus towards infrastructure automation, continuous integration and monitoring.
+
 
 # Talks
 
 ## 2013
 
-* [Testing your puppet code](http://www.slideshare.net/roidelapluie/testing-your-puppet-code) at [RMLL 2013](http://2013.rmll.info)
+* [Testing your puppet code](http://www.slideshare.net/roidelapluie/testing-your-puppet-code) at [RMLL 2013](http://2013.rmll.info) ([video](http://video.rmll.info/videos/testing-your-puppet-code/))
 * [Monitoring at Cloud Scale](http://www.slideshare.net/roidelapluie/monitoring-at-cloud-scale) at [Build A Cloud Day Amsterdam 2013](http://bacdamsterdam.eventbrite.com)
 
 ## 2012
