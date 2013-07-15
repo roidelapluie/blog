@@ -4,7 +4,6 @@ Julien Pivotto is a young Open-Source consultant at [Inuits](https://inuits.eu) 
 
 He is a strong believer in the devops movement and has technical focus towards infrastructure automation, continuous integration and monitoring.
 
-
 # Talks
 
 ## 2013
