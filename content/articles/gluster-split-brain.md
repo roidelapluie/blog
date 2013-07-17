@@ -1,4 +1,4 @@
-Title: Fixing glusterfs split brain
+Title: Fixing a glusterfs split-brain
 Category: Linux
 Tags: glusterfs
 Slug: glusterfs-split-brain
@@ -7,13 +7,13 @@ I have found some time to test [GlusterFS](http://gluster.org), in order to use 
 
 I have created two [vagrant](http://vagrantup.com) boxes to set up a basic cluster.
 
-And, during my tests, I have shut down the network interfaces and started writing different things on the same file, to create a brain-split.
+And, during my tests, I have shut down the network interfaces and started writing different things on the same file, to create a [split-brain](http://en.wikipedia.org/wiki/Split-brain_%28computing%29).
 
     :::bash
     srv01$ echo good > /mnt/test
     srv02$ echo bad > /mnt/test
 
-When the interfaces were up again, the split brain was obviously present:
+When the interfaces were up again, the split-brain was obviously present:
 
     :::bash
     srv02$ cat /mnt/test
@@ -46,6 +46,7 @@ Even more, the file `/export/brick1/sdb1/test` was recreated by gluster!
     wrong
 
 The solution was the following: gluster is creating hard links in a .gluster directory, and you have to delete all the hard links to the file to get rid of it.
+Please note that I am working on the 'brick'.
 
     :::bash
     srv02$ sudo find /export/brick1/sdb1/ -samefile /export/brick1/sdb1/test -print -delete
@@ -60,3 +61,25 @@ And it worked!
     srv02$ cat /export/brick1/sdb1/test
     good
 
+### Additional notes
+
+Only the files that were "brain-splitted" were unreadable.
+
+You can have the list of these files by running the following command:
+
+    :::bash
+    $ gluster volume heal gv0 info
+    Brick 192.168.1.10:/export/brick1/sdb1
+    Number of entries: 1
+    /test
+
+    Brick 192.168.1.11:/export/brick1/sdb1
+    Number of entries: 1
+    /test
+
+
+### Links
+
+* [GlusterFS](http://gluster.org)
+* The [quickstart](http://www.gluster.org/community/documentation/index.php/QuickStart) that I have used.
+* Explanation of glusterfs-related [terms](http://www.gluster.org/community/documentation/index.php/GlusterFS_Concepts)
