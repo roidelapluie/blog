@@ -1,6 +1,6 @@
-Title: Fixing a glusterfs split-brain
+Title: Fixing a GlusterFS split-brain
 Category: Linux
-Tags: glusterfs
+Tags: GlusterFS
 Slug: glusterfs-split-brain
 
 I have found some time to test [GlusterFS](http://gluster.org), in order to use it to replicate data between several servers.
@@ -39,13 +39,13 @@ But it was obviously not working:
     srv02$ cat /mnt/test
     cat: /mnt/test: Input/output error
 
-Even more, the file `/export/brick1/sdb1/test` was recreated by gluster!
+Even more, the file `/export/brick1/sdb1/test` was recreated by Gluster!
 
     :::bash
     srv02$ cat /export/brick1/sdb1/test
     wrong
 
-The solution was the following: gluster is creating hard links in a .gluster directory, and you have to delete all the hard links to the file to get rid of it.
+The solution was the following: Gluster is creating hard links in a .gluster directory, and you have to delete all the hard links to the file to get rid of it.
 Please note that I am working on the 'brick'.
 
     :::bash
@@ -83,4 +83,4 @@ To avoid split-brains, you can enable [quorums](http://www.gluster.org/community
 
 * [GlusterFS](http://gluster.org)
 * The [quickstart](http://www.gluster.org/community/documentation/index.php/QuickStart) that I have used.
-* Explanation of glusterfs-related [terms](http://www.gluster.org/community/documentation/index.php/GlusterFS_Concepts)
+* Explanation of GlusterFS-related [terms](http://www.gluster.org/community/documentation/index.php/GlusterFS_Concepts)
