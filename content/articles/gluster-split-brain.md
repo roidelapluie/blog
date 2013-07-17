@@ -77,6 +77,7 @@ You can have the list of these files by running the following command:
     Number of entries: 1
     /test
 
+To avoid split-brains, you can enable [quorums](http://www.gluster.org/community/documentation/index.php/Features/Server-quorum).
 
 ### Links
 
