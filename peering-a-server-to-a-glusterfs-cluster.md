@@ -1,7 +1,7 @@
-Title: Adding a server to a GlusterFS cluster
+Title: Peering a server to a GlusterFS cluster
 Category: Linux
 Tags: GlusterFS
-Slug: add-server-to-a-glusterfs-cluster
+Slug: peering-a-server-to-a-glusterfs-cluster
 
 Some notes about how to add server to a [GlusterFS](http://gluster.org) cluster and to replicata data to it.
 
