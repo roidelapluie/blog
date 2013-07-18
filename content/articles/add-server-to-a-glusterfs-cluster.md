@@ -1,15 +1,15 @@
-Title: Adding a server to a GlusterFS pool
+Title: Adding a server to a GlusterFS cluster
 Category: Linux
 Tags: GlusterFS
-Slug: gluster-pool
+Slug: add-server-to-a-glusterfs-cluster
 
-Some notes about how to add server to a [GlusterFS](http://gluster.org) pool and to replicata data to it.
+Some notes about how to add server to a [GlusterFS](http://gluster.org) cluster and to replicata data to it.
 
     ::bash
     srv03$ sudo gluster peer probe 192.168.1.10
     peer probe: failed: 192.168.1.10 is already part of another cluster
 
-It is logical that anyone may not add a server to a gluster pool.
+It is logical that anyone may not add a server to a gluster cluster.
 
     ::bash
     srv01$ sudo gluster peer probe 192.168.1.12
