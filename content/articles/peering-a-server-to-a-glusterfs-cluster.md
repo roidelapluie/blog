@@ -17,6 +17,7 @@ It is logical that anyone may not add a server to a gluster cluster.
 
 It is successful.
 
+    ::bash
     srv01$ sudo peer status
     Number of Peers: 2
 
