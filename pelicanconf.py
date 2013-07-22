@@ -44,7 +44,7 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 10
 
-CSS_FILE='main-2107.css'
+#CSS_FILE='main-2107.css'
 
 THEME='./notmyidea'
 # Uncomment following line if you want document-relative URLs when developing
