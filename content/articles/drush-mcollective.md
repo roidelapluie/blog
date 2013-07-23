@@ -1,4 +1,4 @@
-Title: Drush mcollective agent
+Title: Mcollective agent to use drush
 Category: Linux
 Tags: sysadmin, drupal
 Slug: drush-mcollective
@@ -13,13 +13,15 @@ The full configuration is available on the [github project](https://github.com/r
 
 ### Examples
 
-    ::bash
-    $ sudo mco rpc drush updatedb root=/var/vhost/frontend-demo yes=true -C /webfrontend/
+#### Updatedb
 
-    ::bash
-    $ sudo mco rpc drush cache-clear root=/var/vhost/frontend-demo uri=http://demo.example.net type=all -C /webfrontend/
+    ::text
+    mco rpc drush updatedb root=/var/vhost/frontend-demo yes=true
 
-Please note: `-C /webfrontend/` is just a [mcollective filter](http://docs.puppetlabs.com/mcollective/reference/basic/basic_cli_usage.html).
+#### Cache-clear
+
+    ::text
+    mco rpc drush cache-clear root=/var/vhost/frontend-demo uri=http://demo.example.net type=all
 
 ### Links
 
