@@ -28,5 +28,5 @@ The full configuration is available on the [github project](https://github.com/r
 
 * [mcollective](https://puppetlabs.com/mcollective/)
 * [drush](http://drush.ws)
-* [the agent on gihub](https://github.com/roidelapluie/mcollective-drush)
+* [the agent on github](https://github.com/roidelapluie/mcollective-drush)
 
