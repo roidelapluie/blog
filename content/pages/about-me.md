@@ -10,8 +10,9 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 * [Testing your puppet code](http://www.slideshare.net/roidelapluie/testing-your-puppet-code) at [RMLL 2013](http://2013.rmll.info) ([video](http://video.rmll.info/videos/testing-your-puppet-code/))
 * [Monitoring at Cloud Scale](http://www.slideshare.net/roidelapluie/monitoring-at-cloud-scale) at [Build A Cloud Day Amsterdam 2013](http://bacdamsterdam.eventbrite.com)
-* Building and Deploing Mediasalsa at [DrupalCon Prague 2013](https://prague2013.drupal.org/)
+* [Building and Deploing Mediasalsa](http://www.slideshare.net/roidelapluie/drupalcon-mediasalsa) at [DrupalCon Prague 2013](https://prague2013.drupal.org/) ([video](http://www.youtube.com/watch?v=kmy2h8Q-UOc))
 * The devops approach to monitoring, Open Source and Infrastructure as Code Style at [Open World Forum Paris 2013](http://www.openworldforum.org/en/)
+* Devops, beyond agile (in French) at [La Journée Agile 2013 Louvain-la-Neuve](http://journeeagile.be/)
 
 ## 2012
 
