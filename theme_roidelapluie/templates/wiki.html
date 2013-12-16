@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Wiki</h1>
+    {% for page in PAGES %}
+    {% if not page.hide %}
+<h2><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h2>
+<abbr class="published" title="{{ page.date.isoformat() }}">
+    {{ page.locale_date }}
+</abbr>
+{% endif %}
+{% endfor%}
+{% endblock %}

@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Julien Pivotto'
 SITENAME = u'sysadmin {\'roidelapluie\':}'
-SITEURL = u'http://roidelapluie.be'
+SITEURL = u'http://geekshell.org/~pivo'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -46,6 +46,9 @@ DEFAULT_PAGINATION = 10
 
 #CSS_FILE='main-2107.css'
 
-THEME='./notmyidea'
+THEME='./theme_roidelapluie'
+PAGE_URL='wiki/{slug}.html'
+PAGE_SAVE_AS='wiki/{slug}.html'
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
