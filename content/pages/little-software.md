@@ -1,4 +1,4 @@
-Title: small open source tools for desktop usage
+Title: small open source tools for everyday use
 
 
   * image viewer: feh
@@ -6,5 +6,8 @@ Title: small open source tools for desktop usage
   * mail: mutt, fetchmail, dovecot
   * pdf reading: mupdf
   * imaging: gimp, imagemagick, inkscape
+  * calculator: bc
+  * calendar: cal
+
 
 more to come
