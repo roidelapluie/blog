@@ -6,8 +6,11 @@
 </article>
 {% endblock %}
 {% block extrafooter %}
+{%if not page.hide %}
 Last edited: <abbr class="published" title="{{ page.date.isoformat() }}">
     {{ page.locale_date }}
 </abbr>
+{% endif %}
 {% endblock %}
-
+{%block menuwiki%}{%if not page.hide %} class="active"{%endif%}{%endblock%}
+{%block menuabout%}{%if page.title == "About me" %} class="active"{%endif%}{%endblock%}

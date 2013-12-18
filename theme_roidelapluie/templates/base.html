@@ -12,9 +12,9 @@
     <h1>roidelapluie</h1>
     <nav>
         <ul>
-            <li><a href="{{SITEURL}}/">blog</a></li>
-            <li><a href="{{SITEURL}}/wiki">wiki</a></li>
-            <li><a href="{{SITEURL}}/pages/about-me.html">about</a></li>
+            <li><a{%block menublog%}{%endblock%} href="{{SITEURL}}/">blog</a></li>
+            <li><a{%block menuwiki%}{%endblock%} href="{{SITEURL}}/wiki">wiki</a></li>
+            <li><a{%block menuabout%}{%endblock%} href="{{SITEURL}}/pages/about-me.html">about</a></li>
         </ul>
     </nav>
 
