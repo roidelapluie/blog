@@ -3,9 +3,9 @@ Title: Pacemaker and corosync
 If you get the following:
 
     [root@devvm ~]# crm configure load update crm-resource.txt
-    error: unpack_resources:     Resource start-up disabled since no STONITH resources have been defined
-    error: unpack_resources:  Either configure some or disable STONITH with the stonith-enabled option
-    error: unpack_resources:   NOTE: Clusters with shared data need STONITH to ensure data integrity
+    error: unpack_resources:	Resource start-up disabled since no STONITH resources have been defined
+    error: unpack_resources:	Either configure some or disable STONITH with the stonith-enabled option
+    error: unpack_resources:	NOTE: Clusters with shared data need STONITH to ensure data integrity
     Errors found during check: config not valid
     Do you still want to commit?
 
