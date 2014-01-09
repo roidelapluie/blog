@@ -4,7 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Julien Pivotto'
 SITENAME = u'sysadmin {\'roidelapluie\':}'
-SITEURL = u'http://geekshell.org/~pivo'
+SITEURL = u'http://roidelapluie.be'
+EXHERBO_SITEURL = u'http://exherbo.roidelapluie.be'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -52,3 +53,10 @@ PAGE_SAVE_AS='wiki/{slug}.html'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+STATIC_PATHS = [
+    'extra/hai.png',
+]
+EXTRA_PATH_METADATA = {
+    'extra/hai.png': {'path': 'hai.png'},
+}
