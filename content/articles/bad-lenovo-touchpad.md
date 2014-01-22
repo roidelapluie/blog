@@ -1,4 +1,4 @@
-Title: "Fixing" Lenovo touchpad
+Title: Soft-fixing Lenovo touchpad
 Category: Linux
 Tags: hardware
 Slug: lenovo-touchpad
