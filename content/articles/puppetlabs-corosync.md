@@ -15,6 +15,8 @@ module is [available here](http://github.com/roidelapluie/puppetlabs-corosync).
 It is not perfect, but I still plan on working on it in the following months (and
 I accept pull requests of course). Any feedback is welcome.
 
-I only use the provider (so, nothing under the manifests directory). Besides
-that, I use a `cman` and a `pacemaker` module, designed to be published soon.
+I only use the provider of that modules. Everything under the manifests directory
+is deprecated. Besides that, I use a `puppet-cman` and a `puppet-pacemaker` module,
+designed to be published soon, that manage the installation of the cluster
+service.
 
