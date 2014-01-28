@@ -18,13 +18,16 @@ header{
 }
 
 header h1{
-    padding:0.4em 0.4em 0.4em 60px;
+    padding:0.4em 0.4em 0.4em 1em;
     margin:0em;
     color:white;
     font-size:1.2em;
     font-family: 'CosmicSansNeueMono';
     font-weight: bold;
     display: inline-block;
+}
+header h1.logo{
+    padding:0.4em 0.4em 0.4em 60px;
     background-image: url('../img/background_h1.png');
     background-repeat: no-repeat;
     background-position: top left;
@@ -32,11 +35,15 @@ header h1{
 header nav ul{
     list-style-type: none;
 }
-header nav li a{
+header nav li{
     color:white;
     font-family: 'CosmicSansNeueMono'; 
     padding: 0em 0em 0em 1em;
     font-size:1.2em;
+}
+header nav li a{
+    color:white;
+    font-family: 'CosmicSansNeueMono'; 
 }
 header nav li a.active{
     color:white;
