@@ -15,3 +15,6 @@ module is [available here](http://github.com/roidelapluie/puppetlabs-corosync).
 It is not perfect, but I still plan on working on it in the following months (and
 I accept pull requests of course). Any feedback is welcome.
 
+I only use the provider (so, nothing under the manifests directory). Besides
+that, I use a `cman` and a `pacemaker` module, designed to be published soon.
+
