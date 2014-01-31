@@ -9,6 +9,10 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 # Talks
 
+## 2014
+
+* [Lifecycle Magamement with Foreman](http://www.slideshare.net/roidelapluie/lifecycle-managementforeman) at [CentOS Dojo, Brussels](http://wiki.centos.org/Events/Dojo/Brussels2014)
+
 ## 2013
 
 * [Devops, beyond agile](http://www.slideshare.net/roidelapluie/devops-beyondagile) at [La Journée Agile, Louvain-la-Neuve](http://journeeagile.be/)
