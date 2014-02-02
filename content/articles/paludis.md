@@ -1,4 +1,4 @@
-Title: The Paludis package manager
+Title: Paludis, a package manager
 Category: Linux
 Tags: exherbo, packaging
 Slug: paludis
