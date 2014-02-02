@@ -1,7 +1,7 @@
 Title: The Paludis package manager
 Category: Linux
-Tags: exherbo
-Slug: paludis, packages
+Tags: exherbo, packaging
+Slug: paludis
 
 This weekend, the [Fosdem](http://fosdem.org) was still full of geeks and a lot of
 discussions happened. [Package managers](http://www.slideshare.net/dberkholz/is-distributionlevel-package-management-obsolete)
