@@ -21,7 +21,7 @@ not solve all the traditional problems related to the package managers.
 But look at the following elements:
 
 ### Chose your build options
-3
+
 Like in Gentoo, packages can be built with different use cases, depending on
 the use you want. And you have that choice by default, in every package, meaning
 that rebuilding with differents options is not complicated, it is just routine.
