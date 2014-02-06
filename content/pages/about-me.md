@@ -5,13 +5,13 @@ Hide: True
 
 Julien Pivotto is a young Open-Source consultant at [Inuits](https://inuits.eu) where he is helping organisations with the deployment of long-term solutions based on Open-source infrastructure.
 
-He is a strong believer in the devops movement and has technical focus towards infrastructure automation, continuous integration and monitoring.
+He is a strong believer in the devops movement and has technical focus towards infrastructure automation, continuous integration, monitoring and high availability.
 
 # Talks
 
 ## 2014
 
-* [Lifecycle Magamement with Foreman](http://www.slideshare.net/roidelapluie/lifecycle-managementforeman) at [CentOS Dojo, Brussels](http://wiki.centos.org/Events/Dojo/Brussels2014)
+* [Lifecycle Management with Foreman](http://www.slideshare.net/roidelapluie/lifecycle-managementforeman) at [CentOS Dojo, Brussels](http://wiki.centos.org/Events/Dojo/Brussels2014)
 
 ## 2013
 
