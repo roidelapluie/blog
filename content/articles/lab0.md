@@ -8,7 +8,7 @@ I have written a small frontend to [Foreman](http://theforeman.org) and its [Pup
 The only goal is to provide our developers to change the puppet parameters of their
 hosts in an easy way, and to rebuild the nodes in a few clicks.
 
-The project consists is presented as a single web page. This is for the simplicity.
+The project consists is presented as a single web page, where you make changes. Angularjs makes that page reactive.
 
 It requires admin rights on foreman (it uses the API). When a user is connected, he
 can change the parameters that you have pre-defined in a configuration file.
@@ -20,6 +20,20 @@ pre-defined).
 
 I hope you will enjoy it. You can find a screenshot on the github page. There is also a demo of the
 web frontend.
+
+### Technologies
+
+#### Backend
+
+* Django
+* Django-tastypie
+* Python-requests
+
+#### Frontend
+
+* AngularJS
+* Bootstrap
+
 
 ### Links
 
