@@ -3,9 +3,10 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Julien Pivotto'
-SITENAME = u'sysadmin {\'roidelapluie\':}'
+SITENAME = u'roidelapluie'
 SITEURL = u'http://roidelapluie.be'
 EXHERBO_SITEURL = u'http://exherbo.roidelapluie.be'
+TAGLINE="Julien Pivotto is a passionate Linux Systems Administrator, currently working at <a href=\"http://www.inuits.eu/\">Inuits</a>."
 
 TIMEZONE = 'Europe/Paris'
 
@@ -44,10 +45,11 @@ SOCIAL = (
         )
 
 DEFAULT_PAGINATION = 10
+USER_LOGO_URL = SITEURL + '/logo.png'
 
 #CSS_FILE='main-2107.css'
 
-THEME='./theme_roidelapluie'
+THEME='./pelican-svbhack'
 PAGE_URL='wiki/{slug}.html'
 PAGE_SAVE_AS='wiki/{slug}.html'
 
@@ -56,7 +58,9 @@ PAGE_SAVE_AS='wiki/{slug}.html'
 
 STATIC_PATHS = [
     'extra/hai.png',
+    'extra/logo.png',
 ]
 EXTRA_PATH_METADATA = {
     'extra/hai.png': {'path': 'hai.png'},
+    'extra/hai.png': {'path': 'logo.png'},
 }

@@ -3,7 +3,7 @@ save_as: exherbo/index.html
 Title: Exherbo
 Hide: True
 
-I am a fellow user of the Exherbo distribution. I own my own exheres repository, like many of other exberbo users.
+I am a fellow user of the Exherbo distribution. I own my own exheres repository, like many exherbo users.
 
 To install it, just run:
 
