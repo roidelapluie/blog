@@ -16,5 +16,5 @@ This Vagrantfile uses the spec files that are provided [upstream](https://github
 After the build, a `RPMS` directory is created next to your Vagrantfile, containing
 all the packages.
 
-The project is of course [on github](https://github.com/roidelapluie/collected-rpm).
+The project is of course [on github](https://github.com/roidelapluie/collectd-rpm).
 
