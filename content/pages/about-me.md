@@ -11,6 +11,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 ## 2014
 
+* [Linux HA anno 2014](http://www.slideshare.net/roidelapluie/loadays-linuxha) at [LOADays, Antwerp](http://loadays.org)
 * [Lifecycle Management with Foreman](http://www.slideshare.net/roidelapluie/lifecycle-managementforeman) at [CentOS Dojo, Brussels](http://wiki.centos.org/Events/Dojo/Brussels2014)
 
 ## 2013
@@ -20,8 +21,8 @@ He is a strong believer in the devops movement and has technical focus towards i
 * [The devops approach to monitoring, Open Source and Infrastructure as Code Style](http://www.slideshare.net/roidelapluie/devops-andmonitoringowf13) at [Open World Forum, Paris](http://www.openworldforum.org/en/)
 * [Building and Deploing Mediasalsa](http://www.slideshare.net/roidelapluie/drupalcon-mediasalsa) at [DrupalCon, Prague](https://prague2013.drupal.org/) ([video](http://www.youtube.com/watch?v=kmy2h8Q-UOc))
 * [Logstash and Friends](http://www.slideshare.net/roidelapluie/logstash-and-friends) at [Inuits, Antwerp](https://inuits.eu)
-* [Monitoring at Cloud Scale](http://www.slideshare.net/roidelapluie/monitoring-at-cloud-scale) at [Build A Cloud Day, Amsterdam](http://bacdamsterdam.eventbrite.com)
 * [Testing your puppet code](http://www.slideshare.net/roidelapluie/testing-your-puppet-code) at [RMLL, Brussels](http://2013.rmll.info) ([video](http://video.rmll.info/videos/testing-your-puppet-code/))
+* [Monitoring at Cloud Scale](http://www.slideshare.net/roidelapluie/monitoring-at-cloud-scale) at [Build A Cloud Day, Amsterdam](http://bacdamsterdam.eventbrite.com)
 
 ## 2012
 
