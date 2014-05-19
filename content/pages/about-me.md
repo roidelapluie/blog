@@ -9,12 +9,13 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 # Talks
 
-## 2014
+### 2014
 
+* Building Pipelines at Scale at [Jenkins User Conference, Berlin](http://www.cloudbees.com/jenkins/juc-2014/berlin) **June 25th**
 * [Linux HA anno 2014](http://www.slideshare.net/roidelapluie/loadays-linuxha) at [LOADays, Antwerp](http://loadays.org)
 * [Lifecycle Management with Foreman](http://www.slideshare.net/roidelapluie/lifecycle-managementforeman) at [CentOS Dojo, Brussels](http://wiki.centos.org/Events/Dojo/Brussels2014)
 
-## 2013
+### 2013
 
 * [Devops, beyond agile](http://www.slideshare.net/roidelapluie/devops-beyondagile) at [La Journée Agile, Louvain-la-Neuve](http://journeeagile.be/)
 * [Deployment and Continuous Integration of a Zope/Plone application](http://www.slideshare.net/roidelapluie/deployment-andcizope) at [PyconFr, Strasbourg](http://pycon.fr) ([video](http://www.canalc2.tv/video.asp?idvideo=12322))
@@ -24,7 +25,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 * [Testing your puppet code](http://www.slideshare.net/roidelapluie/testing-your-puppet-code) at [RMLL, Brussels](http://2013.rmll.info) ([video](http://video.rmll.info/videos/testing-your-puppet-code/))
 * [Monitoring at Cloud Scale](http://www.slideshare.net/roidelapluie/monitoring-at-cloud-scale) at [Build A Cloud Day, Amsterdam](http://bacdamsterdam.eventbrite.com)
 
-## 2012
+### 2012
 
 * [PostgreSQL 9.0 HA](http://www.slideshare.net/roidelapluie/postgresql-90-ha) at [LOADays, Antwerp](http://loadays.org)
 * [PostgreSQL 9.0 HA](http://www.slideshare.net/roidelapluie/postgresql-90-ha-at-rmll-2012) at [RMLL, Geneva](http://2012.rmll.info)

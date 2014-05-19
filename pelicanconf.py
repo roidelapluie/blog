@@ -44,7 +44,8 @@ SOCIAL = (
         ('slideshare', 'http://www.slideshare.net/roidelapluie')
         )
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 2
+DEFAULT_ORPHANS = 1
 USER_LOGO_URL = SITEURL + '/logo.png'
 
 #CSS_FILE='main-2107.css'
@@ -62,5 +63,5 @@ STATIC_PATHS = [
 ]
 EXTRA_PATH_METADATA = {
     'extra/hai.png': {'path': 'hai.png'},
-    'extra/hai.png': {'path': 'logo.png'},
+    'extra/logo.png': {'path': 'logo.png'},
 }
