@@ -20,3 +20,7 @@ type has been rewritten and the release has come with very annoying bugs.
 Fixes have been merged to master and will be released with Puppet 3.5.1. Considering
 the impact of the bugs, we can expect that to arrive very soon.
 
+---
+
+**Update (19 May 2014)**: [Puppet 3.5.1](http://docs.puppetlabs.com/puppet/3.5/reference/release_notes.html) solved most of these problems, and [puppet 3.6.0](http://docs.puppetlabs.com/puppet/3.6/reference/release_notes.html) fixed the
+remaining ones.

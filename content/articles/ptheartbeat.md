@@ -1,4 +1,4 @@
-Title: pt-heartbeat can't use an undefined value as an ARRAY reference
+Title: Pt-heartbeat can't use an undefined value as an ARRAY reference
 Category: Linux
 Tags: mysql,HA
 Slug: pt-heart-beat-array-error
@@ -22,7 +22,7 @@ I got the following error message:
 
 It was because I did not have access to the `/tmp/percona-version-check` file.
 The file was created under an other user and the current user could not access
-it.
+it. I have found it out by using `strace -e trace=file`.
 
 Just removing the file solved the problem (of course the first `pt-heartbeat`
 daemon was not running anymore.
