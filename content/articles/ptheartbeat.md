@@ -1,7 +1,7 @@
 Title: Pt-heartbeat can't use an undefined value as an ARRAY reference
 Category: Linux
 Tags: mysql,HA
-Slug: pt-heart-beat-array-error
+Slug: pt-heartbeat-array-error
 
 Today I got a strange issue with [`pt-heartbeat`](http://www.percona.com/doc/percona-toolkit/2.2/pt-heartbeat.html).
 
@@ -25,7 +25,7 @@ The file was created under an other user and the current user could not access
 it. I have found it out by using `strace -e trace=file`.
 
 Just removing the file solved the problem (of course the first `pt-heartbeat`
-daemon was not running anymore.
+daemon was not running anymore).
 
     :::bash
     rm /tmp/percona-version-check
