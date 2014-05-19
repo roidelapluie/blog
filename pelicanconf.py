@@ -59,9 +59,11 @@ PAGE_SAVE_AS='wiki/{slug}.html'
 
 STATIC_PATHS = [
     'extra/hai.png',
+    'extra/humans.txt',
     'extra/logo.png',
 ]
 EXTRA_PATH_METADATA = {
+    'extra/humans.txt': {'path': 'humans.txt'},
     'extra/hai.png': {'path': 'hai.png'},
     'extra/logo.png': {'path': 'logo.png'},
 }
