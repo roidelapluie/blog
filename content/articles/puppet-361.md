@@ -13,7 +13,7 @@ you will notice the following warning message each time you use a package type:
     (at /usr/lib/ruby/site_ruby/1.8/puppet/type.rb:816:in `set_default')
 
 There is nothing you can do with that except setting a global parameter in your puppet tree,
-as stated in the [release notes](http://docs.puppetlabs.com/puppet/latest/reference/release_notes.html#changes-to-rpm-behavior-with-virtual-packages):
+as stated in the [release notes](http://docs.puppetlabs.com/puppet/3.6/reference/release_notes.html#changes-to-rpm-behavior-with-virtual-packages):
 
     :::puppet
     Package {
