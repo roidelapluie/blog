@@ -67,3 +67,5 @@ EXTRA_PATH_METADATA = {
     'extra/hai.png': {'path': 'hai.png'},
     'extra/logo.png': {'path': 'logo.png'},
 }
+
+MD_EXTENSIONS = ['codehilite','extra']
