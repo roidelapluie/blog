@@ -12,11 +12,13 @@ you will notice the following warning message each time you use a package type:
     allow virtual packages, please explicitly set allow_virtual to false.
     (at /usr/lib/ruby/site_ruby/1.8/puppet/type.rb:816:in `set_default')
 
-There is nothing you can do with that except setting a global parameter in your puppet tree:
+There is nothing you can do with that except setting a global parameter in your puppet tree,
+as stated in the [release notes](http://docs.puppetlabs.com/puppet/latest/reference/release_notes.html#changes-to-rpm-behavior-with-virtual-packages):
 
     :::puppet
     Package {
       allow_virtual => true,
     }
 
-This disturbing behaviour is discussed in [issue PUP-2650](https://tickets.puppetlabs.com/browse/PUP-2650) and in the [mailing list](https://groups.google.com/d/msg/puppet-users/QadW3Px9GEU/tmNNgBG1uPQJ).
+I don't see any reason to have such a warning if enough information is given in the
+[release notes](http://docs.puppetlabs.com/puppet/3.6/reference/release_notes.html#changes-to-rpm-behavior-with-virtual-packages). This disturbing behaviour is discussed in [issue PUP-2650](https://tickets.puppetlabs.com/browse/PUP-2650) and in the [mailing list](https://groups.google.com/d/msg/puppet-users/QadW3Px9GEU/tmNNgBG1uPQJ).
