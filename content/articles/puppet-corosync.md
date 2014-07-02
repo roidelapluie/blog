@@ -12,4 +12,4 @@ Starting from CentOS 6.4, the `crm` shell was not provided by Red Hat anymore, b
 
 My work is based on previous work done by [Joshua Hoblitt](https://github.com/jhoblitt). It keeps `crmsh` compatibility, useful for CentOS < 6.4 users, which means there is now two providers in the module.
 
-Please test & feedback that merge.
+Please test & send feedback about that merge.
