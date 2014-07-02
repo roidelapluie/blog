@@ -11,7 +11,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 ### 2014
 
-* Building Pipelines at Scale at [Jenkins User Conference, Berlin](http://www.cloudbees.com/jenkins/juc-2014/berlin) **June 25th**
+* [Building Pipelines at Scale](http://www.slideshare.net/roidelapluie/jenkins-pipelines) at [Jenkins User Conference, Berlin](http://www.cloudbees.com/jenkins/juc-2014/berlin)
 * [Linux HA anno 2014](http://www.slideshare.net/roidelapluie/loadays-linuxha) at [LOADays, Antwerp](http://loadays.org)
 * [Lifecycle Management with Foreman](http://www.slideshare.net/roidelapluie/lifecycle-managementforeman) at [CentOS Dojo, Brussels](http://wiki.centos.org/Events/Dojo/Brussels2014)
 
