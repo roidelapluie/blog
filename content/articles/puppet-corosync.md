@@ -1,9 +1,9 @@
 Title: Pcs support merged into puppetlabs-corosync
 Category: Puppet
-Tags: centos,automation,ha
+Tags: centos,automation,HA
 Slug: puppetlabs-corosync-pcs
 
-This is a good news from people using an el-based distribution and the [puppetlabs-corosync](https://github.com/puppetlabs/puppetlabs-corosync)
+Great news for people using an el-based distribution and the [puppetlabs-corosync](https://github.com/puppetlabs/puppetlabs-corosync)
 puppet module: [pcs support has been merged into master](https://github.com/puppetlabs/puppetlabs-corosync/pull/64).
 
 This change is important because it means that all the RPM required for these providers are in the main repositories, which ensure they are tested and supported.
