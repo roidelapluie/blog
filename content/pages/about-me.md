@@ -9,15 +9,20 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 # Talks
 
+### Planned
+
+* 25th Aug 2014 at [CentOS Dojo Paris, France](http://wiki.centos.org/Events/Dojo/Paris2014)
+
 ### 2014
 
-* [Building Pipelines at Scale](http://www.slideshare.net/roidelapluie/jenkins-pipelines) at [Jenkins User Conference, Berlin](http://www.cloudbees.com/jenkins/juc-2014/berlin)
+* [Building Pipelines at Scale](http://www.slideshare.net/roidelapluie/jenkins-pipelines) at [Jenkins User Conference, Berlin](http://www.cloudbees.com/jenkins/juc-2014/berlin) ([video](https://www.youtube.com/watch?v=xeqk8v7IVCE))
+* [Introduction to Gitlab](http://www.slideshare.net/roidelapluie/gitlab-intro) at [Inuits, Antwerp](https://inuits.eu)
 * [Linux HA anno 2014](http://www.slideshare.net/roidelapluie/loadays-linuxha) at [LOADays, Antwerp](http://loadays.org)
 * [Lifecycle Management with Foreman](http://www.slideshare.net/roidelapluie/lifecycle-managementforeman) at [CentOS Dojo, Brussels](http://wiki.centos.org/Events/Dojo/Brussels2014)
 
 ### 2013
 
-* [Devops, beyond agile](http://www.slideshare.net/roidelapluie/devops-beyondagile) at [La Journée Agile, Louvain-la-Neuve](http://journeeagile.be/)
+* [DevOps, beyond agile](http://www.slideshare.net/roidelapluie/devops-beyondagile) at [La Journée Agile, Louvain-la-Neuve](http://journeeagile.be/)
 * [Deployment and Continuous Integration of a Zope/Plone application](http://www.slideshare.net/roidelapluie/deployment-andcizope) at [PyconFr, Strasbourg](http://pycon.fr) ([video](http://www.canalc2.tv/video.asp?idvideo=12322))
 * [The devops approach to monitoring, Open Source and Infrastructure as Code Style](http://www.slideshare.net/roidelapluie/devops-andmonitoringowf13) at [Open World Forum, Paris](http://www.openworldforum.org/en/)
 * [Building and Deploing Mediasalsa](http://www.slideshare.net/roidelapluie/drupalcon-mediasalsa) at [DrupalCon, Prague](https://prague2013.drupal.org/) ([video](http://www.youtube.com/watch?v=kmy2h8Q-UOc))
