@@ -3,7 +3,7 @@ Category: Linux
 Tags: belgium
 Slug: tax-on-web
 
-Tax-on-web is the online service that enable you to fill in your Begian tax form.
+Tax-on-web is the online service that enable you to fill in your Belgian tax form.
 
 In order to be able to read you beid card, and so to connect to the online website, follow the following instructions.
 
