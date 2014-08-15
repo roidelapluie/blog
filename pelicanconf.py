@@ -16,6 +16,7 @@ sys.path.append('./')
 from plugins import git_dates
 
 PLUGINS = [git_dates]
+CACHE_CONTENT = False
 
 
 DEFAULT_LANG = u'en'

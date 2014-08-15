@@ -1,3 +1,6 @@
 output
 *.pyc
 *.pyd
+cache
+pelican.pid
+srv.pid
