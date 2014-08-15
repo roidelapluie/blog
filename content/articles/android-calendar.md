@@ -1,12 +1,12 @@
-Title: CalDav, Open-Source and Android
+Title: CalDAV, Open-Source and Android
 Category: Android
-Tags: caldav, zimbra, calendar
+Tags: CalDAV, zimbra, calendar
 Slug: caldav-android
 
 At [Inuits](https://www.inuits.eu), we are using [Zimbra](https://www.zimbra.com/community/) as mail and calendaring solution.
 
 In the past, it used to be very difficult to synchronize the calendar with android phones.
-The calendar supports ics and caldav exports, but none of these solutions was working on android.
+The calendar supports ics and CalDAV exports, but none of these solutions was working on android.
 
 ## ICS
 
@@ -17,7 +17,7 @@ Synchronizing the calendar with ICS had several downsides:
 
 So I quickly gave up that possibility.
 
-## CalDav
+## CalDAV
 
 [CalDAV](http://caldav.calconnect.org/) is the protocol I preferred, because
 it was native on Zimbra, and I could add/modify appointments directly on the phone.
