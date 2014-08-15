@@ -11,7 +11,9 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 ### Planned
 
-* 25th Aug 2014 at [CentOS Dojo Paris, France](http://wiki.centos.org/Events/Dojo/Paris2014)
+  * August 25, 2014 at [CentOS Dojo Paris, France](http://wiki.centos.org/Events/Dojo/Paris2014)
+
+  >  **Vagrant and CentOS 7**: This talk will be a short introduction about Vagrant, a tool to create reproducible development environments. It will then show how Vagrant plays with and within CentOS 7.
 
 ### 2014
 
