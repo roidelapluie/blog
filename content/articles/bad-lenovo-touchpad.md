@@ -1,6 +1,6 @@
 Title: Soft-fixing Lenovo touchpad
 Category: Linux
-Tags: hardware
+Tags: hardware, planet-inuits
 Slug: lenovo-touchpad
 
 I have a new lenovo laptop but it has no physical button (the whole touchpad is

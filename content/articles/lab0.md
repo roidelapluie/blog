@@ -1,6 +1,6 @@
 Title: lab0, a light frontend to foreman
 Category: Foreman
-Tags: foreman, puppet, automation
+Tags: foreman, puppet, automation, planet-inuits
 Slug: lab0
 
 I have written a small frontend to [Foreman](http://theforeman.org) and its [Puppet](https://puppetlabs.com/puppet/puppet-open-source) integration.

@@ -1,6 +1,6 @@
 Title: Puppet-corosync and pcs provider
 Category: Puppet
-Tags: high availability, linux
+Tags: high availability, linux, planet-inuits
 Slug: puppet-corosync-pcs
 
 Since the release 6.4, el-based distributions are not shipped with the `crm` command

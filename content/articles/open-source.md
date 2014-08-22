@@ -1,6 +1,6 @@
 Title: Open Source Matters
 Category: Open-Source
-Tags: licenses, philosophy
+Tags: licenses, philosophy, planet-inuits
 Slug: open-source-matters
 
 I see a lot of people working in the Open-Source world, defending the Open-Source and besides that, using a lot of closed source applications.

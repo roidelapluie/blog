@@ -1,6 +1,6 @@
 Title: Grok and httpd
 Category: Monitoring
-Tags: grok, logstash
+Tags: grok, logstash, planet-inuits
 Slug: grok-httpd
 
 When you use the [`LogFormat`](http://httpd.apache.org/docs/current/mod/mod_log_config.html) parameter in you apache configuration, you may want to use the same logformat in logstash.

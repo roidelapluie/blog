@@ -1,6 +1,6 @@
 Title: Rattaching a running process to a screen
 Category: Linux
-Tags: sysadmin, screen
+Tags: sysadmin, screen, planet-inuits
 Slug: reptyr
 
 [Reptyr](https://github.com/nelhage/reptyr) is a small project written in C that enable you to "re-pty" your process. It means you can, for example, attach a running process inside a screen.

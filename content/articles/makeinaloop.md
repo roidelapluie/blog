@@ -1,6 +1,6 @@
 Title: Make stucked in a loop
 Category: Linux
-Tags: exherbo
+Tags: exherbo, planet-inuits
 Slug: make-in-a-loop
 
 I got an unexpected result when I was trying to compile a small lib: it seems to never finished (I stopped it after 3 hours).

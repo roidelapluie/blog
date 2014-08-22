@@ -32,7 +32,7 @@ def git_mtime(filename, use_last_modification=True, git_binary="git"):
     sorted_dates = sorted(dates)
 
     if len(sorted_dates) > 0:
-        return sorted_dates[-1] if use_last_modification else sorted_dates[0]
+        return [sorted_dates[-1], sorted_dates[-1]] if use_last_modification else [sorted_dates[0], sorted_dates[-1]]
     return None
 
 
@@ -43,11 +43,15 @@ def generate_date(content):
     if not date:
         # This happens usually when the file is not checked into git yet. It
         # is probably a new file and 'now' should be the correct time
-        date = datetime.now()
+        date = [datetime.now(),datetime.now()]
 
-    content.metadata['date'] = date
-    content.date = date
+    content.metadata['date'] = date[0]
+    content.metadata['update'] = date[1]
+    print date
+    content.date = date[0]
+    content.update = date[1]
     content.locale_date = strftime(content.date, content.date_format)
+    content.locale_update = strftime(content.update, content.date_format)
 
 def register():
     signals.content_object_init.connect(generate_date)

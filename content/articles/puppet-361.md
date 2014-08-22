@@ -1,6 +1,6 @@
 Title: Puppet 3.6.1 depreciation warning
 Category: Puppet
-Tags: centos,automation
+Tags: centos,automation, planet-inuits
 Slug: puppet-361-depreciation
 
 Dear puppet users using a yum-based distribution[^1], once you will upgrade to [puppet 3.6.1](http://docs.puppetlabs.com/puppet/3.6/reference/release_notes.html),

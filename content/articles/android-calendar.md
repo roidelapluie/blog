@@ -1,6 +1,6 @@
 Title: CalDAV, Open-Source and Android
 Category: Android
-Tags: CalDAV, zimbra, calendar
+Tags: CalDAV, zimbra, calendar, planet-inuits
 Slug: caldav-android
 
 At [Inuits](https://www.inuits.eu), we are using [Zimbra](https://www.zimbra.com/community/) as mail and calendaring solution.

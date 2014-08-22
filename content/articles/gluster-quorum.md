@@ -1,6 +1,6 @@
 Title: GlusterFS quorums
 Category: Linux
-Tags: GlusterFS
+Tags: GlusterFS, planet-inuits
 Slug: glusterfs-quorum
 
 [GlusterFS](http://gluster.org) quorums should prevent brain-split by desactivating the nodes when less that 50% of the servers are connected (you can change that number).

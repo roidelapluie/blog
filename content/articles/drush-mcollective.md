@@ -1,6 +1,6 @@
 Title: Mcollective agent to use drush
 Category: Linux
-Tags: sysadmin, drupal
+Tags: sysadmin, drupal, planet-inuits
 Slug: drush-mcollective
 
 I have written a [mcollective](https://puppetlabs.com/mcollective/) agent to run [drush](http://drush.ws) commands. It will help you to automate the deployments of your drupal websites.

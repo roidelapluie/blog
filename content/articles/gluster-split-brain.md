@@ -1,6 +1,6 @@
 Title: Fixing a GlusterFS split-brain
 Category: Linux
-Tags: GlusterFS
+Tags: GlusterFS, planet-inuits
 Slug: glusterfs-split-brain
 
 I have found some time to test [GlusterFS](http://gluster.org), in order to use it to replicate data between several servers.

@@ -14,7 +14,8 @@ SITEURL = 'http://roidelapluie.be'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'atom.xml'
-CATEGORY_FEED_ATOM = None
+TAG_FEED_ATOM = 'feeds/%s.tag.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.cat.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 

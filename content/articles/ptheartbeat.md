@@ -1,6 +1,6 @@
 Title: Pt-heartbeat can't use an undefined value as an ARRAY reference
 Category: Linux
-Tags: mysql,HA
+Tags: mysql,HA, planet-inuits
 Slug: pt-heartbeat-array-error
 
 Today I got a strange issue with [`pt-heartbeat`](http://www.percona.com/doc/percona-toolkit/2.2/pt-heartbeat.html).

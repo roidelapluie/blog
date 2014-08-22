@@ -1,6 +1,6 @@
 Title: Collectd 5.4.1 RPM's
 Category: Linux
-Tags: vagrant,monitoring,collectd
+Tags: vagrant,monitoring,collectd, planet-inuits
 Slug: vagrant-collectd
 
 In the list of the things I like, there are [vagrant](http://vagrantup.com), RPM's

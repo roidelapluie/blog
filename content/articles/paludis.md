@@ -1,6 +1,6 @@
 Title: Paludis, a package manager
 Category: Linux
-Tags: exherbo, packaging
+Tags: exherbo, packaging, planet-inuits
 Slug: paludis
 
 This weekend, the [Fosdem](http://fosdem.org) was still full of geeks and a lot of

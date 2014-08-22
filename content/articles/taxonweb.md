@@ -1,6 +1,6 @@
 Title: Fill your Belgian tax form with Linux
 Category: Linux
-Tags: belgium
+Tags: belgium, planet-inuits
 Slug: tax-on-web
 
 Tax-on-web is the online service that enable you to fill in your Belgian tax form.
