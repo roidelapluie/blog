@@ -13,6 +13,8 @@ from pelicanconf import *
 SITEURL = 'http://roidelapluie.be'
 RELATIVE_URLS = False
 
+TAG_FEED_RSS = 'feeds/%s.tag.rss.xml'
+CATEGORY_FEED_RSS = 'feeds/%s.cat.rss.xml'
 FEED_ALL_ATOM = 'atom.xml'
 TAG_FEED_ATOM = 'feeds/%s.tag.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.cat.atom.xml'

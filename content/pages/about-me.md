@@ -9,14 +9,9 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 # Talks
 
-### Planned
-
-  * August 25, 2014 at [CentOS Dojo Paris, France](http://wiki.centos.org/Events/Dojo/Paris2014)
-
-  >  **Vagrant and CentOS 7**: This talk will be a short introduction about Vagrant, a tool to create reproducible development environments. It will then show how Vagrant plays with and within CentOS 7.
-
 ### 2014
 
+* [Vagrant and CentOS 7](http://www.slideshare.net/roidelapluie/vagrant-and-centos7) at [CentOS Dojo Paris, France](http://wiki.centos.org/Events/Dojo/Paris2014)
 * [Building Pipelines at Scale](http://www.slideshare.net/roidelapluie/jenkins-pipelines) at [Jenkins User Conference, Berlin](http://www.cloudbees.com/jenkins/juc-2014/berlin) ([video](https://www.youtube.com/watch?v=xeqk8v7IVCE))
 * [Introduction to Gitlab](http://www.slideshare.net/roidelapluie/gitlab-intro) at [Inuits, Antwerp](https://inuits.eu)
 * [Linux HA anno 2014](http://www.slideshare.net/roidelapluie/loadays-linuxha) at [LOADays, Antwerp](http://loadays.org)
