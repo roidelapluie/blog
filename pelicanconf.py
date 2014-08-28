@@ -13,9 +13,9 @@ TIMEZONE = 'Europe/Paris'
 import sys
 sys.path.append('./')
 
-from plugins import git_dates
+from plugins import git_dates, git_history, copyarticle
 
-PLUGINS = [git_dates]
+PLUGINS = [git_dates, git_history, copyarticle]
 CACHE_CONTENT = False
 
 
@@ -54,9 +54,12 @@ USER_LOGO_URL = SITEURL + '/logo.png'
 THEME='./pelican-svbhack'
 PAGE_URL='wiki/{slug}.html'
 PAGE_SAVE_AS='wiki/{slug}.html'
+DIRECT_TEMPLATES = ('index', 'categories', 'archives')
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 STATIC_PATHS = [
     'extra/hai.png',

@@ -47,7 +47,6 @@ def generate_date(content):
 
     content.metadata['date'] = date[0]
     content.metadata['update'] = date[1]
-    print date
     content.date = date[0]
     content.update = date[1]
     content.locale_date = strftime(content.date, content.date_format)
