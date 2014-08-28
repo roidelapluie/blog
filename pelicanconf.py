@@ -29,6 +29,7 @@ TRANSLATION_FEED_ATOM = None
 FEED_RSS='rss.xml'
 FEED_ALL_ATOM='atom.xml'
 
+INDEX_SAVE_AS='blog/index.html'
 # Blogroll
 LINKS =  (
         ('Inuits', 'https://www.inuits.eu/'),
@@ -58,8 +59,8 @@ DIRECT_TEMPLATES = ('index', 'categories', 'archives')
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
-ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 STATIC_PATHS = [
     'extra/hai.png',
