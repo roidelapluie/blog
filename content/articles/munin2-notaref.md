@@ -1,11 +1,11 @@
 Title: Munin 2 "not a reference" error
 Category: Monitoring
-Tags: munin,monitoring, planet-inuits
+Tags: munin,monitoring, planet-inuits, puppet
 Slug: munin2-not-a-reference-error
 
 This morning I worked with Munin, discovering that Munin 2 has made it to EPEL.
 
-Thus I started to look at puppet modules. I tried both of them, and no one seemed to be working.
+Thus I started to look at puppet modules. I tried two of them ([ssm-munin](https://github.com/ssm/ssm-munin) and [duritong-munin](https://github.com/duritong/puppet-munin)), and no one seemed to be working.
 
 I was then digging deeper about what the problem could be, so I logged in to the machine with the munin user:
 
