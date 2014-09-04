@@ -53,6 +53,7 @@ SOCIAL = (
         ('linkedin', 'https://linkedin.com/in/julienpivotto'),
         ('slideshare', 'http://www.slideshare.net/roidelapluie')
         )
+SOCIAL=False
 
 DEFAULT_PAGINATION = 2
 DEFAULT_ORPHANS = 1

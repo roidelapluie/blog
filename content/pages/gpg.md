@@ -3,7 +3,7 @@ save_as: gpg/index.html
 Title: GPG key
 Hide: True
 
-If you want to send me a mail, you can use my gpg public key: [5AA32256](http://roidelapluie.be/gpg/5AA32256.pub).
+If you want to send me a mail, you can use my public GPG key: [5AA32256](http://roidelapluie.be/gpg/5AA32256.pub).
 
 My preferred email address is [roidelapluie@inuits.eu](mailto:roidelapluie@inuits.eu).
 
