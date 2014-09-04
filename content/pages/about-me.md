@@ -7,7 +7,8 @@ Julien Pivotto is a young Open-Source consultant at [Inuits](https://inuits.eu) 
 
 He is a strong believer in the devops movement and has technical focus towards infrastructure automation, continuous integration, monitoring and high availability.
 
-# Talks
+
+## Talks
 
 ### 2014
 
@@ -31,3 +32,12 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 * [PostgreSQL 9.0 HA](http://www.slideshare.net/roidelapluie/postgresql-90-ha) at [LOADays, Antwerp](http://loadays.org)
 * [PostgreSQL 9.0 HA](http://www.slideshare.net/roidelapluie/postgresql-90-ha-at-rmll-2012) at [RMLL, Geneva](http://2012.rmll.info)
+
+## Useful links
+
+* [GPG key](http://roidelapluie.be/gpg)
+* [Twitter](https://twitter.com/roidelapluie)
+* [Github](https://github.com/roidelapluie)
+* [Slideshare](https://slideshare.net/roidelapluie)
+* [Linkedin](https://be.linkedin.com/in/julienpivotto)
+* [My employer](https://inuits.eu)

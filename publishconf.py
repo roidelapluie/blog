@@ -20,6 +20,11 @@ TAG_FEED_ATOM = 'feeds/%s.tag.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.cat.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
+MENUITEMS =  (
+        ('Blog', '%s/blog/index.html' % SITEURL),
+        ('Wiki', '%s/wiki/index.html' % SITEURL),
+        ('About me', '%s/index.html' % SITEURL),
+         )
 
 # Following items are often useful when publishing
 
