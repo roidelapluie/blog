@@ -12,26 +12,27 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 ### 2014
 
-* [Vagrant and CentOS 7](http://www.slideshare.net/roidelapluie/vagrant-and-centos7) at [CentOS Dojo Paris, France](http://wiki.centos.org/Events/Dojo/Paris2014)
-* [Building Pipelines at Scale](http://www.slideshare.net/roidelapluie/jenkins-pipelines) at [Jenkins User Conference, Berlin](http://www.cloudbees.com/jenkins/juc-2014/berlin) ([video](https://www.youtube.com/watch?v=xeqk8v7IVCE))
-* [Introduction to Gitlab](http://www.slideshare.net/roidelapluie/gitlab-intro) at [Inuits, Antwerp](https://inuits.eu)
-* [Linux HA anno 2014](http://www.slideshare.net/roidelapluie/loadays-linuxha) at [LOADays, Antwerp](http://loadays.org)
-* [Lifecycle Management with Foreman](http://www.slideshare.net/roidelapluie/lifecycle-managementforeman) at [CentOS Dojo, Brussels](http://wiki.centos.org/Events/Dojo/Brussels2014)
+* November, [Lean Kanban](http://www.leankanban.fr/), Paris, France
+* August 25, [CentOS Dojo](http://wiki.centos.org/Events/Dojo/Paris2014), Paris, France, [Vagrant and CentOS 7](http://www.slideshare.net/roidelapluie/vagrant-and-centos7)
+* June 25, [Jenkins User Conference](http://www.cloudbees.com/jenkins/juc-2014/berlin), Berlin, Germany, [Building Pipelines at Scale](http://www.slideshare.net/roidelapluie/jenkins-pipelines) ([video](https://www.youtube.com/watch?v=xeqk8v7IVCE))
+* June 4, [Inuits](https://inuits.eu), Antwerp, Belgium, [Introduction to Gitlab](http://www.slideshare.net/roidelapluie/gitlab-intro)
+* April 4, [LOADays](http://loadays.org), Antwerp, Belgium, [Linux HA anno 2014](http://www.slideshare.net/roidelapluie/loadays-linuxha)
+* January 31, [CentOS Dojo](http://wiki.centos.org/Events/Dojo/Brussels2014), Brussels, Belgium, [Lifecycle Management with Foreman](http://www.slideshare.net/roidelapluie/lifecycle-managementforeman)
 
 ### 2013
 
-* [DevOps, beyond agile](http://www.slideshare.net/roidelapluie/devops-beyondagile) at [La Journée Agile, Louvain-la-Neuve](http://journeeagile.be/)
-* [Deployment and Continuous Integration of a Zope/Plone application](http://www.slideshare.net/roidelapluie/deployment-andcizope) at [PyconFr, Strasbourg](http://pycon.fr) ([video](http://www.canalc2.tv/video.asp?idvideo=12322))
-* [The devops approach to monitoring, Open Source and Infrastructure as Code Style](http://www.slideshare.net/roidelapluie/devops-andmonitoringowf13) at [Open World Forum, Paris](http://www.openworldforum.org/en/)
-* [Building and Deploing Mediasalsa](http://www.slideshare.net/roidelapluie/drupalcon-mediasalsa) at [DrupalCon, Prague](https://prague2013.drupal.org/) ([video](http://www.youtube.com/watch?v=kmy2h8Q-UOc))
-* [Logstash and Friends](http://www.slideshare.net/roidelapluie/logstash-and-friends) at [Inuits, Antwerp](https://inuits.eu)
-* [Testing your puppet code](http://www.slideshare.net/roidelapluie/testing-your-puppet-code) at [RMLL, Brussels](http://2013.rmll.info) ([video](http://video.rmll.info/videos/testing-your-puppet-code/))
-* [Monitoring at Cloud Scale](http://www.slideshare.net/roidelapluie/monitoring-at-cloud-scale) at [Build A Cloud Day, Amsterdam](http://bacdamsterdam.eventbrite.com)
+* October 31, [La Journée Agile](http://journeeagile.be/), Louvain-la-Neuve, Belgium, [DevOps, beyond agile](http://www.slideshare.net/roidelapluie/devops-beyondagile)
+* October 26, [PyconFr](http://pycon.fr), Strasbourg, France, [Deployment and Continuous Integration of a Zope/Plone application](http://www.slideshare.net/roidelapluie/deployment-andcizope) ([video](http://www.canalc2.tv/video.asp?idvideo=12322))
+* October 4, [Open World Forum](http://www.openworldforum.org/en/), Paris, France, [The devops approach to monitoring, Open Source and Infrastructure as Code Style](http://www.slideshare.net/roidelapluie/devops-andmonitoringowf13)
+* September 26, [DrupalCon](https://prague2013.drupal.org/), Prague, Czech Republic, [Building and Deploing Mediasalsa](http://www.slideshare.net/roidelapluie/drupalcon-mediasalsa) ([video](http://www.youtube.com/watch?v=kmy2h8Q-UOc))
+* September 2, [Inuits](https://inuits.eu), Antwerp, Belgium, [Logstash and Friends](http://www.slideshare.net/roidelapluie/logstash-and-friends)
+* July 15, [RMLL](http://2013.rmll.info), Brussels, Belgium, [Testing your puppet code](http://www.slideshare.net/roidelapluie/testing-your-puppet-code) ([video](http://video.rmll.info/videos/testing-your-puppet-code/))
+* June 13, [Build A Cloud Day](http://bacdamsterdam.eventbrite.com), Amsterdam, The Netherlands, [Monitoring at Cloud Scale](http://www.slideshare.net/roidelapluie/monitoring-at-cloud-scale)
 
 ### 2012
 
-* [PostgreSQL 9.0 HA](http://www.slideshare.net/roidelapluie/postgresql-90-ha) at [LOADays, Antwerp](http://loadays.org)
-* [PostgreSQL 9.0 HA](http://www.slideshare.net/roidelapluie/postgresql-90-ha-at-rmll-2012) at [RMLL, Geneva](http://2012.rmll.info)
+* July 11, [RMLL](http://2012.rmll.info), Geneva, Switzerland, [PostgreSQL 9.0 HA](http://www.slideshare.net/roidelapluie/postgresql-90-ha-at-rmll-2012)
+* April 1, [LOADays](http://loadays.org), Antwerp, Belgium, [PostgreSQL 9.0 HA](http://www.slideshare.net/roidelapluie/postgresql-90-ha)
 
 ## Useful links
 
