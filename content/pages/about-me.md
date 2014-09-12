@@ -13,6 +13,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 ### 2014
 
 * November, [Lean Kanban](http://www.leankanban.fr/), Paris, France
+* October, [T-DOSE](http://www.t-dose.nl/), Eindhoven, The Netherlands
 * August 25, [CentOS Dojo](http://wiki.centos.org/Events/Dojo/Paris2014), Paris, France, [Vagrant and CentOS 7](http://www.slideshare.net/roidelapluie/vagrant-and-centos7)
 * June 25, [Jenkins User Conference](http://www.cloudbees.com/jenkins/juc-2014/berlin), Berlin, Germany, [Building Pipelines at Scale](http://www.slideshare.net/roidelapluie/jenkins-pipelines) ([video](https://www.youtube.com/watch?v=xeqk8v7IVCE))
 * June 4, [Inuits](https://inuits.eu), Antwerp, Belgium, [Introduction to Gitlab](http://www.slideshare.net/roidelapluie/gitlab-intro)
@@ -42,3 +43,6 @@ He is a strong believer in the devops movement and has technical focus towards i
 * [Slideshare](https://slideshare.net/roidelapluie)
 * [Linkedin](https://be.linkedin.com/in/julienpivotto)
 * [My employer](https://inuits.eu)
+
+
+<div class="hideifsmallscreen"><a href="https://www.battleforthenet.com/"><img src="images/battle.png" alt="Battle for the net has begun"/></a></div>
