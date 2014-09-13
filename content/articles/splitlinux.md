@@ -28,4 +28,6 @@ There are many risks in splitting distributions into desktop/server roles:
 
 But, if you look closer, you will also understand that there is already a natural way of using distributions. SteamOS and Fedora will be used more as desktops, and CentOS will more be used as server. The limits are however less important with debian-related systems.
 
+In some special cases like SteamOS, it is right that Desktop support will come first. Maybe they won't package httpd or bind, but that would be their choice. There is not need for a big schism into every distribution because one of them has chosen to support only one of the two sides.
+
 To conclude this article, I like the idea that with a small image, I can get whatever I want. It's really cellular differentiation. Let's avoid to do mistakes because of systemd or any other software. Let's follow what the community wants, and what business needs. Let's keep Linux distributions capable of handling all the stuff we love.
