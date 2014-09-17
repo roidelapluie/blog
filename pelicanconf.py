@@ -13,9 +13,9 @@ TIMEZONE = 'Europe/Paris'
 import sys
 sys.path.append('./')
 
-from plugins import git_dates, git_history, copyarticle, feed
+from plugins import git_dates, git_history, copyarticle, feed, gitdiff
 
-PLUGINS = [git_dates, git_history, copyarticle, feed]
+PLUGINS = [git_dates, git_history, copyarticle, feed, gitdiff]
 CACHE_CONTENT = False
 LICENSE='Written by <a href="http://roidelapluie.be/">Julien Pivotto</a>. Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US">Creative Commons Attribution 4.0 International License</a>.'
 
