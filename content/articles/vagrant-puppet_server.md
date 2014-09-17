@@ -3,7 +3,7 @@ Category: Automation
 Tags: vagrant,puppet, planet-inuits
 Slug: vagrant-puppet-agent
 
-This is a small tip for everyone that is using the [vagrant puppet_server provisioner](https://docs.vagrantup.com/v2/provisioning/puppet_agent.html), which allows you to run a puppet agent inside your vagrant box:
+This is a small tip for everyone using the [vagrant puppet_server provisioner](https://docs.vagrantup.com/v2/provisioning/puppet_agent.html), which allows you to run a puppet agent inside your vagrant box:
 
     :::ruby
     Vagrant.configure("2") do |config|
