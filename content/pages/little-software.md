@@ -1,4 +1,4 @@
-Title: small open source tools for everyday use
+Title: Lightweight open source tools for everyday use
 
 
   * image viewer: feh

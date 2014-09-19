@@ -1,4 +1,4 @@
-Title: redshift
+Title: Redshift
 
 
   * equivalent to f.lux

@@ -1,4 +1,4 @@
-Title: clone jenkins pipelines
+Title: Cloning jenkins pipelines
 
 This script allows you to clone an entire pipeline. It clones every job in the pipeline, changes the name of the triggered jobs
 

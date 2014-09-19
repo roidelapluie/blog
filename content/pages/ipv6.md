@@ -1,4 +1,4 @@
-Title: ipv6 and linux
+Title: Ipv6 and linux
 
 disable ipv6
 ------------

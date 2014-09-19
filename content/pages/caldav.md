@@ -1,6 +1,8 @@
 Title: caldav sync for android
 
 
+<div class="alert">This article is outdated</div>
+
 choice #1
 ---
 

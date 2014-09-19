@@ -1,4 +1,4 @@
-Title: find the filesystem of a partition
+Title: Finding the filesystem of a partition
 
     :::bash
     file -sL /dev/sda3
