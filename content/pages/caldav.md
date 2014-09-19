@@ -1,4 +1,4 @@
-Title: caldav sync for android
+Title: Caldav sync for android
 
 
 <div class="alert">This article is outdated</div>
