@@ -1,10 +1,10 @@
 URL: index.html
 save_as: gpg/index.html
-Title: GPG key
+Title: PGP key
 Hide: True
 Template: openpgp
 
-If you want to send me a mail, you can use my public GPG key: [5AA32256](http://roidelapluie.be/gpg/5AA32256.pub).
+If you want to send me a mail, you can use my public PGP key: [5AA32256](http://roidelapluie.be/gpg/5AA32256.pub).
 
 My preferred email address is [roidelapluie@inuits.eu](mailto:roidelapluie@inuits.eu).
 
@@ -28,7 +28,7 @@ My preferred email address is [roidelapluie@inuits.eu](mailto:roidelapluie@inuit
 
 You want to send me an encrypted mail? Better than nothing, you can encrypt your mail body here, thanks to [OpenPGP.js](http://openpgpjs.org/).
 
-Please note that this is less secure that using opengpg. Please also note that the
+Please note that this is less secure than using opengpg. Please also note that the
 data will just be encrypted, not signed.
 
 Please send the mail as plain text (not in HTML).
