@@ -24,12 +24,12 @@ My preferred email address is [roidelapluie@inuits.eu](mailto:roidelapluie@inuit
     sub   8192R/66748C55 2013-02-05
 
 
-# Encrypt some data
+# Tell me something private
 
-You want to send me an encrypted mail? Better than nothing, you can encrypt your data here.
+You want to send me an encrypted mail? Better than nothing, you can encrypt your mail body here, thanks to [OpenPGP.js](http://openpgpjs.org/).
 
 Please note that this is less secure that using opengpg. Please also note that the
-data will just be signed, not encrypted.
+data will just be encrypted, not signed.
 
 Please send the mail as plain text (not in HTML).
 
@@ -41,3 +41,5 @@ Please send the mail as plain text (not in HTML).
 ### Output
 
 <pre id="pgpoutput" class="opengpgoutput">Encrypted text will be in this box.</pre>
+
+Note: You have to copy-paste the content of the box in a new mail. It is not sent automatically.
