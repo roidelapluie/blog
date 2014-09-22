@@ -2,6 +2,7 @@ URL: index.html
 save_as: gpg/index.html
 Title: GPG key
 Hide: True
+Template: openpgp
 
 If you want to send me a mail, you can use my public GPG key: [5AA32256](http://roidelapluie.be/gpg/5AA32256.pub).
 
@@ -22,3 +23,21 @@ My preferred email address is [roidelapluie@inuits.eu](mailto:roidelapluie@inuit
     sub   8192R/341A726C 2013-02-05
     sub   8192R/66748C55 2013-02-05
 
+
+# Encrypt some data
+
+You want to send me an encrypted mail? Better than nothing, you can encrypt your data here.
+
+Please note that this is less secure that using opengpg. Please also note that the
+data will just be signed, not encrypted.
+
+Please send the mail as plain text (not in HTML).
+
+### Input
+
+<textarea class="opengpginput">Your text here.</textarea>
+<div style="text-align:center;"><a href="#pgpoutput" class="opengpgbutton">Encrypt</a></div>
+
+### Output
+
+<pre id="pgpoutput" class="opengpgoutput">Encrypted text will be in this box.</pre>

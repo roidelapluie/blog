@@ -78,8 +78,10 @@ STATIC_PATHS = [
     'extra/logo.png',
     'extra/hai100.png',
     'extra/5AA32256.pub',
+    'extra/5AA32256.pub.js',
 ]
 EXTRA_PATH_METADATA = {
+    'extra/5AA32256.pub.js': {'path': 'gpg/mygpgkey.js' },
     'extra/humans.txt': {'path': 'humans.txt'},
     'extra/hai.png': {'path': 'hai.png'},
     'extra/hai100.png': {'path': 'hackergotchi.png'},
