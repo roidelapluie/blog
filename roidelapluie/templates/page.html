@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block content %}
+<div class="ym-wrapper">
+<div class="ym-wbox">
+    <section class="ym-grid linearize-level-1">
+        <article class="ym-g66 ym-gl content">
+            <div class="ym-gbox-left">
+    <h1>{{ page.title }}</h1>
+    {% import 'translations.html' as translations with context %}
+    {{ translations.translations_for(page) }}
+
+    {{ page.content }}
+</div>
+</article>
+<aside class="ym-g33 ym-gr">
+            <div class="ym-gbox-left">
+
+    <h2>About this page</h2>
+    <p>This page titled "{{page.title}}" is part of my personal website. The <a href="https://github.com/roidelapluie/blog">source code</a> is available on <a href="https://github.com">github</a>. If you find a mistake, a typographical error or any other nonsense, you can send me a <a href="https://github.com/roidelapluie/blog/compare">pull request</a>.</p>
+    <p>The content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US">Creative Commons Attribution 4.0 International License</a>.</p>
+		<p>
+        Created on {{ page.locale_date }}{% if page.locale_date != page.locale_update %} and last updated on {{ page.locale_update }}{%endif%}.
+		</p>
+        <p>This is the revision <a href="{{page.change_link}}">{{page.commits|length}}</a> of this page. The <a href="{{page.source_link}}">source</a> is written in Markdown.
+		</p>
+    </div>
+    </aside>
+</section>
+</div>
+</div>
+{% endblock %}

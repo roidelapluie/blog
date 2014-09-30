@@ -1,6 +1,0 @@
-[submodule "pelican-svbhack"]
-	path = pelican-svbhack
-	url = https://github.com/roidelapluie/pelican-svbhack.git
-[submodule "pelican-octopress-theme"]
-	path = pelican-octopress-theme
-	url = git@github.com:roidelapluie/pelican-octopress-theme.git

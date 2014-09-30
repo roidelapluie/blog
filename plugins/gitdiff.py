@@ -5,7 +5,7 @@ from git import Repo
 import difflib
 from pelican.utils import strftime
 from datetime import datetime
-from pelican import rstdirectives  # NOQA
+from pelican import rstdirectives, contents  # NOQA
 from markdown import Markdown
 MD_EXTENSIONS = ['codehilite','extra']
 
@@ -33,8 +33,8 @@ def workoncontent(git,repo,content):
         commit_content = git.cat_file("-p",tree)
         if prevcommit == None or prevcommitcontent == None:
             diff = ["    :::markdown"]
-            for i in commit_content.decode('utf-8').split("\n"):
-                diff.append("     "+ i)
+            for i in commit_content.split("\n"):
+                diff.append("     "+ i.decode('utf-8'))
             print_commit_content = "\n".join(diff)
         else:
             fromfile = ["a"] + path
@@ -81,8 +81,21 @@ def genpagegitdiffs(page_generator, writer):
               override_output=hasattr(content, 'override_save_as'), back_link=content.save_as.split('/')[-1])
 
 def add_links(content):
-    content.source_link = ".".join(content.save_as.split('/')[-1].split('.')[:-1])+"-source.html"
-    content.change_link = ".".join(content.save_as.split('/')[-1].split('.')[:-1])+"-changelog.html"
+    repo = Repo(".")
+    git = repo.git
+    try:
+        if isinstance(content, contents.Static):
+            return
+        elif isinstance(content, contents.Article):
+            content.commits = workoncontent(git,repo,content)
+            content.source_link = "source.html"
+            content.change_link = "changelog.html"
+        elif isinstance(content, contents.Page):
+            content.commits = workoncontent(git,repo,content)
+            content.source_link = ".".join(content.save_as.split('/')[-1].split('.')[:-1])+"-source.html"
+            content.change_link = ".".join(content.save_as.split('/')[-1].split('.')[:-1])+"-changelog.html"
+    except:
+        print content
 
 
 def register():

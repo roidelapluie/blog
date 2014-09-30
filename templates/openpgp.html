@@ -1,0 +1,29 @@
+{% extends 'page.html' %}
+{%block extraheader%}
+  <script src="{{ SITEURL }}/theme/openpgp.min.js"></script>
+  <script>
+    var openpgp = require('openpgp');
+  </script>
+  <script src="{{ SITEURL }}/gpg/mygpgkey.js"></script>
+{%endblock%}
+{%block extrafooter%}
+  <script>
+    var textarea = document.querySelector(".opengpginput");
+    var result = document.querySelector(".opengpgoutput");
+    var pgpbutton = document.querySelector(".opengpgbutton");
+    var clearpgp = function(){
+        result.textContent = 'Click the encrypt button to encrypt the data.';
+    }
+    var actualencrypt = function(){
+        result.textContent = openpgp.encryptMessage(publicKey.keys, textarea.value);
+    }
+    var encryptpgp = function(){
+        result.textContent = 'Computation in progress...';
+        setTimeout(function(){ actualencrypt(); }, 500);
+    }
+    textarea.onchange = clearpgp;
+    textarea.onkeyup = clearpgp;
+    pgpbutton.onclick = encryptpgp;
+</script>
+{%endblock%}
+{% block title %}{{ page.title }} | {{ SITENAME }} {% endblock %}

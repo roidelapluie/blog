@@ -53,15 +53,15 @@ SOCIAL = (
         ('linkedin', 'https://linkedin.com/in/julienpivotto'),
         ('slideshare', 'http://www.slideshare.net/roidelapluie')
         )
-SOCIAL=False
+SOCIAL=()
 
-DEFAULT_PAGINATION = 2
+DEFAULT_PAGINATION = 3
 DEFAULT_ORPHANS = 1
 USER_LOGO_URL = SITEURL + '/logo.png'
 
 #CSS_FILE='main-2107.css'
 
-THEME='./pelican-octopress-theme'
+THEME='./roidelapluie'
 PAGE_URL='wiki/{slug}.html'
 PAGE_SAVE_AS='wiki/{slug}.html'
 DIRECT_TEMPLATES = ('index', 'categories', 'archives')
@@ -91,3 +91,4 @@ EXTRA_PATH_METADATA = {
 SIDEBAR_IMAGE = "logo.png"
 
 MD_EXTENSIONS = ['codehilite','extra']
+EXTRA_TEMPLATES_PATHS=['templates']

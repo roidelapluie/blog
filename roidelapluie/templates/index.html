@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="content">
+<div class="ym-wrapper">
+<div class="ym-wbox">
+{% block content_title %}
+<h2>All articles</h2>
+{% endblock %}
+{% for article in articles_page.object_list %}
+{%if not loop.first%}<hr />{%endif%}
+<h2><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
+    <section class="ym-grid linearize-level-1">
+        <article class="ym-g66 ym-gl content">
+            <div class="ym-gbox-left">
+
+    {{ article.content }}
+</div>
+</article>
+<aside class="ym-g33 ym-gr">
+            <div class="ym-gbox-left">
+                <h5>About</h5>
+                {% include "article_infos.html"%}
+    </div>
+    </aside>
+</section>
+
+
+{% endfor %}
+{% include 'pagination.html' %}
+</div>
+</div>
+{% endblock content %}

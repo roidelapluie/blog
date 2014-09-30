@@ -35,8 +35,10 @@ Please send the mail as plain text (not in HTML).
 
 ### Input
 
-<textarea class="opengpginput">Your text here.</textarea>
-<div style="text-align:center;"><a href="#pgpoutput" class="opengpgbutton">Encrypt</a></div>
+<div class="ym-fbox ym-fbox-text">
+<textarea style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;"class="box opengpginput">Your text here.</textarea>
+</div>
+<div style="text-align:center;"><a href="#pgpoutput" class="opengpgbutton ym-button ym-edit">Encrypt</a></div>
 
 ### Output
 
