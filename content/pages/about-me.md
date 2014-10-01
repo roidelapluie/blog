@@ -12,6 +12,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 ### 2014
 
+* November, [Puppet Camp](http://puppetlabs.com/events/puppet-camp-london-1), London, UK
 * November, [Lean Kanban](http://www.leankanban.fr/), Paris, France
 * October, [T-DOSE](http://www.t-dose.nl/), Eindhoven, The Netherlands
 * August 25, [CentOS Dojo](http://wiki.centos.org/Events/Dojo/Paris2014), Paris, France, [Vagrant and CentOS 7](http://www.slideshare.net/roidelapluie/vagrant-and-centos7)
