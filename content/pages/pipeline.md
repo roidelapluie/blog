@@ -1,5 +1,7 @@
 Title: Cloning jenkins pipelines
 
+<div class="box error">The content of this page is deprecated. Please see my <a href="http://www.youtube.com/watch?v=xeqk8v7IVCE">talk</a> about building pipelines at scale for more up-to-date information, together with the build flow plugin and the job DSL plugin.</div>
+
 This script allows you to clone an entire pipeline. It clones every job in the pipeline, changes the name of the triggered jobs
 
 Usage
