@@ -61,7 +61,7 @@
  <div class="ym-wrapper">
      <div class="ym-hlist"><ul>
         {% for title, link in MENUITEMS %}
-            <li><a href="{{ link }}">{{ title }}</a></li>
+        {%include "top_link.html"%}
         {% endfor %}
         {% if DISPLAY_PAGES_ON_MENU %}
           {% for p in PAGES %}
