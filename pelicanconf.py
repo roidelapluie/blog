@@ -36,7 +36,7 @@ INDEX_SAVE_AS='blog/index.html'
 # Blogroll
 MENUITEMS =  (
         ('Blog', '%s/blog/index.html' % SITEURL),
-        ('Wiki', '%s/wiki/index.html' % SITEURL),
+        ('Notes', '%s/wiki/index.html' % SITEURL),
         ('About me', '%s/index.html' % SITEURL),
          )
 LINKS =  (

@@ -1,22 +1,18 @@
 {% extends 'base.html' %}
 {% block content %}
 {% set index=True %}
-<div>
-  {% if PAGES %}
-  <article role="article">
-    <header>
-      <h1 class="entry-title">Wiki
-      </h1>
-    </header>
-    {{ page.content }}
-    <ul>
+<section id="content">
+<div class="ym-wrapper">
+<div class="ym-wbox">
+<h2>Notes</h2>
+
   	{% for page in PAGES %}
     {% if not page.hide %}
     <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title|striptags }}</a></li>
     {% endif %}
   	{% endfor %}
-</ul>
-  		</article>
-  {% endif %}
+
 </div>
+</div>
+</section>
 {% endblock %}
