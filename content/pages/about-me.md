@@ -45,4 +45,3 @@ He is a strong believer in the devops movement and has technical focus towards i
 * [My employer](https://inuits.eu)
 
 
-<div class="hideifsmallscreen"><a href="https://www.battleforthenet.com/"><img src="images/battle.png" alt="Battle for the net has begun"/></a></div>
