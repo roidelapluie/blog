@@ -29,64 +29,43 @@
         <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
         {% endblock head %}
-
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link rel="stylesheet" href="{{SITEURL}}/theme/yaml/core2/base.min.css" type="text/css"/>
-        <link rel="stylesheet" href="{{SITEURL}}/theme/yaml/screen/screen-FULLPAGE-layout.css" type="text/css"/>
-        <link rel="stylesheet" href="{{SITEURL}}/theme/yaml/screen/typography.css" type="text/css"/>
-        <link rel="stylesheet" href="{{SITEURL}}/theme/yaml/navigation/hlist.css" type="text/css"/>
-        <link rel="stylesheet" href="{{SITEURL}}/theme/yaml/print/print.css" type="text/css"/>
-        <link rel="stylesheet" href="{{SITEURL}}/theme/yaml/forms/gray-theme.css" type="text/css"/>
-        <link rel="stylesheet" href="{{SITEURL}}/theme/code.css" type="text/css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700%7CDroid+Sans:700" type="text/css"/>
-        <style>
-        .box.error a:hover{
-            color: white;
-            background-color: rgb(100,0,0);
-        }
-        .box.error a{
-            color: rgb(100,0,0);
-            text-decoration: underline;
-        }
-        h2 a{
-            color:black;
-        }
-        </style>
-
-{%block extraheader%}
-{%endblock%}
+        <link rel="stylesheet" href="{{SITEURL}}/theme/yaml.css" type="text/css"/>
+        {%block extraheader%}
+        {%endblock%}
 </head>
 
 <body>
+
+
+<div id="sitenav" role="banner">
+    <div class="ym-wrapper">
+        <div class="ym-wbox">
+            <div class="mnav">
+                <ul class="ym-grid ym-equalize linearize-level-2">
+                    <li class="ym-g25 ym-gl{% if articles_page or (article and article.source_link == "source.html") %} active{%endif%}"><a href="{{SITEURL}}/blog/index.html">Blog <span>Articles, opinions &amp; news</span></a></li>
+                    <li class="ym-g25 ym-gl{% if (article and article.source_link != "source.html" and not article.hide) or (page and not page.hide) or (page and page.save_as == "wiki/index.html") %} active{%endif%}"><a href="{{SITEURL}}/wiki/index.html">Notes <span>Random stuffs &amp; code</span></a></li>
+                    <li class="ym-g25 ym-gl{% if (article and article.save_as == "index.html") or (page and page.save_as == "index.html") or (page and page.save_as == "gpg/index.html") %} active{%endif%}"><a href="{{SITEURL}}/index.html">About me <span>Bio, talks &amp; contact</span></a></li>
+                    <li class="ym-g25 ym-gl{% if page and page.save_as == "disclaimer/index.html"%} active{%endif%}"><a href="{{SITEURL}}/disclaimer/index.html">Disclaimer <span>License &amp; other useful stuff</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
         <header id="banner" class="body">
  <div class="ym-wrapper">
      <div class="ym-wbox">
                 <h1>{{ SITENAME }}</h1>
+                <p>Open-Source Consultant at <a href="https://inuits.eu">Inuits</a>.</p>
     </div>
 </div>
         </header><!-- /#banner -->
-        <nav id="menu">
- <div class="ym-wrapper">
-     <div class="ym-hlist"><ul>
-        {% for title, link in MENUITEMS %}
-        {%include "top_link.html"%}
-        {% endfor %}
-        {% if DISPLAY_PAGES_ON_MENU %}
-          {% for p in PAGES %}
-            <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-          {% endfor %}
-        {% else %}
-          {% if DISPLAY_CATEGORIES_ON_MENU %}
-            {% for cat, null in categories %}
-              <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-            {% endfor %}
-          {% endif %}
-        {% endif %}
-        </ul>
-    </div>
-</div></nav><!-- /#menu -->
+<div id="main">
         {% block content %}
         {% endblock %}
+        </div>
         <footer id="contentinfo" class="body">
  <div class="ym-wrapper">
      <div class="ym-wbox">

@@ -1,0 +1,3 @@
+[submodule "roidelapluie/yaml"]
+	path = roidelapluie/yaml
+	url = https://github.com/yamlcss/yaml.git
