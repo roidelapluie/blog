@@ -32,3 +32,8 @@ filtering my filename
 
     :::text
     sysdig fd.dilename=puppet.conf
+
+
+## Extra
+
+Mattias has written a [blog post](http://mattiasgeniar.be/2014/10/03/sysdig-cli-examples/) with more examples (october 2014).
