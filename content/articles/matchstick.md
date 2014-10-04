@@ -21,7 +21,7 @@ Also I am really happy to see an new device that IS NOT run by Android. Android 
 too mainstream I think, and even if it is open-source, the Google-way of managing it
 is not something I like.
 
-Related to the previous point, it is important that the project is not made by [Mozilla](https://mozilla.org).
+Relatedly to the previous point, it is important that the project is not made by [Mozilla](https://mozilla.org).
 Open-Source and standards that are really good are forked and used by third-parties
 companies. That is kind of a quality proof.
 
