@@ -8,7 +8,7 @@ I have backed [Matchstick](https://matchstick.tv), the HDMI stick based on [Fire
 There are a few reasons why I have chosen to do so.
 
 The first reason is the open-source part of that project. An open-source software
-combined with open-source hardware, that is everything I like. Good philisophy is always a good point.
+combined with open-source hardware, that is everything I like. Good philosophy is always a good point.
 
 Next that project is exciting. An easy to use HDMI stick for my TV is something really cool. I do
 not have a "smart" TV but still my TV has some HDMI input and USB plugs (to power the stick).
