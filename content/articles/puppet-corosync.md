@@ -1,5 +1,5 @@
 Title: Pcs support merged into puppetlabs-corosync
-Category: Puppet
+Category: Automation
 Tags: centos,automation,HA, planet-inuits, puppet
 Slug: puppetlabs-corosync-pcs
 

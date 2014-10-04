@@ -1,5 +1,5 @@
 Title: CentOS users should skip puppet release 3.5.0
-Category: Puppet
+Category: Automation
 Tags: centos,automation, planet-inuits, puppet
 Slug: puppet-350-yumrepo
 

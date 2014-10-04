@@ -1,5 +1,5 @@
 Title: Puppet-corosync and pcs provider
-Category: Puppet
+Category: Automation
 Tags: high availability, linux, planet-inuits
 Slug: puppet-corosync-pcs
 

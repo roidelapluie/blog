@@ -1,5 +1,5 @@
 Title: Puppet 3.6.1 depreciation warning
-Category: Puppet
+Category: Automation
 Tags: centos,automation, planet-inuits, puppet
 Slug: puppet-361-depreciation
 
