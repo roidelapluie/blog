@@ -14,6 +14,10 @@ The SSL certificate is emitted by [Startssl](https://www.startssl.com/). They do
 
 The DNS records are signed with DNSSEC, and there are TLSA records with the certificates.
 
+## Standards
+
+This website is HTML 5 valid, orr it should be. If some pages do not pass the W3C HTML5 validator, feel free to contact me.
+
 ## Misc
 
 * I do not keep things up-to-date. Some blogposts might be completely irrelevant.
