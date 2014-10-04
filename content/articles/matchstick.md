@@ -3,7 +3,7 @@ Category: Open-Source
 Tags: firefox os, crowdfunding, open-source
 Slug: i-ve-backed-matchstick
 
-I have backed [Matchstick](https://matchstick.tv), the HDMI stick based on [Firefox OS](https://www.mozilla.org/en/firefox/os/).
+I have backed [Matchstick](http://matchstick.tv), the HDMI stick based on [Firefox OS](https://www.mozilla.org/en/firefox/os/).
 It is the first crowdfunding project I participate. And I hope it won't be the last one.
 
 There are a few reasons why I have chosen to do so.
