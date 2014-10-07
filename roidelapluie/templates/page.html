@@ -6,7 +6,7 @@
     <div class="ym-grid linearize-level-1">
         <div class="ym-g66 ym-gl content">
             <div class="ym-gbox-left">
-    <h1>{{ page.title }}</h1>
+    <h2>{{ page.title }}</h2>
     {% import 'translations.html' as translations with context %}
     {{ translations.translations_for(page) }}
 
@@ -16,7 +16,7 @@
 <aside class="ym-g33 ym-gr">
             <div class="ym-gbox-left">
 
-    <h2>About this page</h2>
+    <h4>About this page</h4>
     <p>This page titled "{{page.title}}" is part of my personal {%if page.hide%}website{%else%}notes{%endif%}. The <a href="https://github.com/roidelapluie/blog">source code</a> is available on <a href="https://github.com">github</a>. If you find a mistake, a typographical error or any other nonsense, you can send me a <a href="https://github.com/roidelapluie/blog/compare">pull request</a>.</p>
 		<p>
         Created on {{ page.locale_date }}{% if page.locale_date != page.locale_update %} and last updated on {{ page.locale_update }}{%endif%}.
