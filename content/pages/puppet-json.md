@@ -137,7 +137,7 @@ A Ruby & Json error
     
     Finished Transaction
     > Leaving Shell
-    # puppet agent --test
+    [root@localhost ~]# puppet agent --test
     Info: Retrieving pluginfacts
 
 The yum shell command avoids the removal of the puppet package.
