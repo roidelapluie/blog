@@ -18,6 +18,10 @@ The DNS records are signed with DNSSEC, and there are TLSA records with the cert
 
 This website is HTML 5 valid, orr it should be. If some pages do not pass the W3C HTML5 validator, feel free to contact me.
 
+## Content
+
+The views and opinions expressend here are not endorsed by my employer and only refect my personal views.
+
 ## Misc
 
 * I do not keep things up-to-date. Some blogposts might be completely irrelevant.

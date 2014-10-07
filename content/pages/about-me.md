@@ -2,6 +2,22 @@ URL: index.html
 save_as: index.html
 Title: Julien Pivotto
 Hide: True
+Sidebar: <h4>Welcome</h4>
+         <p>This is my personal website.</p>
+         <p>It is composed of two main parts: my <a href="https://roidelapluie.be/blog/">blog</a> and my <a href="https://roidelapluie.be/wiki">notes</a>. The second part is like a wiki that is mainly there so I can google myself problems I had in the past.</p>
+         <p>You might be interresting to directly jump to tha <a href="https://roidelapluie.be/tag/planet-inuits.html">planet-inuits</a> tag, which contains the more technical articles. Articles not in this tag are mainky opinions or very short articles.</p>
+         <p class="box info">
+         <strong>Inuits</strong><br />
+         The opinions and views expressed in my this site do not reflect my employer's views. I am working at <a href="https://inuits.eu">Inuits</a>, a large open-source consultancy company based in Belgium.
+         </p>
+         <h4>Useful links</h4>
+         <ul>
+         <li><a href="http://roidelapluie.be/gpg">GPG key</a></li>
+         <li><a href="https://twitter.com/roidelapluie">Twitter</a></li>
+         <li><a href="https://github.com/roidelapluie">Github</a></li>
+         <li><a href="https://slideshare.net/roidelapluie">Slideshare</a></li>
+         <li><a href="https://be.linkedin.com/in/julienpivotto">Linkedin</a></li>
+         </ul>
 
 Julien Pivotto is a young Open-Source consultant at [Inuits](https://inuits.eu) where he is helping organisations with the deployment of long-term solutions based on Open-Source infrastructure.
 
@@ -36,13 +52,5 @@ He is a strong believer in the devops movement and has technical focus towards i
 * July 11, [RMLL](http://2012.rmll.info), Geneva, Switzerland, [PostgreSQL 9.0 HA](http://www.slideshare.net/roidelapluie/postgresql-90-ha-at-rmll-2012)
 * April 1, [LOADays](http://loadays.org), Antwerp, Belgium, [PostgreSQL 9.0 HA](http://www.slideshare.net/roidelapluie/postgresql-90-ha)
 
-## Useful links
-
-* [GPG key](http://roidelapluie.be/gpg)
-* [Twitter](https://twitter.com/roidelapluie)
-* [Github](https://github.com/roidelapluie)
-* [Slideshare](https://slideshare.net/roidelapluie)
-* [Linkedin](https://be.linkedin.com/in/julienpivotto)
-* [My employer](https://inuits.eu)
 
 

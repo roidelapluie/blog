@@ -15,7 +15,7 @@
 </div>
 <aside class="ym-g33 ym-gr">
             <div class="ym-gbox-left">
-
+                {%if page.sidebar%}{%for text in page.sidebar%}{{text}}{%endfor%}{%endif%}
     <h4>About this page</h4>
     <p>This page titled "{{page.title}}" is part of my personal {%if page.hide%}website{%else%}notes{%endif%}. The <a href="https://github.com/roidelapluie/blog">source code</a> is available on <a href="https://github.com">github</a>. If you find a mistake, a typographical error or any other nonsense, you can send me a <a href="https://github.com/roidelapluie/blog/compare">pull request</a>.</p>
 		<p>
