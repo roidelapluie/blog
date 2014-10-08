@@ -67,7 +67,7 @@
     <div class="ym-wrapper">
         <div class="ym-wbox">
             <div class="ym-hlist">
-                <ul>)
+                <ul>
                 {% for cat, null in categories %}
                 <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
                 {% endfor %}
