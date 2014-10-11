@@ -1,0 +1,9 @@
+[{% for page in pages %}
+{
+    "title": "{{page.title}}",
+    "content": "{{page.content|tojson}}",
+    "slug": "{{page.slug}}"
+}
+{%- if not loop.last%},{%endif%}
+{% endfor -%}
+]

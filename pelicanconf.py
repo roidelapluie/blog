@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import json
 
 AUTHOR = u'Julien Pivotto'
 SITENAME = u'roidelapluie'
@@ -28,6 +29,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
+JINJA_FILTERS = {'tojson': json.dumps}
 
 FEED_RSS='rss.xml'
 FEED_ALL_ATOM='atom.xml'
@@ -64,7 +66,9 @@ USER_LOGO_URL = SITEURL + '/logo.png'
 THEME='./roidelapluie'
 PAGE_URL='wiki/{slug}.html'
 PAGE_SAVE_AS='wiki/{slug}.html'
-DIRECT_TEMPLATES = ('index', 'categories', 'archives')
+DIRECT_TEMPLATES = ('index', 'categories', 'archives', 'angular_articles', 'angular_base', 'angular_pages')
+ANGULAR_ARTICLES_SAVE_AS="data/articles.json"
+ANGULAR_PAGES_SAVE_AS="data/pages.json"
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = False
@@ -73,6 +77,7 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 STATIC_PATHS = [
     'images',
+    'angular',
     'extra/hai.png',
     'extra/humans.txt',
     'extra/logo.png',
@@ -81,6 +86,7 @@ STATIC_PATHS = [
     'extra/5AA32256.pub.js',
 ]
 EXTRA_PATH_METADATA = {
+    'angular/pages.html': {'title': 'Article'},
     'extra/5AA32256.pub.js': {'path': 'gpg/mygpgkey.js' },
     'extra/humans.txt': {'path': 'humans.txt'},
     'extra/hai.png': {'path': 'hai.png'},

@@ -1,6 +1,7 @@
 URL: index.html
 save_as: index.html
 Title: Julien Pivotto
+slug: about-me
 Hide: True
 Sidebar: <h4>Welcome</h4>
          <p>This is my personal website.</p>
