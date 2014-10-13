@@ -1,0 +1,7 @@
+            <div class="center">
+                <p class="paginator">
+                <a data-ng-click="$parent.$parent.currentPage=$parent.currentPage-1" data-ng-if="currentPage > 0">&laquo;Prev</a>
+                Page {{ currentPage }} / {{ Math.ceil(filtered_contents.length/itemsPerPage)-1 }}
+                <a data-ng-click="$parent.$parent.currentPage=$parent.currentPage+1" data-ng-if="((currentPage+1)*itemsPerPage) < filtered_contents.length">Next&raquo;</a>
+                </p>
+            </div>

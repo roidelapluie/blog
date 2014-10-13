@@ -69,6 +69,8 @@ PAGE_SAVE_AS='wiki/{slug}.html'
 DIRECT_TEMPLATES = ('index', 'categories', 'archives', 'angular_articles', 'angular_base', 'angular_pages')
 ANGULAR_ARTICLES_SAVE_AS="data/articles.json"
 ANGULAR_PAGES_SAVE_AS="data/pages.json"
+ANGULAR_BASE_SAVE_AS="index.html"
+PAGINATED_DIRECT_TEMPLATES=('index')
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = False
@@ -86,7 +88,6 @@ STATIC_PATHS = [
     'extra/5AA32256.pub.js',
 ]
 EXTRA_PATH_METADATA = {
-    'angular/pages.html': {'title': 'Article'},
     'extra/5AA32256.pub.js': {'path': 'gpg/mygpgkey.js' },
     'extra/humans.txt': {'path': 'humans.txt'},
     'extra/hai.png': {'path': 'hai.png'},

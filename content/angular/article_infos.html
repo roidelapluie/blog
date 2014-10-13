@@ -1,0 +1,7 @@
+		<p>
+        Category: <a data-ng-click="filterCategory(article.category)">{{ article.category }}</a>.<br />
+        <span ng-if="article.tags">Tags: <span ng-repeat="tag in article.tags"><a data-ng-click="filterTag(tag)">{{ tag }}</a><span ng-show="!$last">, </span></span><br /></span>
+        Date: {{ article.locale_date }}<span data-ng-if="article.locale_date != article.locale_update"><br />Last update: {{ article.locale_update }}</span>
+		</p>
+                        <p ng-if="!articlesIndex">This is the revision <a href="#/blog/{{article.slug}}/changelog">{{article.commits.length}}</a> of this page. The <a href="#/blog/{{article.slug}}/source">source</a> is written in Markdown.
+                        </p>

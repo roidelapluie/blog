@@ -29,7 +29,10 @@ def workoncontent(git,repo,content):
                 passedcontent = True
             if passedcontent:
                 path.append(doc)
-                tree = tree[doc]
+                try:
+                    tree = tree[doc]
+                except:
+                    return []
         commit_content = git.cat_file("-p",tree)
         if prevcommit == None or prevcommitcontent == None:
             diff = ["    :::markdown"]
@@ -67,6 +70,9 @@ def genarticlegitdiffs(article_generator, writer):
               article_generator.context, article=content, gitcommits=commits, back_link="index.html",
               override_output=hasattr(content, 'override_save_as'))
 
+def getsource(content):
+    return "".join(open(content.source_path,'r').readlines()).decode('utf-8')
+
 def genpagegitdiffs(page_generator, writer):
     repo = Repo(".")
     git = repo.git
@@ -86,7 +92,8 @@ def add_links(content):
     try:
         if isinstance(content, contents.Static):
             return
-        elif isinstance(content, contents.Article):
+        content.source = getsource(content)
+        if isinstance(content, contents.Article):
             content.commits = workoncontent(git,repo,content)
             content.source_link = "source.html"
             content.change_link = "changelog.html"

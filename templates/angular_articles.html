@@ -1,1 +1,13 @@
-[{% for article in articles %}{"title": "{{article.title}}"}{% if not loop.last%},{%endif%}{% endfor %}]
+[{% for article in articles %}
+{
+    "title": {{article.title|tojson}},
+    "content": {{article.content|tojson}},
+    {%if article.locale_update%}"locale_update": {{article.locale_update|tojson}},{%endif%}
+    {%if article.locale_date%}"locale_date": {{article.locale_date|tojson}},{%endif%}
+    "commits": {{article.commits|tojson}},
+    "source": {{article.source|tojson}},
+    "category": {{article.category.name|tojson}},
+    "tags": [{%for tag in article.tags%}{{tag.name|tojson}}{% if not loop.last%},{%endif%}{%endfor%}],
+    "slug": "{{article.slug}}"
+}{% if not loop.last%},{%endif%}
+{% endfor %}]

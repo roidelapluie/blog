@@ -1,0 +1,35 @@
+<section id="content">
+    <div class="ym-wrapper">
+        <div class="ym-wbox">
+            <div data-ng-if="articlesIndex">
+            <h2>{{title}}</h2>
+        <p class="text-centered" data-ng-if="content_filtered">
+        <ng-pluralize count="filtered_contents.length" when="{'1':'One article.','other':'{} articles.'}"></ng-pluralize> <a data-ng-click="clearFilter()">See all the {{contents.length}} articles</a>
+        </p>
+            <div data-ng-include="'angular/paginate.html'"></div>
+            </div>
+            <div ng-repeat="article in filtered_contents|offset:currentPage*itemsPerPage|limitTo: itemsPerPage">
+                <hr ng-if="!$index==0" />
+                <h2><a href="#/blog/{{ article.slug }}" rel="bookmark" title="Permalink to {{ article.title }}">{{ article.title }}</a></h2>
+                <section class="ym-grid linearize-level-1">
+                    <article class="ym-g66 ym-gl content">
+                        <div class="ym-gbox-left" ng-bind-html="article.content">
+
+                        </div>
+                    </article>
+                    <aside class="ym-g33 ym-gr">
+                        <div class="ym-gbox-left">
+                            <h5>About</h5>
+                            <div data-ng-include="'angular/article_infos.html'"></div>
+                        </div>
+                    </aside>
+                </section>
+            </div>
+            <hr />
+            <div data-ng-if="articlesIndex">
+            <div data-ng-include="'angular/paginate.html'"></div>
+            </div>
+
+        </div>
+    </div>
+</section>

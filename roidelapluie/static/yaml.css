@@ -2696,7 +2696,6 @@
   }
 
   .mnav li a:hover,
-  .mnav li a:focus,
   .mnav li a:active {
     color: #fff;
     -webkit-box-shadow: inset 0 -24px 30px rgba(255, 255, 255, 0.2);
@@ -2707,8 +2706,12 @@
     transition: background-color .1s linear;
   }
 
+  .mnav li a:focus {
+    background-color: transparent;
+    zoom: 1;
+  }
+
   .mnav li a:hover span,
-  .mnav li a:focus span,
   .mnav li a:active span {
     color: rgba(255, 255, 255, 0.7);
   }
