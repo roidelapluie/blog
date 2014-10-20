@@ -66,10 +66,7 @@ USER_LOGO_URL = SITEURL + '/logo.png'
 THEME='./roidelapluie'
 PAGE_URL='wiki/{slug}.html'
 PAGE_SAVE_AS='wiki/{slug}.html'
-DIRECT_TEMPLATES = ('index', 'categories', 'archives', 'angular_articles', 'angular_base', 'angular_pages')
-ANGULAR_ARTICLES_SAVE_AS="data/articles.json"
-ANGULAR_PAGES_SAVE_AS="data/pages.json"
-ANGULAR_BASE_SAVE_AS="index.html"
+DIRECT_TEMPLATES = ('index', 'categories', 'archives')
 PAGINATED_DIRECT_TEMPLATES=('index')
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -79,7 +76,6 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 STATIC_PATHS = [
     'images',
-    'angular',
     'extra/hai.png',
     'extra/humans.txt',
     'extra/logo.png',

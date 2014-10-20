@@ -1,5 +1,5 @@
 URL: index.html
-save_as: about-me.html
+save_as: index.html
 Title: Julien Pivotto
 slug: about-me
 Hide: True
