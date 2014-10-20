@@ -1,6 +1,6 @@
 Title: F-droid welcomes BeTrains
 Category: Android
-Tags: public services, belgium
+Tags: public services, belgium, planet-inuits
 Slug: f-droid-welcomes-betrains
 
 I have discovered that [F-Droid](https://f-droid.org) contains [BeTrains](https://f-droid.org/repository/browse/?fdid=tof.cv.mpp), an open-source android tool to get data like timetables from the Belgian national railway company. Let's take some time to explain you that in details.
