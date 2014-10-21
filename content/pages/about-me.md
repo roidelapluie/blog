@@ -13,7 +13,8 @@ Sidebar: <h4>Welcome</h4>
          </p>
          <h4>Useful links</h4>
          <ul>
-         <li><a href="http://roidelapluie.be/gpg">GPG key</a></li>
+         <li><a href="https://roidelapluie.be/gpg">GPG key</a></li>
+         <li><a href="https://keybase.io/roidelapluie">Keybase.io</a></li>
          <li><a href="https://twitter.com/roidelapluie">Twitter</a></li>
          <li><a href="https://github.com/roidelapluie">Github</a></li>
          <li><a href="https://slideshare.net/roidelapluie">Slideshare</a></li>

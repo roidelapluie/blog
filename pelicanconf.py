@@ -95,3 +95,6 @@ SIDEBAR_IMAGE = "logo.png"
 
 MD_EXTENSIONS = ['codehilite','extra']
 EXTRA_TEMPLATES_PATHS=['templates']
+
+
+TOP_TEXT='<strong>News:</strong> I have some <a href="https://keybase.io">keybase.io</a> invites. Contact me of you are interrested.'
