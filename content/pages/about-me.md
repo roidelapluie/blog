@@ -4,9 +4,6 @@ Title: Julien Pivotto
 slug: about-me
 Hide: True
 Sidebar: <p class="box info" style="text-align:center">
-         <img style="max-width:80%;margin:auto auto 1em auto;display:block" src="images/dod.png" alt="DevOpsDays logo" />
-         I will attend <strong><a href="http://devopsdays.org/events/2014-belgium/">DevOpsDays Ghent</a></strong> at the end of October. Feel free to get in touch :-)
-         </p>
          <h4>Welcome</h4>
          <p>This is my personal website.</p>
          <p>It is composed of two main parts: my <a href="https://roidelapluie.be/blog/">blog</a> and my <a href="https://roidelapluie.be/wiki">notes</a>. The second part is like a wiki that is mainly there so I can google myself problems I had in the past.</p>
@@ -25,7 +22,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 ### 2014
 
 * November, [Puppet Camp](http://puppetlabs.com/events/puppet-camp-london-1), London, UK
-* November, [Belgian Puppet Users group meetup](http://www.meetup.com/Belgian-Puppet-User-Group/), Antwerp, Belgium
+* November, [Belgian Puppet User Group meetup](http://www.meetup.com/Belgian-Puppet-User-Group/), Antwerp, Belgium
 * November, [Lean Kanban](http://www.leankanban.fr/), Paris, France
 * October 26, [T-DOSE](http://www.t-dose.nl/), Eindhoven, The Netherlands, [Working with multiple git repositories](http://www.slideshare.net/roidelapluie/working-with-multiple-git-repositories)
 * August 25, [CentOS Dojo](http://wiki.centos.org/Events/Dojo/Paris2014), Paris, France, [Vagrant and CentOS 7](http://www.slideshare.net/roidelapluie/vagrant-and-centos7)
