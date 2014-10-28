@@ -13,7 +13,7 @@
           <h4>Commit {{commit.hash}}</h4>
           <p>{{commit.date}}</p>
           <h6>Commit message:</h6>
-          <pre>{{commit.message}}</pre>
+          <pre>{{commit.message|e}}</pre>
           <h6>{% if loop.first %}Original content:{%else%}Diff:{% endif %}</h6>
           {{commit.content}}
           {% endfor %}
