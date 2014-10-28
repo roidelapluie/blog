@@ -15,7 +15,7 @@
           <h6>Commit message:</h6>
           <pre>{{commit.message|e}}</pre>
           <h6>{% if loop.first %}Original content:{%else%}Diff:{% endif %}</h6>
-          {{commit.content}}
+          {{commit.content|e}}
           {% endfor %}
       </div>
 </article>
