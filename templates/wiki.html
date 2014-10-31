@@ -5,15 +5,15 @@
 <div class="ym-wrapper">
 <div class="ym-wbox">
 <h2>Notes</h2>
-<ul>
 
+<ul style=" columns: 2; -webkit-columns: 2; -moz-columns: 2;">
   	{% for page in PAGES %}
     {% if not page.hide %}
     <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title|striptags }}</a></li>
     {% endif %}
   	{% endfor %}
-
 </ul>
+
 </div>
 </div>
 </section>
