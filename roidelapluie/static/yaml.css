@@ -2126,7 +2126,7 @@
 
   /*--- Links ----------------------------------------------------------------------------------------- */
   a {
-    color: #4d87c7;
+    color: #d04109;
     background: transparent;
     text-decoration: none;
   }
@@ -2139,7 +2139,7 @@
   /* (en) Maximaler Kontrast für Tab Focus - Ändern Sie diese Regel mit Bedacht */
   a:hover,
   a:focus {
-    background-color: #4d87c7;
+    background-color: #d04109;
     color: #fff;
     text-decoration: none;
   }
@@ -2374,6 +2374,11 @@
 }
 /* Screen Design */
 @media screen {
+  header .ym-wbox {
+    background-image: url("../images/halloween.png");
+    background-repeat: no-repeat;
+  }
+
   /**
   * (en) Forcing vertical scrollbars in IE8, Firefox, Webkit & Opera
   * (de) Erzwingen vertikaler Scrollbalken in IE8, Firefox, Webkit & Opera
