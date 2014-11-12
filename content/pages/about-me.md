@@ -21,7 +21,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 ### 2014
 
 * November, [Puppet Camp](http://puppetlabs.com/events/puppet-camp-london-1), London, UK
-* November, [Belgian Puppet User Group meetup](http://www.meetup.com/Belgian-Puppet-User-Group/), Antwerp, Belgium
+* November, [Belgian Puppet User Group meetup](http://www.meetup.com/Belgian-Puppet-User-Group/), Antwerp, Belgium, [Augeas, swiss knife resources for your puppet tree](http://www.slideshare.net/roidelapluie/augeas-swissarmy-knife-puppet-resources)
 * November 6, [Lean Kanban](http://www.leankanban.fr/), Paris, France, [Introduction to DevOps](http://www.slideshare.net/roidelapluie/introduction-to-devops-41216220)
 * October 26, [T-DOSE](http://www.t-dose.nl/), Eindhoven, The Netherlands, [Working with multiple git repositories](http://www.slideshare.net/roidelapluie/working-with-multiple-git-repositories)
 * August 25, [CentOS Dojo](http://wiki.centos.org/Events/Dojo/Paris2014), Paris, France, [Vagrant and CentOS 7](http://www.slideshare.net/roidelapluie/vagrant-and-centos7)
