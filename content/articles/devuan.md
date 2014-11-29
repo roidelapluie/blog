@@ -9,6 +9,6 @@ Debian is a really good ground for forks, it seems: [Ubuntu](https://ubuntu.org)
 
 This fork wants to remove systemd from Debian. It is really strange that so many people are reacting against systemd so late. Systemd has been around for many years. I do not want to enter the debate about systemd.
 
-I am really wondering if forking against one software is useful or not... But choices and forks are part of the Open Source world, and the Open-Source world does not always take care about what the market needs and wants. Because it is a world made by humans, that are free to do what they want of their time.
+I am really wondering if forking against one software is useful or not... But choices and forks are part of the Open Source world, and the Open Source world does not always take care about what the market needs and wants. Because it is a world made by humans, that are free to do what they want of their time.
 
 I wish good luck and good yack shaving to that new fork.
