@@ -1,6 +1,6 @@
 Title: About Devuan
 Category: Linux
-Tags: systemd, sysadmin, planet-inuits
+Tags: systemd, sysadmin
 Slug: reptyr
 
 It looks like that a new Linux Distribution is born: [Devuan](https://devuan.org/). Yet another fork of [Debian](https://debian.org).
