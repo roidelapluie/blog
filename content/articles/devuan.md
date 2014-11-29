@@ -1,7 +1,7 @@
 Title: About Devuan
 Category: Linux
 Tags: systemd, sysadmin
-Slug: reptyr
+Slug: devuan
 
 It looks like that a new Linux Distribution is born: [Devuan](https://devuan.org/). Yet another fork of [Debian](https://debian.org).
 
