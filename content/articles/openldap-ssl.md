@@ -37,8 +37,9 @@ If the certificate is in DES we will first need to convert it into PEM. This is 
 
 Once you have the certificat in PEM, you will need to compute the hash:
 
-    ::bash
-    openssl x509 -in rootCA.pem -noout -hash
+    ::text
+    $ openssl x509 -in rootCA.pem -noout -hash
+    e6adf2fd
 
 You will get a hash, e.g `e6adf2fd`.
 
@@ -47,7 +48,7 @@ Move the certificate to the right directory, with the name `${hash}.0`:
     :::bash
     mv rootCA.prm /etc/openldap/cacerts/e6adf2fd.0
 
-When you will to your LDAP search again with -1, you should see that the certidicate is shown:
+When you will to your LDAP search again with -1, you should see that the certificate is shown:
 
     :::text
     $ ldapsearch -H ldaps://172.28.5.5 -d -1
@@ -56,4 +57,4 @@ When you will to your LDAP search again with -1, you should see that the certidi
     from CA certificate directory /etc/openldap/cacerts.
     [...snip...]
 
-You can now safely use LDAPs with your own CA's.
+You can now safely use LDAPs with your own CA.
