@@ -76,6 +76,7 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 STATIC_PATHS = [
     'images',
+    'uploads',
     'extra/hai.png',
     'extra/humans.txt',
     'extra/logo.png',
