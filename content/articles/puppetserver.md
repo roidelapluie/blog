@@ -4,7 +4,7 @@ Tags: centos,automation, planet-inuits, puppet
 Slug: puppet-server
 
 I have tested [Puppet Server](https://github.com/puppetlabs/puppet-server), the
-new puppet master implementation in Java. And I am quite happy.
+new puppet master implementation in Clojure. And I am quite happy.
 
 **It just works**
 
