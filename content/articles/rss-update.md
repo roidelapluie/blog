@@ -11,6 +11,6 @@ due to an small technical change in the URL's of the articles.
 
 Please also note that I have added [several feeds](http://roidelapluie.be/feeds/) for tags and categories.
 
-An interresting feed is probably the [planet-inuits](http://roidelapluie.be/feeds/planet-inuits.tag.atom.xml) feed, which contains the articles I publish on the [inuits planet](https://inuits.eu/blog/).
+An interesting feed is probably the [planet-inuits](http://roidelapluie.be/feeds/planet-inuits.tag.atom.xml) feed, which contains the articles I publish on the [inuits planet](https://inuits.eu/blog/).
 
 My apologies for that.

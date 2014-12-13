@@ -24,19 +24,19 @@ But look at the following elements:
 
 Like in Gentoo, packages can be built with different use cases, depending on
 the use you want. And you have that choice by default, in every package, meaning
-that rebuilding with differents options is not complicated, it is just routine.
+that rebuilding with different options is not complicated, it is just routine.
 
 ### Build from SCM
 
 You can build your packages directly from the last (git|svn|hg|bazaar) release, and still having it
 tracked in your package manager. You also have the choice to rebuild each week from
-the latest scm revision. Installing fron latest scm is as easy as any other version (if
+the latest scm revision. Installing from latest scm is as easy as any other version (if
 the scm information is packaged of course).
 
 ### No tarball, just how to package
 
 The format of the software packages in Exherbo is plaintext. It contains the
-links to download, the licencing information, the differents steps to execute,
+links to download, the licencing information, the different steps to execute,
 and any other useful information.
 
 ### Use upstreams like rubygem, github, pypi easily
@@ -63,7 +63,7 @@ with jenkins.
 
 ### Multiple slots
 
-Need python 2.7 and 3.3? Need php 5.3 and 5.4? Just install both, by specifing a
+Need python 2.7 and 3.3? Need php 5.3 and 5.4? Just install both, by specifying a
 slot: php:5.3 php:5.4 will be considered like different packages. Installing php will
 install only one slot.
 
@@ -99,7 +99,7 @@ of just patching at the distribution level.
 
 ## Conclusion
 
-There is a lot of great ideas there. A lot of them are exising in other
+There is a lot of great ideas there. A lot of them are existing in other
 distributions like Gentoo or Archlinux. But the slots, the options, easy working
 with upstreams like rubygems and other stuff are not going to reach easily the larger
 distributions soon.

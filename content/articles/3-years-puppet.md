@@ -13,7 +13,7 @@ Puppet 0.23 was still around in many places. Here are some lessons I've learned 
 
 This is one of the first lessons I've learned. In the many environments I've seen, some of
 them use some git hooks/rsync/whatever to deploy the puppet code to the different
-platforms. This never works. There are always problems, because human beigns make mistakes and CI testing matters.
+platforms. This never works. There are always problems, because human beings make mistakes and CI testing matters.
 
 Working with multiple environment is important (dev, uat, prod...), and running tests on your puppet tree
 is also important.
@@ -52,7 +52,7 @@ This will show you perpetual errors in your dashboard, reminding you what you ha
 ## You need a puppet dashboard
 
 Puppet apply is often a no-go because you will use it once and then forget. So you will get a puppetmaster and puppetdb. There are
-a few dashboards available, but my prefered one is The foreman.
+a few dashboards available, but my preferred one is The foreman.
 
 A dashboard gives you interesting metrics and a good overview of your infrastructure.
 If you don't have one you are just missing a lot of interesting data.

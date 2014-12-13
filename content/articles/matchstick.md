@@ -25,7 +25,7 @@ Relatedly to the previous point, it is important that the project is not made by
 Open-Source and standards that are really good are forked and used by third-parties
 companies. That is kind of a quality proof.
 
-Now we will see what we will get at the end, if the promises will be fullfilled and how will the stick
+Now we will see what we will get at the end, if the promises will be fulfilled and how will the stick
 behave in real conditions. I also hope that a lot of the apps ecosystem will also be open-source.
 I am waiting February to see what's going on and to put some more feedback there.
 

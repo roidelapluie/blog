@@ -121,7 +121,7 @@ Exception: Error publishing repository centos-5-x86_64.  More than one distribut
 
 More than one distribution found. And now? How do I delete the useless distributions?
 
-Indeed that repo has several distirbutions: 5.9, 5.10, 5.11... But at this time of the migration,
+Indeed that repo has several distributions: 5.9, 5.10, 5.11... But at this time of the migration,
 the pulp server refuses to work because it is not migrated.
 
 So I can not delete the distributions. And I can't run the migration. So I can not use pulp. So I can not delete the distribution. Which means I can not do the migration. And I can not use pulp. So I can not delete the distributions. And I can not run the migration...

@@ -1,4 +1,4 @@
-Title: Make stucked in a loop
+Title: Make stuck in a loop
 Category: Linux
 Tags: exherbo, planet-inuits
 Slug: make-in-a-loop

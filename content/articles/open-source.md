@@ -36,6 +36,6 @@ Why am I using Open-Source softwares?
 Why do I reject closed-source softwares?
 
 * I take care of my freedoms
-* I do not like big companies that tell me wich software/protocol to use
+* I do not like big companies that tell me which software/protocol to use
 * I like making choices
 * I love applications made by those who use them

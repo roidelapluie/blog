@@ -17,7 +17,7 @@ One of the reasons is that a desktop should be able to run server applications a
 
 On desktop A, a developer is running a lot of different virtual machines. To facilitate his work, he has deployed a small DNS server on it, so it is easy to work accross several projects. If the distributions were splitted, which one should he use?
 
-On a server, I want to run acceptance tests for a website. So I need a jenkins slave, Xvfb (headless X11 server) and a browser. Which distribution sould I use?
+On a server, I want to run acceptance tests for a website. So I need a jenkins slave, Xvfb (headless X11 server) and a browser. Which distribution should I use?
 
 There are many risks in splitting distributions into desktop/server roles:
 

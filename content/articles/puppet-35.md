@@ -4,7 +4,7 @@ Tags: centos,automation, planet-inuits, puppet
 Slug: puppet-350-yumrepo
 
 Dear puppet users using a yum-based distribution, if you use the Yumrepo resource type,
-don't upgrate to [puppet 3.5.0](http://docs.puppetlabs.com/puppet/3.5/reference/release_notes.html). That resource
+don't upgrade to [puppet 3.5.0](http://docs.puppetlabs.com/puppet/3.5/reference/release_notes.html). That resource
 type has been rewritten and the release has come with very annoying bugs.
 
 ### Bugs
