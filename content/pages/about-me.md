@@ -18,6 +18,10 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 ## Talks
 
+### 2015
+
+* January 30, [CentOS Dojo](http://wiki.centos.org/Events/Dojo/Brussels2015), Brussels, Belgium, something about pulp
+
 ### 2014
 
 * November 17, [Puppet Camp](http://puppetlabs.com/events/puppet-camp-london-1), London, UK, [Augeas, swiss knife resources for your puppet tree](http://www.slideshare.net/roidelapluie/augeas-swiss-knife-resources-for-your-puppet-tree) ([video](https://www.youtube.com/watch?v=Gghl1t1okW4))
