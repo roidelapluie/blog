@@ -1,6 +1,7 @@
 URL: exherbo
 save_as: exherbo/index.html
 Title: Exherbo
+Hide: true
 
 I am a fellow user of the Exherbo distribution. I own my own exheres repository, like many exherbo users.
 
