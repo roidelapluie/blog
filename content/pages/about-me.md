@@ -20,7 +20,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 ### 2015
 
-* March, [FLOSS UK - Spring 2015](http://www.flossuk.org/Events/Spring2015), York, UK something about puppet
+* March, [FLOSS UK](http://www.flossuk.org/Events/Spring2015), York, UK something about puppet
 * January 30, [CentOS Dojo](http://wiki.centos.org/Events/Dojo/Brussels2015), Brussels, Belgium, something about pulp
 
 ### 2014
