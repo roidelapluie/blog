@@ -21,7 +21,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 ### 2015
 
 * March, [FLOSS UK](http://www.flossuk.org/Events/Spring2015), York, UK, something about puppet
-* February 5, [Puppet Contributor Summit](http://puppetlabs.com/community/contributor-events), Ghent, Belgium, LT about puppet and corosync
+* February 5, [Puppet Contributor Summit](http://puppetlabs.com/community/contributor-events), Ghent, Belgium, [a call to give back puppetlabs-corosync to the community](http://www.slideshare.net/roidelapluie/a-call-to-give-back-puppetlabscorosync-to-the-community)
 * January 30, [CentOS Dojo](http://wiki.centos.org/Events/Dojo/Brussels2015), Brussels, Belgium, [An introduction to Pulp](http://www.slideshare.net/roidelapluie/an-introduction-to-the-pulp-project)
 
 ### 2014
