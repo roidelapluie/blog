@@ -21,8 +21,8 @@ He is a strong believer in the devops movement and has technical focus towards i
 ### 2015
 
 * April, [LOADays](http://loadays.org), Antwerp, Belgium, something about git
-* March, [FLOSS UK](http://www.flossuk.org/Events/Spring2015), York, UK, [Puppet and Software delivery](http://www.slideshare.net/roidelapluie/puppet-and-software-delivery)
-* March, [Belgian Puppet User Group meetup](http://www.meetup.com/Belgian-Puppet-User-Group/), Ghent, Belgium, [Puppet and Software delivery](http://www.slideshare.net/roidelapluie/deploy-your-application-with-puppet-code)
+* March 25, [FLOSS UK](http://www.flossuk.org/Events/Spring2015), York, UK, [Puppet and Software delivery](http://www.slideshare.net/roidelapluie/puppet-and-software-delivery)
+* March 17, [Belgian Puppet User Group meetup](http://www.meetup.com/Belgian-Puppet-User-Group/), Ghent, Belgium, [Puppet and Software delivery](http://www.slideshare.net/roidelapluie/deploy-your-application-with-puppet-code)
 * February 5, [Puppet Contributor Summit](http://puppetlabs.com/community/contributor-events), Ghent, Belgium, [a call to give back puppetlabs-corosync to the community](http://www.slideshare.net/roidelapluie/a-call-to-give-back-puppetlabscorosync-to-the-community)
 * January 30, [CentOS Dojo](http://wiki.centos.org/Events/Dojo/Brussels2015), Brussels, Belgium, [An introduction to Pulp](http://www.slideshare.net/roidelapluie/an-introduction-to-the-pulp-project) ([video](https://www.youtube.com/watch?v=IkhCvNXWMC4))
 
