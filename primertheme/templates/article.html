@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block head %}
+  {{ super() }}
+  {% for keyword in article.keywords %}
+    <meta name="keywords" contents="{{keyword}}" />
+  {% endfor %}
+
+  {% for description in article.description %}
+    <meta name="description" contents="{{description}}" />
+  {% endfor %}
+
+{% endblock %}
+
+{% block content %}
+<section id="content">
+<div class="ym-wrapper">
+<div class="ym-wbox">
+<h2><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
+    <section class="ym-grid linearize-level-1">
+        <article class="ym-g66 ym-gl content">
+            <div class="ym-gbox-left">
+
+    {{ article.content }}
+</div>
+</article>
+<aside class="ym-g33 ym-gr">
+            <div class="ym-gbox-left">
+                <h5>About</h5>
+    <p>This article titled "{{article.title}}" is part of my personal blog. The <a href="https://github.com/roidelapluie/blog">source code</a> is available on <a href="https://github.com">github</a>. If you find a mistake, a typographical error or any other nonsense, you can send me a <a href="https://github.com/roidelapluie/blog/compare">pull request</a>.</p>
+                {% include "article_infos.html"%}
+        <p>This is the revision <a href="changelog.html">{{article.commits|length}}</a> of this post. The <a href="source.html">source</a> is written in Markdown.
+    </div>
+    </aside>
+</section>
+</div>
+</div>
+</section>
+{% endblock %}

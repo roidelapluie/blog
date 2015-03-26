@@ -6,3 +6,4 @@ pelican.pid
 srv.pid
 draft
 uploads
+.sass-cache

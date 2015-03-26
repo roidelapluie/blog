@@ -1,0 +1,5 @@
+		<p>
+        Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>.<br />
+        {% if article.tags %}Tags: {% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | escape }}</a> {% endfor %}<br />{% endif %}
+        Date: {{ article.locale_date }}{% if article.locale_date != article.locale_update %}<br />Last update: {{ article.locale_update }}{%endif%}.
+		</p>

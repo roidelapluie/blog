@@ -1,3 +1,6 @@
 [submodule "roidelapluie/yaml"]
 	path = roidelapluie/yaml
 	url = https://github.com/yamlcss/yaml.git
+[submodule "primer"]
+	path = primer
+	url = https://github.com/primer/primer.git
