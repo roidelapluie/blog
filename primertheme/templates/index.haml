@@ -1,33 +1,26 @@
 {% extends "base.html" %}
 {% block content %}
-<div class='container'>
-  <div class='columns'>
-    <div class='column four-fifths'>
+.container
+  .columns
+    .column.four-fifths
       {% block content_title %}
-      <h2>All articles</h2>
+      %h2 All articles
       {% endblock %}
       {% for article in articles_page.object_list %}
       {%if not loop.first%}<hr />{%endif%}
-      <h2>
+      %h2
         <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-      </h2>
-      <div>
+      %div
         {{ article.content }}
-      </div>
       {% include "article_infos.html"%}
       {% endfor %}
-    </div>
-    <div class='column one-fifth'>
+    .column.one-fifth
       {% if (article and article.source_link == "source.html") or (articles_page)%}
-        <nav class='menu'>
-          <span class='menu-heading'>Categories</span>
+        %nav.menu
+          %span.menu-heading Categories
           {% for cat, null in categories %}
           <a class="menu-item{% if cat == category %} selected{% endif %}" href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a>
           {% endfor %}
-        </nav>
       {%endif%}
-    </div>
-  </div>
-</div>
 {% include 'pagination.html' %}
 {% endblock content %}

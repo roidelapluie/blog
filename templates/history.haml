@@ -1,13 +1,11 @@
 {% extends "base.html" %}
 {% block title %}{{ article.title|striptags }}{% endblock %}
 {% block content %}
-<div class='container'>
-  <h1>
+.container
+  %h1
     <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-  </h1>
-  <h4>
+  %h4
     Revision log
-  </h4>
   {% for commit in gitcommits %}
   <h4>Commit {{commit.hash}}</h4>
   <p>{{commit.date}}</p>
@@ -16,19 +14,13 @@
   <h6>{% if loop.first %}Original content:{%else%}Diff:{% endif %}</h6>
   {{commit.content}}
   {% endfor %}
-</div>
-<div class='prefooter'>
-  <div class='container'>
-    <h2>Revision log</h2>
-    <p>
+.prefooter
+  .container
+    %h2 Revision log
+    %p
       You are looking at the revision log of "<a href="{{SITEURL}}/{{article.save_as}}">{{article.title}}</a>".
-    </p>
-    <p>
+    %p
       Created on {{ article.locale_date }}{% if article.locale_date != article.locale_update %} and last updated on {{ article.locale_update }}{%endif%}.
-    </p>
-    <p>
+    %p
       <a class="ym-button ym-next" href="{{SITEURL}}/{{article.save_as}}">Back</a>
-    </p>
-  </div>
-</div>
 {% endblock %}

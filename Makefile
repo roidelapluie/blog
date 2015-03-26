@@ -43,6 +43,12 @@ help:
 
 html: clean $(OUTPUTDIR)/index.html
 
+css:
+	scss primer/roidelapluie/roidelapluie.scss > primertheme/static/primer.css
+
+haml:
+	./compilehaml.sh
+
 $(OUTPUTDIR)/%.html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 

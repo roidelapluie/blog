@@ -1,16 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
 {% set index=True %}
-<div class='container'>
-  <h2>Notes</h2>
-  <ul style='columns: 2; -webkit-columns: 2; -moz-columns: 2;'>
+.container
+  %h2 Notes
+  %ul{style: "columns: 2; -webkit-columns: 2; -moz-columns: 2;"}
     {% for page in PAGES %}
     {% if not page.hide %}
-    <li>
+    %li
       <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title|striptags }}</a>
-    </li>
     {% endif %}
     {% endfor %}
-  </ul>
-</div>
 {% endblock %}

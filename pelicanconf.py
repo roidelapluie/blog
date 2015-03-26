@@ -14,7 +14,7 @@ TIMEZONE = 'Europe/Paris'
 import sys
 sys.path.append('./')
 
-from plugins import git_dates, git_history, copyarticle, feed, gitdiff
+from plugins import git_dates, git_history, copyarticle, feed, gitdiff, colorize
 
 PLUGINS = [git_dates, git_history, copyarticle, feed, gitdiff]
 CACHE_CONTENT = False
@@ -29,7 +29,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
-JINJA_FILTERS = {'tojson': json.dumps}
+JINJA_FILTERS = {'tojson': json.dumps, 'colorize': colorize.colorize}
 
 FEED_RSS='rss.xml'
 FEED_ALL_ATOM='atom.xml'
@@ -63,7 +63,7 @@ USER_LOGO_URL = SITEURL + '/logo.png'
 
 #CSS_FILE='main-2107.css'
 
-THEME='./roidelapluie'
+THEME='./primertheme'
 PAGE_URL='wiki/{slug}.html'
 PAGE_SAVE_AS='wiki/{slug}.html'
 DIRECT_TEMPLATES = ('index', 'categories', 'archives')
