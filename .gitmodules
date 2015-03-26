@@ -3,4 +3,4 @@
 	url = https://github.com/yamlcss/yaml.git
 [submodule "primer"]
 	path = primer
-	url = https://github.com/primer/primer.git
+	url = git@github.com:roidelapluie/primer.git
