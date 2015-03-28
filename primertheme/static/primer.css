@@ -2341,17 +2341,10 @@ body {
       text-align: left; } }
 
 @media (max-width: 760px) {
-  .about-that .column {
+  .column {
     float: none;
     width: 100%;
     margin-bottom: 30px; } }
-.about-that p {
-  padding-right: .5rem;
-  color: #555;
-  line-height: 1.5; }
-.about-that h2 {
-  font-weight: normal; }
-
 @media (max-width: 34em) {
   .docs-layout > .column {
     float: none;
