@@ -1,3 +1,9 @@
+/*
+ * Primer
+ * http://primercss.io
+ *
+ * Released under MIT license. Copyright 2015 GitHub, Inc.
+ */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -500,10 +506,10 @@ pre {
   padding-left: 10px; }
 
 .one-third {
-  width: 33%; }
+  width: 33.333333%; }
 
 .two-thirds {
-  width: 67%; }
+  width: 66.666667%; }
 
 .one-fourth {
   width: 25%; }
@@ -1325,11 +1331,8 @@ p.explain {
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
-  background-color: #eeeeee;
-  background-image: -moz-linear-gradient(#fcfcfc, #eeeeee);
-  background-image: -webkit-linear-gradient(#fcfcfc, #eeeeee);
+  background-color: #eee;
   background-image: linear-gradient(#fcfcfc, #eeeeee);
-  background-repeat: repeat-x;
   border: 1px solid #d5d5d5;
   border-radius: 3px;
   user-select: none;
@@ -1340,6 +1343,9 @@ p.explain {
     opacity: 0.6; }
   .btn .octicon {
     vertical-align: text-top; }
+  .btn .counter {
+    text-shadow: none;
+    background-color: #e5e5e5; }
   .btn:focus {
     text-decoration: none;
     border-color: #51a7e8;
@@ -1347,11 +1353,8 @@ p.explain {
     box-shadow: 0 0 5px rgba(81, 167, 232, 0.5); }
   .btn:hover, .btn:active, .btn.zeroclipboard-is-hover, .btn.zeroclipboard-is-active {
     text-decoration: none;
-    background-color: #dddddd;
-    background-image: -moz-linear-gradient(#eeeeee, #dddddd);
-    background-image: -webkit-linear-gradient(#eeeeee, #dddddd);
+    background-color: #ddd;
     background-image: linear-gradient(#eeeeee, #dddddd);
-    background-repeat: repeat-x;
     border-color: #ccc; }
   .btn:active, .btn.selected, .btn.selected:hover, .btn.zeroclipboard-is-active {
     background-color: #dcdcdc;
@@ -1370,18 +1373,15 @@ p.explain {
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
   background-color: #60b044;
-  background-image: -moz-linear-gradient(#8add6d, #60b044);
-  background-image: -webkit-linear-gradient(#8add6d, #60b044);
   background-image: linear-gradient(#8add6d, #60b044);
-  background-repeat: repeat-x;
   border-color: #5ca941; }
+  .btn-primary .counter {
+    color: #60b044;
+    background-color: #fff; }
   .btn-primary:hover {
     color: #fff;
     background-color: #569e3d;
-    background-image: -moz-linear-gradient(#79d858, #569e3d);
-    background-image: -webkit-linear-gradient(#79d858, #569e3d);
     background-image: linear-gradient(#79d858, #569e3d);
-    background-repeat: repeat-x;
     border-color: #4a993e; }
   .btn-primary:active, .btn-primary.selected {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
@@ -1391,10 +1391,7 @@ p.explain {
   .btn-primary:disabled, .btn-primary:disabled:hover, .btn-primary.disabled, .btn-primary.disabled:hover {
     color: #fefefe;
     background-color: #add39f;
-    background-image: -moz-linear-gradient(#c3ecb4, #add39f);
-    background-image: -webkit-linear-gradient(#c3ecb4, #add39f);
     background-image: linear-gradient(#c3ecb4, #add39f);
-    background-repeat: repeat-x;
     border-color: #b9dcac #b9dcac #a7c89b; }
 
 .btn-danger {
@@ -1402,10 +1399,7 @@ p.explain {
   .btn-danger:hover {
     color: #fff;
     background-color: #b33630;
-    background-image: -moz-linear-gradient(#dc5f59, #b33630);
-    background-image: -webkit-linear-gradient(#dc5f59, #b33630);
     background-image: linear-gradient(#dc5f59, #b33630);
-    background-repeat: repeat-x;
     border-color: #cd504a; }
   .btn-danger:active, .btn-danger.selected {
     color: #fff;
@@ -1415,38 +1409,37 @@ p.explain {
   .btn-danger:disabled, .btn-danger:disabled:hover, .btn-danger.disabled, .btn-danger.disabled:hover {
     color: #cb7f7f;
     background-color: #efefef;
-    background-image: -moz-linear-gradient(#fefefe, #efefef);
-    background-image: -webkit-linear-gradient(#fefefe, #efefef);
     background-image: linear-gradient(#fefefe, #efefef);
-    background-repeat: repeat-x;
     border-color: #e1e1e1; }
+  .btn-danger:hover .counter, .btn-danger:active .counter, .btn-danger.selected .counter {
+    color: #b33630;
+    background-color: #fff; }
 
 .btn-outline {
   color: #4183c4;
   background-color: #fff;
   background-image: none;
   border: 1px solid #e5e5e5; }
+  .btn-outline .counter {
+    background-color: #eee; }
   .btn-outline:hover, .btn-outline:active, .btn-outline.selected, .btn-outline.selected:hover, .btn-outline.zeroclipboard-is-hover, .btn-outline.zeroclipboard-is-active {
     color: #fff;
     background-color: #4183c4;
     background-image: none;
     border-color: #4183c4; }
+    .btn-outline:hover .counter, .btn-outline:active .counter, .btn-outline.selected .counter, .btn-outline.selected:hover .counter, .btn-outline.zeroclipboard-is-hover .counter, .btn-outline.zeroclipboard-is-active .counter {
+      color: #4183c4;
+      background-color: #fff; }
   .btn-outline:disabled, .btn-outline:disabled:hover, .btn-outline.disabled, .btn-outline.disabled:hover {
     color: #777;
-    background-color: #f5f5f5;
+    background-color: #fff;
+    background-image: none;
     border-color: #e5e5e5; }
 
 .btn-with-count {
   float: left;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
-
-.btn > .octicon-arrow-right {
-  float: right;
-  margin-left: 5px; }
-
-.btn-sm > .octicon-arrow-right {
-  margin-top: 4px; }
 
 .btn-sm {
   padding: 2px 10px; }
@@ -1491,9 +1484,10 @@ p.explain {
   border-left: 0;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px; }
+  .social-count:hover, .social-count:active {
+    text-decoration: none; }
   .social-count:hover {
     color: #4183c4;
-    text-decoration: none;
     cursor: pointer; }
 
 .btn-block {
