@@ -16,6 +16,15 @@ Julien Pivotto is a young Open-Source consultant at [Inuits](https://inuits.eu) 
 
 He is a strong believer in the devops movement and has technical focus towards infrastructure automation, continuous integration, monitoring and high availability.
 
+<div style="text-align:center">
+<a href="https://twitter.com/roidelapluie" class="st-icon-twitter st-multi-color st-shape-r4"><span></span></a>
+<a href="https://github.com/roidelapluie" class="st-icon-github st-multi-color st-shape-r4"><span></span></a>
+<a href="https://slideshare.net/roidelapluie" class="st-icon-slideshare st-multi-color st-shape-r4"><span></span></a>
+<a href="https://be.linkedin.com/in/julienpivotto" class="st-icon-linkedin st-multi-color st-shape-r4"><span></span></a>
+<a href="https://roidelapluie.be/rss.xml" class="st-icon-rss st-multi-color st-shape-r4"><span></span></a>
+<a href="https://roidelapluie.be/gpg/" class="st-icon-email st-multi-color st-shape-r4"><span></span></a>
+</div>
+
 ## Talks
 
 ### 2015
@@ -53,15 +62,4 @@ He is a strong believer in the devops movement and has technical focus towards i
 * July 11, [RMLL](http://2012.rmll.info), Geneva, Switzerland, [PostgreSQL 9.0 HA](http://www.slideshare.net/roidelapluie/postgresql-90-ha-at-rmll-2012)
 * April 1, [LOADays](http://loadays.org), Antwerp, Belgium, [PostgreSQL 9.0 HA](http://www.slideshare.net/roidelapluie/postgresql-90-ha)
 
-
-## Contact & online presence
-
-<ul>
-<li><a href="https://roidelapluie.be/gpg">GPG key</a></li>
-<li><a href="https://keybase.io/roidelapluie">Keybase.io</a></li>
-<li><a href="https://twitter.com/roidelapluie">Twitter</a></li>
-<li><a href="https://github.com/roidelapluie">Github</a></li>
-<li><a href="https://slideshare.net/roidelapluie">Slideshare</a></li>
-<li><a href="https://be.linkedin.com/in/julienpivotto">Linkedin</a></li>
-</ul>
 

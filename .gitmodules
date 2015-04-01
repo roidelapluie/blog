@@ -4,3 +4,9 @@
 [submodule "primer"]
 	path = primer
 	url = git@github.com:roidelapluie/primer.git
+[submodule "font-awesome"]
+	path = font-awesome
+	url = https://github.com/FortAwesome/Font-Awesome.git
+[submodule "stackicons"]
+	path = stackicons
+	url = https://github.com/parkerbennett/stackicons.git
