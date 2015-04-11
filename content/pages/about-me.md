@@ -29,7 +29,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 ### 2015
 
-* April, [LOADays](http://loadays.org), Antwerp, Belgium, something about git
+* April 11, [LOADays](http://loadays.org), Antwerp, Belgium, [Coworking with git](http://www.slideshare.net/roidelapluie/coworking-with-git)
 * March 25, [FLOSS UK](http://www.flossuk.org/Events/Spring2015), York, UK, [Puppet and Software delivery](http://www.slideshare.net/roidelapluie/puppet-and-software-delivery)
 * March 17, [Belgian Puppet User Group meetup](http://www.meetup.com/Belgian-Puppet-User-Group/), Ghent, Belgium, [Puppet and Software delivery](http://www.slideshare.net/roidelapluie/deploy-your-application-with-puppet-code)
 * February 5, [Puppet Contributor Summit](http://puppetlabs.com/community/contributor-events), Ghent, Belgium, [a call to give back puppetlabs-corosync to the community](http://www.slideshare.net/roidelapluie/a-call-to-give-back-puppetlabscorosync-to-the-community)
