@@ -2250,6 +2250,10 @@ body {
 .markdown-body {
   overflow: visible; }
 
+.masthead a,
+h2 a, h1 a, h3 a, .menu a {
+  text-decoration: none; }
+
 .article-footer {
   font-size: 12px;
   background-color: #f0f0f0;
