@@ -44,7 +44,7 @@ help:
 html: clean $(OUTPUTDIR)/index.html
 
 css:
-	scss primer/roidelapluie/roidelapluie.scss > primertheme/static/primer.css
+	scss primer/roidelapluie/roidelapluie.scss > primertheme/static/css/primer.css
 
 haml:
 	./compilehaml.sh
