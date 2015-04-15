@@ -18,8 +18,8 @@ Let me explain: it is due to an old feature that was not enabled.
 
 Two years ago (exactly), XtraBackup got a feature called [bitmap-based incremental backups](https://github.com/percona/percona-xtrabackup/commit/a37c7cbca557e94bb5f5ffe4ae02378dcf98daf7). But that feature was (at least partly) not working, as that feature was always disabled. It was fixed [recently](https://github.com/percona/percona-xtrabackup/commit/a39237dd1a4de653e205e63b81ae5c4c5659116d).
 
-The fix enables that features in MariaDB 10.0. When an incremental backup is done,
-MariaDB issues the following command:
+The fix enables that feature in MariaDB 10.0. When an incremental backup is done,
+XtraBackup issues the following command:
 
     ::mysql
     FLUSH NO_WRITE_TO_BINLOG CHANGED_PAGE_BITMAPS
