@@ -8,7 +8,7 @@ probably the most relevant open-source backup solution for both
 [MySQL](http://www.mysql.com/) and [MariaDB](https://mariadb.org/). It has all
 the required features that you need to backup your database, especially if you use innodb (or xtradb).
 
-One of the features are Incremental backups. It is a fast way to get
+One of the features are Incremental backups. It is an easy way to get
 a consistent backup of your databases in a short amount of time.
 
 But the latest version of XtraBackup
