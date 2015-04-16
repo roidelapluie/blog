@@ -35,26 +35,34 @@ and [another one for MariaDB](https://mariadb.atlassian.net/browse/MDEV-7472).
 It will probably not be fixed in MariaDB (at least not in a close future), but
 we can reasonably expect that XtraBackup 2.2.11 will contain a fix for this.
 
-For the moment you can still this patch I wrote to get back to the old behaviour
-(ignoring the changed page bitmaps support):
+### Command-line workaround
 
-    ::diff
-    --- a/bin/innobackupex  2015-04-15 18:07:06.472692735 +0200
-    +++ b/bin/innobackupex  2015-04-15 18:07:52.092927798 +0200
-    @@ -4981,10 +4981,7 @@
-         my $con = shift;
+The recommended workaround for MariaDB is to use the `--incremental-force-scan` option
+as [pointed out by Sergei Glushchenko](https://bugs.launchpad.net/percona-xtrabackup/+bug/1444541/comments/5).
 
-         if ($option_incremental) {
-    -        $have_changed_page_bitmaps =
-    -            mysql_get_one_value($con, "SELECT COUNT(*) FROM " .
-    -                        "INFORMATION_SCHEMA.PLUGINS " .
-    -                        "WHERE PLUGIN_NAME LIKE 'INNODB_CHANGED_PAGES'");
-    +        $have_changed_page_bitmaps = 0;
-         }
+### Patch for backward compatibility
 
-         if (!defined($con->{vars})) {
+The following patch allows you to break the feature detection to have backward
+command-line compatibility:
 
-After that you should be able to enjoy XtraBackup again and have the improvements
-of the latest release, waiting for a real patch to arrive ASAP. Please note that
-this patch is for the pre-compiled version of XtraBackup. In the source tree, the file
-to patch is `storage/innobase/xtrabackup/innobackupex.pl`.
+     ::diff
+     --- a/bin/innobackupex  2015-04-15 18:07:06.472692735 +0200
+     +++ b/bin/innobackupex  2015-04-15 18:07:52.092927798 +0200
+     @@ -4981,10 +4981,7 @@
+          my $con = shift;
+
+          if ($option_incremental) {
+     -        $have_changed_page_bitmaps =
+     -            mysql_get_one_value($con, "SELECT COUNT(*) FROM " .
+     -                        "INFORMATION_SCHEMA.PLUGINS " .
+     -                        "WHERE PLUGIN_NAME LIKE 'INNODB_CHANGED_PAGES'");
+     +        $have_changed_page_bitmaps = 0;
+          }
+
+          if (!defined($con->{vars})) {
+
+Please note that this patch is for the pre-compiled version of XtraBackup. In
+the source tree, the file to patch is `storage/innobase/xtrabackup/innobackupex.pl`.
+
+You should now be able to enjoy all the new changes of the latest version of
+XtraBackup with MariaDB 10.0!
