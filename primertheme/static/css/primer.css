@@ -4,11 +4,11 @@
  *
  * Released under MIT license. Copyright 2015 GitHub, Inc.
  */
-/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
  */
 html {
   font-family: sans-serif;
@@ -28,7 +28,8 @@ body {
    ========================================================================== */
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
 article,
@@ -40,6 +41,7 @@ footer,
 header,
 hgroup,
 main,
+menu,
 nav,
 section,
 summary {
@@ -68,7 +70,7 @@ audio:not([controls]) {
 
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
 [hidden],
 template {
@@ -80,10 +82,11 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background: transparent; }
+  background-color: transparent; }
 
 /**
- * Improve readability when focused and also mouse hovered in all browsers.
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
  */
 a:active,
 a:hover {
@@ -173,7 +176,6 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -296,16 +298,13 @@ input[type="number"]::-webkit-outer-spin-button {
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
- *    (include `-moz` to future-proof).
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
  */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  /* 2 */
-  box-sizing: content-box; }
+  box-sizing: content-box;
+  /* 2 */ }
 
 /**
  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
@@ -569,7 +568,6 @@ textarea {
   .form-control.focus, .form-control:focus,
   input[type="text"].focus,
   input[type="text"]:focus,
-  .focused .drag-and-drop,
   input[type="password"].focus,
   input[type="password"]:focus,
   input[type="email"].focus,
@@ -637,7 +635,7 @@ dl.form {
   dl.form input[type="url"],
   dl.form textarea {
     background-color: #fafafa; }
-    dl.form input[type="text"]:focus, dl.form .focused .drag-and-drop, .focused dl.form .drag-and-drop,
+    dl.form input[type="text"]:focus,
     dl.form input[type="password"]:focus,
     dl.form input[type="email"]:focus,
     dl.form input[type="url"]:focus,
@@ -801,158 +799,6 @@ dl.form .form-note {
   .hfields select {
     margin-top: 5px; }
 
-html.no-dnd-uploads .drag-and-drop {
-  min-height: 32px; }
-  html.no-dnd-uploads .drag-and-drop .default {
-    display: none; }
-html.no-dnd-uploads .upload-enabled textarea {
-  border-bottom: 1px solid #ddd; }
-
-.drag-and-drop {
-  padding: 7px 10px;
-  margin: 0;
-  font-size: 13px;
-  line-height: 16px;
-  color: #aaa;
-  background-color: #fafafa;
-  border: 1px solid #ccc;
-  border-top: 0;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px; }
-  .drag-and-drop .default,
-  .drag-and-drop .loading,
-  .drag-and-drop .error {
-    display: none; }
-  .drag-and-drop .error {
-    color: #bd2c00; }
-  .drag-and-drop img {
-    vertical-align: top; }
-
-.is-default .drag-and-drop .default {
-  display: inline-block; }
-
-.is-uploading .drag-and-drop .loading {
-  display: inline-block; }
-
-.is-bad-file .drag-and-drop .bad-file {
-  display: inline-block; }
-
-.is-too-big .drag-and-drop .too-big {
-  display: inline-block; }
-
-.is-empty .drag-and-drop .empty {
-  display: inline-block; }
-
-.is-bad-browser .drag-and-drop .bad-browser {
-  display: inline-block; }
-
-.drag-and-drop-error-info {
-  font-weight: normal;
-  color: #aaa; }
-  .drag-and-drop-error-info a {
-    color: #4183c4; }
-
-.is-failed .drag-and-drop .failed-request {
-  display: inline-block; }
-
-.manual-file-chooser {
-  position: absolute;
-  width: 240px;
-  padding: 5px;
-  margin-left: -80px;
-  cursor: pointer;
-  opacity: 0.0001; }
-
-.manual-file-chooser:hover + .manual-file-chooser-text {
-  text-decoration: underline; }
-
-.btn .manual-file-chooser {
-  top: 0;
-  padding: 0;
-  line-height: 34px; }
-
-.upload-enabled textarea {
-  display: block;
-  border-bottom: 1px dashed #ddd;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0; }
-
-.focused .drag-and-drop {
-  box-shadow: rgba(81, 167, 232, 0.5) 0 0 3px; }
-
-.dragover textarea,
-.dragover .drag-and-drop {
-  box-shadow: #c9ff00 0 0 3px; }
-
-.previewable-comment-form {
-  position: relative; }
-  .previewable-comment-form .tabnav {
-    position: relative;
-    padding: 10px 10px 0; }
-  .previewable-comment-form .comment {
-    border: 1px solid #cacaca; }
-  .previewable-comment-form .comment-header .comment-header-actions {
-    display: none; }
-  .previewable-comment-form .comment-form-error {
-    margin-bottom: 10px; }
-  .previewable-comment-form .write-content,
-  .previewable-comment-form .preview-content {
-    display: none;
-    padding: 0 10px 10px; }
-  .previewable-comment-form.write-selected .write-content, .previewable-comment-form.preview-selected .preview-content {
-    display: block; }
-  .previewable-comment-form textarea {
-    display: block;
-    width: 100%;
-    min-height: 100px;
-    max-height: 500px;
-    padding: 10px;
-    resize: vertical; }
-    .previewable-comment-form textarea.fullscreen-contents:focus {
-      border: 0;
-      box-shadow: none; }
-
-div.composer {
-  margin-top: 0;
-  border: 0; }
-
-.composer .comment-form-textarea {
-  height: 200px;
-  min-height: 200px; }
-
-.composer-infobar {
-  height: 35px;
-  padding: 0 10px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #eee; }
-
-.composer .tabnav {
-  margin: 0 0 10px; }
-
-.infobar-widget.milestone {
-  position: relative;
-  float: right; }
-  .infobar-widget.milestone .select-menu-modal-holder {
-    right: 0; }
-.infobar-widget.assignee {
-  float: left; }
-  .infobar-widget.assignee .css-truncate-target {
-    max-width: 110px; }
-.infobar-widget .text,
-.infobar-widget .avatar,
-.infobar-widget .select-menu {
-  display: inline-block;
-  vertical-align: top; }
-.infobar-widget .text {
-  margin-top: 3px; }
-  .infobar-widget .text a {
-    font-weight: bold;
-    color: #333; }
-.infobar-widget .progress-bar {
-  width: 200px;
-  overflow: hidden;
-  line-height: 18px; }
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   margin: 0;
@@ -993,30 +839,6 @@ input::-webkit-inner-spin-button {
 
 .input-group-button:last-child .btn {
   margin-left: -1px; }
-
-h2.account {
-  margin: 15px 0 0;
-  font-size: 18px;
-  font-weight: normal;
-  color: #666; }
-
-p.explain {
-  position: relative;
-  font-size: 12px;
-  color: #666; }
-  p.explain strong {
-    color: #333; }
-  p.explain .octicon {
-    margin-right: 5px;
-    color: #bbb; }
-  p.explain .minibutton {
-    top: -4px;
-    float: right; }
-
-.options-content p.explain {
-  padding: 10px 10px 0;
-  margin-top: 0;
-  border-top: 1px solid #ddd; }
 
 .form-actions:before {
   display: table;
@@ -1074,6 +896,12 @@ p.explain {
 
 .left {
   float: left; }
+
+.centered {
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto; }
 
 .text-right {
   text-align: right; }
@@ -1294,22 +1122,6 @@ p.explain {
   .blankslate .context-loader.large-format-loader {
     padding-top: 50px; }
 
-.spinner-forking {
-  display: block;
-  margin: 20px auto 40px; }
-
-.forking-repo {
-  margin: 40px 0;
-  text-align: center; }
-  .forking-repo h3 {
-    margin-bottom: 10px;
-    font-size: 28px;
-    font-weight: 300; }
-  .forking-repo h4 {
-    margin: 0 0 30px;
-    font-size: 16px;
-    font-weight: 300; }
-
 .counter {
   display: inline-block;
   padding: 2px 5px;
@@ -1351,16 +1163,20 @@ p.explain {
     border-color: #51a7e8;
     outline: none;
     box-shadow: 0 0 5px rgba(81, 167, 232, 0.5); }
+  .btn:focus:hover, .btn.selected:focus {
+    border-color: #51a7e8; }
   .btn:hover, .btn:active, .btn.zeroclipboard-is-hover, .btn.zeroclipboard-is-active {
     text-decoration: none;
     background-color: #ddd;
     background-image: linear-gradient(#eeeeee, #dddddd);
     border-color: #ccc; }
-  .btn:active, .btn.selected, .btn.selected:hover, .btn.zeroclipboard-is-active {
+  .btn:active, .btn.selected, .btn.zeroclipboard-is-active {
     background-color: #dcdcdc;
     background-image: none;
     border-color: #b5b5b5;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15); }
+  .btn.selected:hover {
+    background-color: #cfcfcf; }
   .btn:disabled, .btn:disabled:hover, .btn.disabled, .btn.disabled:hover {
     color: rgba(102, 102, 102, 0.5);
     cursor: default;
@@ -1388,6 +1204,8 @@ p.explain {
     background-color: #569e3d;
     background-image: none;
     border-color: #418737; }
+  .btn-primary.selected:hover {
+    background-color: #4c8b36; }
   .btn-primary:disabled, .btn-primary:disabled:hover, .btn-primary.disabled, .btn-primary.disabled:hover {
     color: #fefefe;
     background-color: #add39f;
@@ -1406,6 +1224,8 @@ p.explain {
     background-color: #b33630;
     background-image: none;
     border-color: #9f312c; }
+  .btn-danger.selected:hover {
+    background-color: #9f302b; }
   .btn-danger:disabled, .btn-danger:disabled:hover, .btn-danger.disabled, .btn-danger.disabled:hover {
     color: #cb7f7f;
     background-color: #efefef;
@@ -1422,14 +1242,16 @@ p.explain {
   border: 1px solid #e5e5e5; }
   .btn-outline .counter {
     background-color: #eee; }
-  .btn-outline:hover, .btn-outline:active, .btn-outline.selected, .btn-outline.selected:hover, .btn-outline.zeroclipboard-is-hover, .btn-outline.zeroclipboard-is-active {
+  .btn-outline:hover, .btn-outline:active, .btn-outline.selected, .btn-outline.zeroclipboard-is-hover, .btn-outline.zeroclipboard-is-active {
     color: #fff;
     background-color: #4183c4;
     background-image: none;
     border-color: #4183c4; }
-    .btn-outline:hover .counter, .btn-outline:active .counter, .btn-outline.selected .counter, .btn-outline.selected:hover .counter, .btn-outline.zeroclipboard-is-hover .counter, .btn-outline.zeroclipboard-is-active .counter {
+    .btn-outline:hover .counter, .btn-outline:active .counter, .btn-outline.selected .counter, .btn-outline.zeroclipboard-is-hover .counter, .btn-outline.zeroclipboard-is-active .counter {
       color: #4183c4;
       background-color: #fff; }
+  .btn-outline.selected:hover {
+    background-color: #3876b4; }
   .btn-outline:disabled, .btn-outline:disabled:hover, .btn-outline.disabled, .btn-outline.disabled:hover {
     color: #777;
     background-color: #fff;
@@ -1516,15 +1338,14 @@ p.explain {
     .btn-group .btn:last-child {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0; }
-    .btn-group .btn:hover, .btn-group .btn:focus, .btn-group .btn:active, .btn-group .btn.selected {
+    .btn-group .btn:hover, .btn-group .btn:active, .btn-group .btn.selected {
       z-index: 2; }
+    .btn-group .btn:focus {
+      z-index: 3; }
   .btn-group .btn + .btn {
-    margin-left: -1px;
-    box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.2); }
-    .btn-group .btn + .btn:hover {
-      box-shadow: none; }
-    .btn-group .btn + .btn:active, .btn-group .btn + .btn.selected {
-      box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.15); }
+    margin-left: -1px; }
+  .btn-group .btn + .button_to,
+  .btn-group .button_to + .btn,
   .btn-group .button_to + .button_to {
     margin-left: -1px; }
   .btn-group .button_to {
