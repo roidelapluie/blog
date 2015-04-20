@@ -1,6 +1,6 @@
 Title: The LibreOffice Calc 1024 columns bug
 Category: Open-Source
-Tags: libreoffice, office
+Tags: libreoffice, office, planet-inuits
 Slug: libreoffice-calc-1024-columns
 
 Sometimes it is sad to see some quite important bugs that last in time.
@@ -13,7 +13,7 @@ That bug was already [opened in 2008](https://bz.apache.org/ooo/show_bug.cgi?id=
 It is really a blocker bug for people that receive spreadsheets that have a lof of columns. For example I have
 seen a spreadsheet with one column per day. After 3 years it could not be opened by libreoffice (>1024 columns).
 
-A short fix is to change the maximum number of columns but this would increase memory consumption for every opened spreadsheet. Plus it is not trivial for anyone to recompile libreoffice. Here is how you update to 2048:
+A short fix is to change the maximum number of columns but this would increase memory consumption for every opened spreadsheet. And it is not trivial for everyone to [recompile libreoffice](https://wiki.documentfoundation.org/Development/BuildingOnLinux). Here is how you update to 2048:
 
     ::patch
     diff --git a/sc/inc/address.hxx b/sc/inc/address.hxx
