@@ -6,7 +6,7 @@ Slug: libreoffice-calc-1024-columns
 Sometimes it is sad to see some quite important bugs that last in time.
 
 One of the last one I hit is a limitation in LibreOffice Calc. It does not support
-[calc spreadsheet with more that 2014 columns](https://bugs.documentfoundation.org/show_bug.cgi?id=50916).
+[calc spreadsheet with more that 1024 columns](https://bugs.documentfoundation.org/show_bug.cgi?id=50916).
 
 That bug was already [opened in 2008](https://bz.apache.org/ooo/show_bug.cgi?id=86049) in OpenOffice.
 
