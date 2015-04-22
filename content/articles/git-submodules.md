@@ -1,4 +1,4 @@
-Title: Git submodules status
+Title: Git status and submodules
 Category: Linux
 Tags: git, planet-inuits
 Slug: git-status-submodules
