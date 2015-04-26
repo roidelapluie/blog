@@ -6,8 +6,8 @@ import json
 AUTHOR = u'Julien Pivotto'
 SITENAME = u'roidelapluie'
 SITEURL = u'file:///home/roidelapluie/blog/blog/output/'
-EXHERBO_SITEURL = u'http://exherbo.roidelapluie.be'
-TAGLINE="Julien Pivotto is a passionate Linux Systems Administrator, currently working at <a href=\"http://www.inuits.eu/\">Inuits</a>."
+EXHERBO_SITEURL = u'https://roidelapluie.be/exherbo'
+TAGLINE="Julien Pivotto is a passionate Linux Systems Administrator, currently working at <a href=\"https://www.inuits.eu/\">Inuits</a>."
 
 TIMEZONE = 'Europe/Paris'
 
@@ -18,7 +18,7 @@ from plugins import git_dates, git_history, copyarticle, feed, gitdiff, colorize
 
 PLUGINS = [git_dates, git_history, copyarticle, feed, gitdiff]
 CACHE_CONTENT = False
-LICENSE='Written by <a href="http://roidelapluie.be/">Julien Pivotto</a>. Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US">Creative Commons Attribution 4.0 International License</a>.'
+LICENSE='Written by <a href="https://roidelapluie.be/">Julien Pivotto</a>. Licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.en_US">Creative Commons Attribution 4.0 International License</a>.'
 
 
 DEFAULT_LANG = u'en'
@@ -100,4 +100,4 @@ MD_EXTENSIONS = ['codehilite','extra']
 EXTRA_TEMPLATES_PATHS=['templates']
 
 
-TOP_TEXT='<strong>Happy New Year!</strong> Best wishes for 2015!'
+#TOP_TEXT='<strong>Happy New Year!</strong> Best wishes for 2015!'
