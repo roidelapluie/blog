@@ -370,7 +370,7 @@ button {
 
 body {
   font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #333333;
+  color: #333;
   background-color: #fff; }
 
 a {
@@ -469,7 +469,7 @@ dd {
 tt,
 code {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 12px; }
+  font-size: 1em; }
 
 pre {
   margin-top: 0;
@@ -1144,7 +1144,7 @@ input::-webkit-inner-spin-button {
   vertical-align: middle;
   cursor: pointer;
   background-color: #eee;
-  background-image: linear-gradient(#fcfcfc, #eeeeee);
+  background-image: linear-gradient(#fcfcfc, #eee);
   border: 1px solid #d5d5d5;
   border-radius: 3px;
   user-select: none;
@@ -1168,7 +1168,7 @@ input::-webkit-inner-spin-button {
   .btn:hover, .btn:active, .btn.zeroclipboard-is-hover, .btn.zeroclipboard-is-active {
     text-decoration: none;
     background-color: #ddd;
-    background-image: linear-gradient(#eeeeee, #dddddd);
+    background-image: linear-gradient(#eee, #ddd);
     border-color: #ccc; }
   .btn:active, .btn.selected, .btn.zeroclipboard-is-active {
     background-color: #dcdcdc;
@@ -1299,7 +1299,7 @@ input::-webkit-inner-spin-button {
   font-size: 11px;
   font-weight: bold;
   line-height: 20px;
-  color: #333333;
+  color: #333;
   vertical-align: middle;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -1423,7 +1423,7 @@ input::-webkit-inner-spin-button {
   .menu-item .octicon {
     margin-right: 5px;
     width: 16px;
-    color: #333333;
+    color: #333;
     text-align: center; }
   .menu-item .counter {
     float: right;
@@ -1581,7 +1581,7 @@ a.tabnav-extra:hover {
   display: none;
   padding: 5px 8px;
   font: normal normal 11px/1.5 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  color: white;
+  color: #fff;
   text-align: center;
   text-decoration: none;
   text-shadow: none;
@@ -1708,7 +1708,7 @@ a.tabnav-extra:hover {
 .tooltipped-multiline.tooltipped-w:after, .tooltipped-multiline.tooltipped-e:after {
   right: 100%; }
 
-@media screen and (min-width: 0 \0) {
+@media screen and (min-width: 0\0) {
   .tooltipped-multiline:after {
     width: 250px; } }
 .tooltipped-sticky:before, .tooltipped-sticky:after {
@@ -1717,7 +1717,7 @@ a.tabnav-extra:hover {
   display: table-cell; }
 
 .fullscreen-overlay-enabled.dark-theme .tooltipped:after {
-  color: black;
+  color: #000;
   background: rgba(255, 255, 255, 0.8); }
 .fullscreen-overlay-enabled.dark-theme .tooltipped .tooltipped-s:before,
 .fullscreen-overlay-enabled.dark-theme .tooltipped .tooltipped-se:before,
@@ -1761,7 +1761,6 @@ a.tabnav-extra:hover {
   src: url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg6v8yoAAAC8AAAAYGNtYXDL8RqdAAABHAAAADxnYXNwAAAAEAAAAVgAAAAIZ2x5Zkm2oNUAAAFgAAABWGhlYWQAHd4cAAACuAAAADZoaGVhB3sECwAAAvAAAAAkaG10eAYAAEcAAAMUAAAADGxvY2EACgCsAAADIAAAAAhtYXhwAAYAcAAAAygAAAAgbmFtZUQXtNYAAANIAAABOXBvc3QAAwAAAAAEhAAAACAAAwQAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACDmAAPA/8D/wAPAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACACDmAP//AAAAIOYA////4RoCAAEAAAAAAAAAAQAB//8ADwABAAAAAAAAAAAAAgAANzkBAAAAAAIARwAHA7kDeQA2AG0AAAEnLgEiBg8BDgEUFh8BHgMXNy4DLwEuATQ2PwE+ATIWHwEeARQGDwEeAxU3PgE0JicBLgMnBx4DHwEeARQGDwEOASImLwEuATQ2PwEuAzUHDgEUFh8BHgEyNj8BPgE0Ji8BA7kEI1ldWiPaIyQkIwQDBgYGBFAEBwYHAwQTExMT2xMwMjETBBMTExNjBwkGA5gkIyMk/r4DBgYGBFAEBwYHAwQTExMT2xMwMjETBBMTExNjBwkGA5gkIyMkBCNZXVoj2iMkJCMEA3UEJCMjJNojWV1aIwQDBgUFA1ACBQUFAwQUMDIxE9oTExMTBBMxMjATYxAhISIRmSNaXVkj/sYDBgUFA1ACBQUFAwQUMDIxE9oTExMTBBMxMjATYxAhISIRmSNaXVkjBCQjIyTaI1ldWiMEAAEAAAABAABR/4xQXw889QALBAAAAAAAzqNM0wAAAADOo0zTAAAAAAO5A3kAAAAIAAIAAAAAAAAAAQAAA8D/wAAABAAAAABHA7kAAQAAAAAAAAAAAAAAAAAAAAMAAAAAAgAAAAQAAEcAAAAAAAoArAABAAAAAwBuAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEADgAAAAEAAAAAAAIADgBHAAEAAAAAAAMADgAkAAEAAAAAAAQADgBVAAEAAAAAAAUAFgAOAAEAAAAAAAYABwAyAAEAAAAAAAoAKABjAAMAAQQJAAEADgAAAAMAAQQJAAIADgBHAAMAAQQJAAMADgAkAAMAAQQJAAQADgBVAAMAAQQJAAUAFgAOAAMAAQQJAAYADgA5AAMAAQQJAAoAKABjAGkAYwBvAG0AbwBvAG4AVgBlAHIAcwBpAG8AbgAgADAALgAwAGkAYwBvAG0AbwBvAG5pY29tb29uAGkAYwBvAG0AbwBvAG4AUgBlAGcAdQBsAGEAcgBpAGMAbwBtAG8AbwBuAEcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format("truetype"), url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAATwAAsAAAAABKQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDq/zKmNtYXAAAAFoAAAAPAAAADzL8RqdZ2FzcAAAAaQAAAAIAAAACAAAABBnbHlmAAABrAAAAVgAAAFYSbag1WhlYWQAAAMEAAAANgAAADYAHd4caGhlYQAAAzwAAAAkAAAAJAd7BAtobXR4AAADYAAAAAwAAAAMBgAAR2xvY2EAAANsAAAACAAAAAgACgCsbWF4cAAAA3QAAAAgAAAAIAAGAHBuYW1lAAADlAAAATkAAAE5RBe01nBvc3QAAATQAAAAIAAAACAAAwAAAAMEAAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAg5gADwP/A/8ADwABAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAMAAAAUAAMAAQAAABQABAAoAAAABgAEAAEAAgAg5gD//wAAACDmAP///+EaAgABAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAACAEcABwO5A3kANgBtAAABJy4BIgYPAQ4BFBYfAR4DFzcuAy8BLgE0Nj8BPgEyFh8BHgEUBg8BHgMVNz4BNCYnAS4DJwceAx8BHgEUBg8BDgEiJi8BLgE0Nj8BLgM1Bw4BFBYfAR4BMjY/AT4BNCYvAQO5BCNZXVoj2iMkJCMEAwYGBgRQBAcGBwMEExMTE9sTMDIxEwQTExMTYwcJBgOYJCMjJP6+AwYGBgRQBAcGBwMEExMTE9sTMDIxEwQTExMTYwcJBgOYJCMjJAQjWV1aI9ojJCQjBAN1BCQjIyTaI1ldWiMEAwYFBQNQAgUFBQMEFDAyMRPaExMTEwQTMTIwE2MQISEiEZkjWl1ZI/7GAwYFBQNQAgUFBQMEFDAyMRPaExMTEwQTMTIwE2MQISEiEZkjWl1ZIwQkIyMk2iNZXVojBAABAAAAAQAAUf+MUF8PPPUACwQAAAAAAM6jTNMAAAAAzqNM0wAAAAADuQN5AAAACAACAAAAAAAAAAEAAAPA/8AAAAQAAAAARwO5AAEAAAAAAAAAAAAAAAAAAAADAAAAAAIAAAAEAABHAAAAAAAKAKwAAQAAAAMAbgACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA4ArgABAAAAAAABAA4AAAABAAAAAAACAA4ARwABAAAAAAADAA4AJAABAAAAAAAEAA4AVQABAAAAAAAFABYADgABAAAAAAAGAAcAMgABAAAAAAAKACgAYwADAAEECQABAA4AAAADAAEECQACAA4ARwADAAEECQADAA4AJAADAAEECQAEAA4AVQADAAEECQAFABYADgADAAEECQAGAA4AOQADAAEECQAKACgAYwBpAGMAbwBtAG8AbwBuAFYAZQByAHMAaQBvAG4AIAAwAC4AMABpAGMAbwBtAG8AbwBuaWNvbW9vbgBpAGMAbwBtAG8AbwBuAFIAZQBnAHUAbABhAHIAaQBjAG8AbQBvAG8AbgBHAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4AAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format("woff");
   font-weight: normal;
   font-style: normal; }
-
 .icon-link {
   font-family: 'anchorjs-link';
   speak: none;
@@ -1814,7 +1813,7 @@ a.tabnav-extra:hover {
 /* Comment */
 .highlight .err {
   color: #a00;
-  background-color: #ffaaaa; }
+  background-color: #faa; }
 
 /* Error */
 .highlight .k {
@@ -1822,7 +1821,7 @@ a.tabnav-extra:hover {
 
 /* Keyword */
 .highlight .o {
-  color: #555555; }
+  color: #555; }
 
 /* Operator */
 .highlight .cm {
@@ -1831,7 +1830,7 @@ a.tabnav-extra:hover {
 
 /* Comment.Multiline */
 .highlight .cp {
-  color: #009999; }
+  color: #099; }
 
 /* Comment.Preproc */
 .highlight .c1 {
@@ -1844,7 +1843,7 @@ a.tabnav-extra:hover {
 /* Comment.Special */
 .highlight .gd {
   background-color: #fcc;
-  border: 1px solid #cc0000; }
+  border: 1px solid #c00; }
 
 /* Generic.Deleted */
 .highlight .ge {
@@ -1852,7 +1851,7 @@ a.tabnav-extra:hover {
 
 /* Generic.Emph */
 .highlight .gr {
-  color: red; }
+  color: #f00; }
 
 /* Generic.Error */
 .highlight .gh {
@@ -1861,11 +1860,11 @@ a.tabnav-extra:hover {
 /* Generic.Heading */
 .highlight .gi {
   background-color: #cfc;
-  border: 1px solid #00cc00; }
+  border: 1px solid #0c0; }
 
 /* Generic.Inserted */
 .highlight .go {
-  color: #aaaaaa; }
+  color: #aaa; }
 
 /* Generic.Output */
 .highlight .gp {
@@ -1878,7 +1877,7 @@ a.tabnav-extra:hover {
 
 /* Generic.Subheading */
 .highlight .gt {
-  color: #99cc66; }
+  color: #9c6; }
 
 /* Generic.Traceback */
 .highlight .kc {
@@ -1894,7 +1893,7 @@ a.tabnav-extra:hover {
 
 /* Keyword.Namespace */
 .highlight .kp {
-  color: #006699; }
+  color: #069; }
 
 /* Keyword.Pseudo */
 .highlight .kr {
@@ -1906,7 +1905,7 @@ a.tabnav-extra:hover {
 
 /* Keyword.Type */
 .highlight .m {
-  color: #ff6600; }
+  color: #f60; }
 
 /* Literal.Number */
 .highlight .s {
@@ -1918,7 +1917,7 @@ a.tabnav-extra:hover {
 
 /* Name.Attribute */
 .highlight .nb {
-  color: #336666; }
+  color: #366; }
 
 /* Name.Builtin */
 .highlight .nc {
@@ -1926,11 +1925,11 @@ a.tabnav-extra:hover {
 
 /* Name.Class */
 .highlight .no {
-  color: #336600; }
+  color: #360; }
 
 /* Name.Constant */
 .highlight .nd {
-  color: #9999ff; }
+  color: #99f; }
 
 /* Name.Decorator */
 .highlight .ni {
@@ -1942,11 +1941,11 @@ a.tabnav-extra:hover {
 
 /* Name.Exception */
 .highlight .nf {
-  color: #cc00ff; }
+  color: #c0f; }
 
 /* Name.Function */
 .highlight .nl {
-  color: #9999ff; }
+  color: #99f; }
 
 /* Name.Label */
 .highlight .nn {
@@ -1958,7 +1957,7 @@ a.tabnav-extra:hover {
 
 /* Name.Tag */
 .highlight .nv {
-  color: #003333; }
+  color: #033; }
 
 /* Name.Variable */
 .highlight .ow {
@@ -1966,31 +1965,31 @@ a.tabnav-extra:hover {
 
 /* Operator.Word */
 .highlight .w {
-  color: #bbbbbb; }
+  color: #bbb; }
 
 /* Text.Whitespace */
 .highlight .mf {
-  color: #ff6600; }
+  color: #f60; }
 
 /* Literal.Number.Float */
 .highlight .mh {
-  color: #ff6600; }
+  color: #f60; }
 
 /* Literal.Number.Hex */
 .highlight .mi {
-  color: #ff6600; }
+  color: #f60; }
 
 /* Literal.Number.Integer */
 .highlight .mo {
-  color: #ff6600; }
+  color: #f60; }
 
 /* Literal.Number.Oct */
 .highlight .sb {
-  color: #cc3300; }
+  color: #c30; }
 
 /* Literal.String.Backtick */
 .highlight .sc {
-  color: #cc3300; }
+  color: #c30; }
 
 /* Literal.String.Char */
 .highlight .sd {
@@ -1999,7 +1998,7 @@ a.tabnav-extra:hover {
 
 /* Literal.String.Doc */
 .highlight .s2 {
-  color: #cc3300; }
+  color: #c30; }
 
 /* Literal.String.Double */
 .highlight .se {
@@ -2007,47 +2006,47 @@ a.tabnav-extra:hover {
 
 /* Literal.String.Escape */
 .highlight .sh {
-  color: #cc3300; }
+  color: #c30; }
 
 /* Literal.String.Heredoc */
 .highlight .si {
-  color: #aa0000; }
+  color: #a00; }
 
 /* Literal.String.Interpol */
 .highlight .sx {
-  color: #cc3300; }
+  color: #c30; }
 
 /* Literal.String.Other */
 .highlight .sr {
-  color: #33aaaa; }
+  color: #3aa; }
 
 /* Literal.String.Regex */
 .highlight .s1 {
-  color: #cc3300; }
+  color: #c30; }
 
 /* Literal.String.Single */
 .highlight .ss {
-  color: #ffcc33; }
+  color: #fc3; }
 
 /* Literal.String.Symbol */
 .highlight .bp {
-  color: #336666; }
+  color: #366; }
 
 /* Name.Builtin.Pseudo */
 .highlight .vc {
-  color: #003333; }
+  color: #033; }
 
 /* Name.Variable.Class */
 .highlight .vg {
-  color: #003333; }
+  color: #033; }
 
 /* Name.Variable.Global */
 .highlight .vi {
-  color: #003333; }
+  color: #033; }
 
 /* Name.Variable.Instance */
 .highlight .il {
-  color: #ff6600; }
+  color: #f60; }
 
 /* Literal.Number.Integer.Long */
 .css .o,
@@ -2248,16 +2247,16 @@ h2 a, h1 a, h3 a, .menu a {
   background-color: #bd2c00; }
 
 .swatch-orange {
-  background-color: #ff9933; }
+  background-color: #f93; }
 
 .swatch-purple {
   background-color: #6e5494; }
 
 .swatch-gray-light {
-  background-color: #999999; }
+  background-color: #999; }
 
 .swatch-gray {
-  background-color: #666666; }
+  background-color: #666; }
 
 .swatch-gray-dark {
-  background-color: #333333; }
+  background-color: #333; }
