@@ -1,6 +1,3 @@
-[submodule "roidelapluie/yaml"]
-	path = roidelapluie/yaml
-	url = https://github.com/yamlcss/yaml.git
 [submodule "primer"]
 	path = primer
 	url = git@github.com:roidelapluie/primer.git
@@ -10,6 +7,3 @@
 [submodule "stackicons"]
 	path = stackicons
 	url = https://github.com/parkerbennett/stackicons.git
-[submodule "pelicarus"]
-	path = pelicarus
-	url = git@github.com:roidelapluie/pelicarus.git
