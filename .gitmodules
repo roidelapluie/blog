@@ -10,3 +10,6 @@
 [submodule "stackicons"]
 	path = stackicons
 	url = https://github.com/parkerbennett/stackicons.git
+[submodule "pelicarus"]
+	path = pelicarus
+	url = git@github.com:roidelapluie/pelicarus.git
