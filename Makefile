@@ -45,6 +45,7 @@ html: clean $(OUTPUTDIR)/index.html
 
 css:
 	scss primer/roidelapluie/roidelapluie.scss > primertheme/static/css/primer.css
+	cp primertheme/static/css/primer.css output/theme/css/primer.css
 
 haml:
 	./compilehaml.sh

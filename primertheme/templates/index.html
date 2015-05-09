@@ -1,10 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
 <div class='container'>
-  <div class='columns'>
-    <div class='column four-fifths'>
       {% block content_title %}
-      <h2>All articles</h2>
+      <h1>All articles</h1>
       {% endblock %}
       {% for article in articles_page.object_list %}
       {%if not loop.first%}<hr />{%endif%}
@@ -16,18 +14,6 @@
       </div>
       {% include "article_infos.html"%}
       {% endfor %}
-    </div>
-    <div class='column one-fifth'>
-      {% if (article and article.source_link == "source.html") or (articles_page)%}
-        <nav class='menu'>
-          <span class='menu-heading'>Categories</span>
-          {% for cat, null in categories %}
-          <a class="menu-item{% if cat == category %} selected{% endif %}" href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a>
-          {% endfor %}
-        </nav>
-      {%endif%}
-    </div>
-  </div>
 </div>
 {% include 'pagination.html' %}
 {% endblock content %}

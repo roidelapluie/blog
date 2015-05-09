@@ -11,15 +11,6 @@
   {{ page.content }}
   {%if page.sidebar%}</div><div class="column one-fourth">
   {%for text in page.sidebar%}{{text}}{%endfor%}</div></div>{%endif%}
-.prefooter
-  .container
-    {% if page.commits|length > 0%}
-    %h4 About this page
-    %p
-      This page has been published on {{ page.locale_date }}{% if page.locale_date != page.locale_update %} and last updated on {{ page.locale_update }}{%endif%}. It is part of my personal {%if page.hide%}website{%else%}notes{%endif%}. The <a href="https://github.com/roidelapluie/blog">source code</a> is available on <a href="https://github.com">github</a>. If you find a mistake, a typographical error or any other nonsense, you can send me a <a href="https://github.com/roidelapluie/blog/compare">pull request</a>. This is the revision <a href="{{page.change_link}}">{{page.commits|length}}</a> of this page. The <a href="{{page.source_link}}">source</a> is written in Markdown.
-    {%else%}
-    %h4 Page not commited in git.
-    %p
-      This page is not commited in the git repository. It usually means that it is a private, short-lived page.
-    {%endif%}
+  {% set article=page %}
+  {% include "article_infos.html" %}
 {% endblock %}

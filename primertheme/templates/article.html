@@ -13,18 +13,10 @@
 
 {% block content %}
 <div class='container'>
-  <h1>
+  <h2>
     <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-  </h1>
+  </h2>
   {{ article.content }}
   {% include "article_infos.html"%}
-</div>
-<div class='prefooter'>
-  <div class='container'>
-    <h5>About</h5>
-    <p>
-      This article titled "{{article.title}}" is part of my personal blog. The <a href="https://github.com/roidelapluie/blog">source code</a> is available on <a href="https://github.com">github</a>. If you find a mistake, a typographical error or any other nonsense, you can send me a <a href="https://github.com/roidelapluie/blog/compare">pull request</a>. This is the revision <a href="changelog.html">{{article.commits|length}}</a> of this post. The <a href="source.html">source</a> is written in Markdown.
-    </p>
-  </div>
 </div>
 {% endblock %}

@@ -1,10 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
 .container
-  .columns
-    .column.four-fifths
       {% block content_title %}
-      %h2 All articles
+      %h1 All articles
       {% endblock %}
       {% for article in articles_page.object_list %}
       {%if not loop.first%}<hr />{%endif%}
@@ -14,13 +12,5 @@
         {{ article.content }}
       {% include "article_infos.html"%}
       {% endfor %}
-    .column.one-fifth
-      {% if (article and article.source_link == "source.html") or (articles_page)%}
-        %nav.menu
-          %span.menu-heading Categories
-          {% for cat, null in categories %}
-          <a class="menu-item{% if cat == category %} selected{% endif %}" href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a>
-          {% endfor %}
-      {%endif%}
 {% include 'pagination.html' %}
 {% endblock content %}

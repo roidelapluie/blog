@@ -2,7 +2,7 @@
 {% block title %}{{ article.title|striptags }}{% endblock %}
 {% block content %}
 .container
-  %h1
+  %h2
     <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
   %h4
     Revision log
@@ -14,13 +14,5 @@
   <h6>{% if loop.first %}Original content:{%else%}Diff:{% endif %}</h6>
   {{commit.content}}
   {% endfor %}
-.prefooter
-  .container
-    %h2 Revision log
-    %p
-      You are looking at the revision log of "<a href="{{SITEURL}}/{{article.save_as}}">{{article.title}}</a>".
-    %p
-      Created on {{ article.locale_date }}{% if article.locale_date != article.locale_update %} and last updated on {{ article.locale_update }}{%endif%}.
-    %p
-      <a class="ym-button ym-next" href="{{SITEURL}}/{{article.save_as}}">Back</a>
+  {% include "article_infos.html"%}
 {% endblock %}
