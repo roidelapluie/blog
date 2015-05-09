@@ -374,7 +374,7 @@ body {
   background-color: #fff; }
 
 a {
-  color: #6e5494;
+  color: #267360;
   text-decoration: underline; }
   a:hover, a:active {
     text-decoration: underline; }
@@ -677,7 +677,7 @@ dl.form {
     dl.form > dd h4.is-error {
       color: #bd2c00; }
     dl.form > dd h4.is-success {
-      color: #6cc644; }
+      color: #319b80; }
   dl.form > dd h4 + p.note {
     margin-top: 0; }
   dl.form.required > dt > label:after {
@@ -876,7 +876,7 @@ input::-webkit-inner-spin-button {
   margin-left: 5px; }
 
 .status-indicator-success:before {
-  color: #6cc644;
+  color: #319b80;
   content: "\f03a"; }
 
 .status-indicator-failed:before {
@@ -916,14 +916,14 @@ input::-webkit-inner-spin-button {
   color: #000; }
 
 .text-diff-added {
-  color: #55a532; }
+  color: #257460; }
 
 .text-diff-deleted {
   color: #bd2c00; }
 
 .text-open,
 .text-success {
-  color: #6cc644; }
+  color: #319b80; }
 
 .text-closed {
   color: #bd2c00; }
@@ -932,7 +932,7 @@ input::-webkit-inner-spin-button {
   color: #bd2c00; }
 
 .text-merged {
-  color: #6e5494; }
+  color: #267360; }
 
 .text-renamed {
   color: #fffa5d; }
@@ -1561,10 +1561,10 @@ a.tabnav-extra:hover {
 .state-open,
 .state-proposed,
 .state-reopened {
-  background-color: #6cc644; }
+  background-color: #319b80; }
 
 .state-merged {
-  background-color: #6e5494; }
+  background-color: #267360; }
 
 .state-closed {
   background-color: #bd2c00; }
@@ -2114,7 +2114,7 @@ h2 a, h1 a, h3 a, .menu a {
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
   text-align: center;
-  background-color: #6e5494; }
+  background-color: #319b80; }
   .masthead a {
     color: rgba(255, 255, 255, 0.5); }
     .masthead a:hover {
@@ -2238,8 +2238,8 @@ h2 a, h1 a, h3 a, .menu a {
   .docs-example .column {
     padding: 10px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    background-color: #e7f6e0;
-    border: 1px solid #c8eab9; }
+    background-color: #b2e7d9;
+    border: 1px solid #8bdac6; }
   .docs-example ul {
     padding: 0;
     margin-top: 0;
@@ -2261,7 +2261,7 @@ h2 a, h1 a, h3 a, .menu a {
   background-color: #4078c0; }
 
 .swatch-green {
-  background-color: #6cc644; }
+  background-color: #319b80; }
 
 .swatch-red {
   background-color: #bd2c00; }
@@ -2270,7 +2270,7 @@ h2 a, h1 a, h3 a, .menu a {
   background-color: #f93; }
 
 .swatch-purple {
-  background-color: #6e5494; }
+  background-color: #267360; }
 
 .swatch-gray-light {
   background-color: #999; }
