@@ -7,6 +7,6 @@
   %h4 Source code
   {% import 'translations.html' as translations with context %}
   {{ translations.translations_for(article) }}
-  <pre class="codehilite">{{source}}</pre>
+  <pre class="codehilite">{{source|e}}</pre>
   {% include "article_infos.html"%}
 {% endblock %}

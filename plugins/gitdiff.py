@@ -95,12 +95,12 @@ def add_links(content):
         content.source = getsource(content)
         if isinstance(content, contents.Article):
             content.commits = workoncontent(git,repo,content)
-            content.source_link = "source.html"
-            content.change_link = "changelog.html"
+            content.source_link = "/".join(content.save_as.split('/')[:-1])+"/source.html"
+            content.change_link = "/".join(content.save_as.split('/')[:-1])+"/changelog.html"
         elif isinstance(content, contents.Page):
             content.commits = workoncontent(git,repo,content)
-            content.source_link = ".".join(content.save_as.split('/')[-1].split('.')[:-1])+"-source.html"
-            content.change_link = ".".join(content.save_as.split('/')[-1].split('.')[:-1])+"-changelog.html"
+            content.source_link = "/".join(content.save_as.split('/')[:-1])+"/"+".".join(content.save_as.split('/')[-1].split('.')[:-1])+"-source.html"
+            content.change_link = "/".join(content.save_as.split('/')[:-1])+"/"+".".join(content.save_as.split('/')[-1].split('.')[:-1])+"-changelog.html"
     except:
         print content
 
