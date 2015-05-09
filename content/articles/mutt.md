@@ -127,3 +127,6 @@ The mailcap file tells mutt how to open attachments.
     application/vnd.oasis.opendocument.spreadsheet; libreoffice %s &>/dev/null
     application/msword; libreoffice %s &>/dev/null
 
+### Conclusion
+
+I hope everything interesting is there. Enjoy these tricks!
