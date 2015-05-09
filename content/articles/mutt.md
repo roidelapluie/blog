@@ -1,6 +1,6 @@
 Title: Mutt
 Category: Linux
-Tags: mail, mutt, planet-inuits
+Tags: mail, Mutt, planet-inuits
 Slug: mutt
 
 In the past, I have used several mail clients, including [Thunderbird](https://www.mozilla.org/en-US/thunderbird/),
@@ -28,7 +28,7 @@ configurations directives in that alias file that needs to be loaded.
     :::text
     alternates '^roidelapluie@example.com$'
 
-I have a bunch of these. One line per email address I have. It allows mutt to know
+I have a bunch of these. One line per email address I have. It allows Mutt to know
 which email addresses are mine, which is very useful when, for example, I use the
 ''reply to all'' feature (`g`). In that case Mutt will not re-add email addresses
 from that list in `Cc:`.
@@ -36,7 +36,7 @@ from that list in `Cc:`.
     :::text
     alternative_order text/plain
 
-A very useful line that tells mutt than when an email contains a HTML part and
+A very useful line that tells Mutt than when an email contains a HTML part and
 a plain text part, I prefer to see the plain text mail and not a dump of the html
 file.
 
@@ -53,7 +53,7 @@ is not enough to understand a bloated HTML mail.
     :::text
     unignore sender
 
-That line tells mutt that by default I want to see the `Sender:` field of the headers of my mails.
+That line tells Mutt that by default I want to see the `Sender:` field of the headers of my mails.
 `From:` is not the only field that matters when you want to know where does a mail come from.
 
     :::text
@@ -97,7 +97,7 @@ go to the next mail.
     :::text
     auto_view text/html
 
-Automatically open html mails in mutt.
+Automatically open html mails in Mutt.
 
     :::text
     color index brightcolor001 default "PROBLEM.*CRITICAL"
@@ -113,7 +113,7 @@ Add some colors to Icinga/Nagios emails.
 
 ### ~/.mailcap
 
-The mailcap file tells mutt how to open attachments.
+The mailcap file tells Mutt how to open attachments.
 
     :::text
     text/html; elinks -dump %s -eval 'set document.codepage.assume = "%{charset}"' -eval 'set document.dump.width = 66'; nametemplate=%s.html; copiousoutput
@@ -129,4 +129,4 @@ The mailcap file tells mutt how to open attachments.
 
 ### Conclusion
 
-I hope everything interesting is there. Enjoy these tricks!
+I hope it will help you if you are using Mutt. Enjoy these tricks!
