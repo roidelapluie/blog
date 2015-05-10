@@ -6,7 +6,7 @@ save_as: disclaimer/index.html
 
 The content of this blog is written by [Julien Pivotto](https://roidelapluie.be) and is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/deed.en_US). This includes the notes, the blog posts and the texts.
 
-The template (the css files and html skeletton) is based on [YAML](https://yaml.de) and is licensed under a the [Creative Commons Attribution 2.0 License](http://creativecommons.org/licenses/by/2.0/).
+For the blog templates, fonts and CSS framework see in the footer for up-to-date information.
 
 ## Security
 
