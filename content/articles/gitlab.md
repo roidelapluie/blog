@@ -1,4 +1,4 @@
-Title: Gitlab make the Entreprise edition code public
+Title: Gitlab makes the Entreprise edition code public
 Category: Open-Source
 Tags: licenses, philosophy, planet-inuits
 Slug: gitlab-ee
