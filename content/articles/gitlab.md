@@ -1,6 +1,6 @@
 Title: Gitlab makes the Entreprise edition code public
 Category: Open-Source
-Tags: licenses, philosophy, planet-inuits
+Tags: licenses, philosophy
 Slug: gitlab-ee
 
 It is a very sad day for Open-Source. Gitlab has opened its repository for the
