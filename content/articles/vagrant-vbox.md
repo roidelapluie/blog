@@ -4,7 +4,7 @@ Tags: vagrant,virtualbox, planet-inuits
 Slug: vagrant-will-support-vbox-clones
 
 Here is a good news for the [vagrant](http://vagrantup.com) users that still use VirtualBox.
-While it has support for many other providers, I guess that VirtualBox is probably still
+While vagrant has support for many other providers, I guess that VirtualBox is probably still
 in the top 3.
 
 A September 2014 [Pull Request](https://github.com/mitchellh/vagrant/pull/4484) by [mpoeter](https://github.com/mpoeter) has been updated some days ago. That
