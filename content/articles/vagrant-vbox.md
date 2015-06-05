@@ -15,5 +15,5 @@ Linked clones are just like Clones, except that the disks are linked to the "mas
 disks, and the data are written incrementally on another disk. It means that the initial import
 of the Vagrant boxes will be instant, even if your laptop has non-ssd disks.
 
-The initial import of the VirtualBox boxes was one of the bottlenecks of the workflow,
-and a disadvantage compared to solutions based on LXC, KVM or docker.
+The initial import of the VirtualBox boxes was one of the bottlenecks of this plugin,
+and a disadvantage compared to those based on LXC, KVM or docker.
