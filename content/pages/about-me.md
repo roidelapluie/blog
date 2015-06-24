@@ -11,6 +11,7 @@ Sidebar: <h4>Welcome</h4>
          <strong>Inuits</strong><br />
          The opinions and views expressed in my this site do not reflect my employer's views. I am working at <a href="https://inuits.eu">Inuits</a>, a large open-source consultancy company based in Belgium.
          </p>
+         <a href="https://stop-ttip.org/what-is-the-problem-ttip-ceta/"><img src="images/md0341_banner-ttip_180x250_eng02.png" title="Stop TTIP" alt="Stop TTIP"/></a>
 
 Julien Pivotto is a young Open-Source consultant at [Inuits](https://inuits.eu) where he is helping organisations with the deployment of long-term solutions based on Open-Source infrastructure.
 
