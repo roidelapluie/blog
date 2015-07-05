@@ -3,7 +3,7 @@ Title: ffmpeg tips and tricks
 Getting info of a video
 
     :::text
-    ffmpeg -i video.avi
+    ffprobe video.avi
 
 Audio: from 5.1 to stereo
 
