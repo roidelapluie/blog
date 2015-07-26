@@ -31,6 +31,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 ### 2015
 
 * October, [LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe), Dublin, Ireland
+* July, [NipSource](http://nipcast.com/category/nipsource/), Podcast, CentOS (in French)
 * June 17, [Foreman case studies: Inuits](https://www.youtube.com/watch?v=8-o27p39dIM), Google Hangout, with [Daniel Lobato](http://blog.daniellobato.me/) and [Kris Buytaert](http://krisbuytaert.be)
 * May 29, [Inuits](http://inuits.eu), Antwerp, Belgium, An introduction to Pulp
 * April 11, [LOADays](http://loadays.org), Antwerp, Belgium, [Coworking with git](http://www.slideshare.net/roidelapluie/coworking-with-git)
