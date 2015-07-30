@@ -29,6 +29,8 @@ like recording.
 I do not use it for personal, 1-to-1, conversations. I use it with a dedicated
 browser (chromium) with HTML5.
 
+Note: To be deprecated by jitsi meet
+
 ### Widevine Content Decryption Module plugin
 
 I use that proprietary plugin to access Netflix. There is no Open-Source alternative
@@ -40,3 +42,5 @@ Netflix made a lot of efforts to come to Belgium and to serve content that
 I can watch legally. No one could offer such a good offer before them, and most
 of the others do not care about Linux. So Netflix made half the way to me, and I
 decided that I would go the other half by installing the Widevine plugin.
+
+### Pebble Time
