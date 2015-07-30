@@ -33,7 +33,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 * October, [LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe), Dublin, Ireland, OpenSSH
 * September, [Belgian Puppet User Group meetup](http://www.meetup.com/Belgian-Puppet-User-Group/), Etterbeek, Belgium, Puppet 4
 * July, [Inuits](http://inuits.eu), Antwerp, Belgium, pytriage
-* July, [NipSource](http://nipcast.com/category/nipsource/), Podcast, CentOS (in French)
+* July, [NipSource](http://nipcast.com/category/nipsource/), Podcast, [CentOS](http://nipcast.com/nipsource-hs-centos/) (in French)
 * June 17, [Foreman case studies: Inuits](https://www.youtube.com/watch?v=8-o27p39dIM), Google Hangout, with [Daniel Lobato](http://blog.daniellobato.me/) and [Kris Buytaert](http://krisbuytaert.be)
 * May 29, [Inuits](http://inuits.eu), Antwerp, Belgium, An introduction to Pulp
 * April 11, [LOADays](http://loadays.org), Antwerp, Belgium, [Coworking with git](http://www.slideshare.net/roidelapluie/coworking-with-git)
