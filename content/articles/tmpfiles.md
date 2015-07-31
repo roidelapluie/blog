@@ -6,6 +6,9 @@ Slug: augeas-tmpfiles
 I have sent recently a [Pull Request][1] to the [Augeas][2] project. That PR
 is about a new lens, a [tmpfiles.d][3] lens.
 
+If you want some background, check my [slides][5] (or the [video][6]) for the
+talk about [Augeas][2] I have given last november at Puppetcamp London.
+
 When systemd is in charge of the temporary directories of a server, some directories
 (`/tmp`, `/run`, `/var/tmp`) are mounted in a tmpfs and are just empty at boot time.
 
@@ -30,6 +33,7 @@ Here is how to create a directory in /run in CentOS 6:
 
 And in CentOS 7 + my augeas lens:
 
+    :::puppet
     augeas {
       "tmpfiles.d-new-$path":
         context => "",
@@ -81,3 +85,10 @@ the `lib/augeas/lenses` directory of the module to get it to work.
 
 In the future this will probably be a lot more simple because I might write an
 [augeasprovider][4] for that.
+
+[1]: https://github.com/hercules-team/augeas/pull/269
+[2]: http://augeas.net/
+[3]: http://www.freedesktop.org/software/systemd/man/tmpfiles.d.html
+[4]: http://augeasproviders.com/
+[5]: http://www.slideshare.net/roidelapluie/augeas-swiss-knife-resources-for-your-puppet-tree
+[6]: https://www.youtube.com/watch?v=Gghl1t1okW4
