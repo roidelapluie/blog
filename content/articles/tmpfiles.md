@@ -35,7 +35,7 @@ And in CentOS 7 + my augeas lens:
 
     :::puppet
     augeas {
-      "tmpfiles.d-new-${path}:
+      "tmpfiles.d-new-${path}":
         changes => [
           "set /files/etc/tmpfiles.d/my.conf/01/type 'd'",
           "set /files/etc/tmpfiles.d/my.conf/01/path '${path}'",
