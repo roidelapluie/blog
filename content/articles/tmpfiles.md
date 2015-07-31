@@ -35,30 +35,29 @@ And in CentOS 7 + my augeas lens:
 
     :::puppet
     augeas {
-      "tmpfiles.d-new-$path":
-        context => "",
+      "tmpfiles.d-new-${path}:
         changes => [
           "set /files/etc/tmpfiles.d/my.conf/01/type 'd'",
-          "set /files/etc/tmpfiles.d/my.conf/01/path '$path'",
-          "set /files/etc/tmpfiles.d/my.conf/01/mode '$mode'",
-          "set /files/etc/tmpfiles.d/my.conf/01/uid '$owner'",
-          "set /files/etc/tmpfiles.d/my.conf/01/gid '$group'",
+          "set /files/etc/tmpfiles.d/my.conf/01/path '${path}'",
+          "set /files/etc/tmpfiles.d/my.conf/01/mode '${mode}'",
+          "set /files/etc/tmpfiles.d/my.conf/01/uid '${owner}'",
+          "set /files/etc/tmpfiles.d/my.conf/01/gid '${group}'",
         ],
-        onlyif => "match /files/etc/tmpfiles.d/my.conf/*[path = '$path']/path size < 1",
+        onlyif => "match /files/etc/tmpfiles.d/my.conf/*[path = '${path}']/path size < 1",
         tag    => ['tmpfiles.d-augeas'],
     }
     augeas {
-      "tmpfiles.d-$path":
-        context => "/files/etc/tmpfiles.d/my.conf/*[path = '$path']",
+      "tmpfiles.d-${path}":
+        context => "/files/etc/tmpfiles.d/my.conf/*[path = '${path}']",
         changes => [
           "set type 'd'",
-          "set gid '$group'",
-          "set uid '$owner'",
-          "set mode '$mode'",
+          "set gid '${group}'",
+          "set uid '${owner}'",
+          "set mode '${mode}'",
         ],
         tag => ['tmpfiles.d-augeas'],
     }
-    exec {"systemd-tmpfiles-$path":
+    exec {"systemd-tmpfiles-${path}":
       command  => '/usr/bin/systemd-tmpfiles --create',
       creates  => $path,
       tag      => 'na-systemd-tmpfiles',
@@ -71,7 +70,7 @@ And in CentOS 7 + my augeas lens:
         mode      => $mode,
         noop      => true,
     }
-    Augeas<|tag == 'tmpfiles.d-augeas'|> -> Exec["systemd-tmpfiles-$path"]
+    Augeas<|tag == 'tmpfiles.d-augeas'|> -> Exec["systemd-tmpfiles-${path}"]
     Exec<|tag == 'na-systemd-tmpfiles'|> -> File[$path]
 
 A bunch of stuff to notice here:
