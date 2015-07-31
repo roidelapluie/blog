@@ -38,23 +38,23 @@ And in CentOS 7 + my augeas lens:
       "tmpfiles.d-new-$path":
         context => "",
         changes => [
-          "set /files/etc/tmpfiles.d/my.conf/01/type \"d\"",
-          "set /files/etc/tmpfiles.d/my.conf/01/path \"$path\"",
-          "set /files/etc/tmpfiles.d/my.conf/01/mode \"$mode\"",
-          "set /files/etc/tmpfiles.d/my.conf/01/uid \"$owner\"",
-          "set /files/etc/tmpfiles.d/my.conf/01/gid \"$group\"",
+          "set /files/etc/tmpfiles.d/my.conf/01/type 'd'",
+          "set /files/etc/tmpfiles.d/my.conf/01/path '$path'",
+          "set /files/etc/tmpfiles.d/my.conf/01/mode '$mode'",
+          "set /files/etc/tmpfiles.d/my.conf/01/uid '$owner'",
+          "set /files/etc/tmpfiles.d/my.conf/01/gid '$group'",
         ],
-        onlyif => "match /files/etc/tmpfiles.d/my.conf/*[path = \"$path\"]/path size < 1",
+        onlyif => "match /files/etc/tmpfiles.d/my.conf/*[path = '$path']/path size < 1",
         tag    => ['tmpfiles.d-augeas'],
     }
     augeas {
       "tmpfiles.d-$path":
-        context => "/files/etc/tmpfiles.d/my.conf/*[path = \"$path\"]",
+        context => "/files/etc/tmpfiles.d/my.conf/*[path = '$path']",
         changes => [
-          "set type \"d\"",
-          "set gid \"$group\"",
-          "set uid \"$owner\"",
-          "set mode \"$mode\"",
+          "set type 'd'",
+          "set gid '$group'",
+          "set uid '$owner'",
+          "set mode '$mode'",
         ],
         tag => ['tmpfiles.d-augeas'],
     }
