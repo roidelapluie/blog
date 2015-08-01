@@ -7,3 +7,6 @@
 [submodule "stackicons"]
 	path = stackicons
 	url = https://github.com/parkerbennett/stackicons.git
+[submodule "git-arr"]
+	path = git-arr
+	url = git://blitiri.com.ar/git-arr

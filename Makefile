@@ -52,6 +52,21 @@ haml:
 
 $(OUTPUTDIR)/%.html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	make gitlocalcopy
+
+gitlocal: html
+	bash git.sh local
+	make gitlocalcopy
+
+gitlocalcopy:
+	rsync -r git-output-local/ output/git
+
+gitpub: publish
+	bash git.sh pub
+	make gitpubcopy
+
+gitpubcopy:
+	rsync -r git-output-pub/ output/git
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || find $(OUTPUTDIR) -mindepth 1 -delete
@@ -72,6 +87,7 @@ stopserver:
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+	make gitpubcopy
 
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
