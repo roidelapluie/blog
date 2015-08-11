@@ -7,9 +7,9 @@ I love Open-Source, and the principles attached to it. One of these principle is
 the principle of choice:
 
 * The choice of the technology stack
-* The choice of the softwares you use
+* The choice of the software you use
 * The choice of the decisions you take
-* The choice of the licence you use
+* The choice of the license you use
 * The choice of how you spend your time
 
 Today I would like to focus on the last part. There are so many open source
@@ -21,10 +21,10 @@ and until when. It would not be surprise that there would still be a lot of thin
 running a 2.4 Linux kernel around. Think about all the machines that still run
 Windows XP. And all the disconnected machines that still run it.
 
-The main difference it this area between closed source and open source is that as
+The main difference in this area between closed source and open source is that as
 long as one people will work on it, a project might be forked, get new releases,
-and then be used. Even if the project is depreated, obsolete, or has lots its
-userbase.
+and then be used. Even if the project is deprecated, obsolete, or has lost its
+user base.
 
 I call that phenomenon a niche. You can live in a niche, spend all your time
 on a project. This is your freedom as an open source software user but more
