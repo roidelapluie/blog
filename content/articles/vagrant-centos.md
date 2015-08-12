@@ -11,6 +11,7 @@ Those images are great for many reasons:
 * They come directly from the CentOS project, so it is reasonable to trust them
 * They do not come with any 3rd party repositories (and so, without Puppet/Chef...)
 * They are minimal images
+* They support multiple providers
 
 They contain what is needed for basic tasks, like the vagrant user so vagrant works.
 
