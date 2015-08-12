@@ -52,8 +52,6 @@ haml:
 
 $(OUTPUTDIR)/%.html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
-	make gitlocalcopy
-	cat git-arr/static/git-arr.css |sed '/^[a-z]/s/\(^\|, \)/&.git /g' > output/git/static/git-arr.css
 
 gitlocal: html
 	bash git.sh local
@@ -88,8 +86,6 @@ stopserver:
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
-	make gitpubcopy
-	cat git-arr/static/git-arr.css |sed '/^[a-z]/s/\(^\|, \)/&.git /g' > output/git/static/git-arr.css
 
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
