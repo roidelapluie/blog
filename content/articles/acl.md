@@ -10,7 +10,7 @@ not strictly true. There is a big side effect of this change: by default, ACL ar
 in that filesystem.
 
 It means that without changing the fstab, you can now give additional rights to
-files and directories. You can find a lot how [guides](http://linux-training.be/storage/ch03.html) about how
+files and directories. You can find a lot of [guides](http://linux-training.be/storage/ch03.html) about how
 to use them everywhere on the internet.
 
 It would also allow an attacker to discretely open more rights to a directory; it
