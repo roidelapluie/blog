@@ -16,6 +16,9 @@ to use them everywhere on the internet.
 It would also allow an attacker to discretely open more rights to a directory; it
 can bring a lot of unneeded complexity if used by unskilled sysadmins.
 
+In EL6 you can already do this but by default you need to add the `acl`
+option to the fstab because the default filesystem is EXT4.
+
 Of course, if you do not want them, you can chose to add `noacl` to the fstab options and
 remount the filesystems (`mount -o remount,noacl /`). I would recommend this if you
 do not need them.
