@@ -77,3 +77,7 @@ a French-speaking podcast about Open-Source.
 
 * August 14, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 13: le bug sonnera deux fois](http://nipcast.com/nipsource-13-le-bug-sonnera-deux-fois/)
 * July 30, [NipSource](http://nipcast.com/category/nipsource/), [HS CentOS](http://nipcast.com/nipsource-hs-centos/)
+
+### 2010
+
+* March 24, [Good Morning Stallman](http://www.radiopanik.org/emissions/good-morning-stallman/) on [Radio Panik](http://www.radiopanik.org/), [L'ACTA](http://www.radiopanik.org/emissions/good-morning-stallman/emission-du-24-mars-l-acta/)
