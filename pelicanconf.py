@@ -82,8 +82,7 @@ STATIC_PATHS = [
     'extra/logo.png',
     'extra/htaccess',
     'extra/hai100.png',
-    'extra/5AA32256.pub',
-    'extra/5AA32256.pub.js',
+    'extra/33AE92DA.pub',
 ]
 EXTRA_PATH_METADATA = {
     'extra/humans.txt': {'path': 'humans.txt'},
