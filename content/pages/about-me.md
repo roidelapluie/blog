@@ -75,8 +75,9 @@ a French-speaking podcast about Open-Source.
 
 ### 2015
 
+* September, [NipSource](http://nipcast.com/category/nipsource/), Épisode HS: retour au Libre
 * August 14, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 13: le bug sonnera deux fois](http://nipcast.com/nipsource-13-le-bug-sonnera-deux-fois/)
-* July 30, [NipSource](http://nipcast.com/category/nipsource/), [HS CentOS](http://nipcast.com/nipsource-hs-centos/)
+* July 30, [NipSource](http://nipcast.com/category/nipsource/), [Épisode HS: CentOS](http://nipcast.com/nipsource-hs-centos/)
 
 ### 2010
 
