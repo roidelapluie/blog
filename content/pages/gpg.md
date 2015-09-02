@@ -3,22 +3,19 @@ save_as: gpg/index.html
 Title: PGP key
 Hide: True
 
-If you want to send me a mail, you can use my public PGP key: [5AA32256](http://roidelapluie.be/gpg/5AA32256.pub).
+If you want to send me a mail, you can use my public PGP key: [33AE92DA](http://roidelapluie.be/gpg/33AE92DA.pub).
 
 My preferred email address is [roidelapluie@inuits.eu](mailto:roidelapluie@inuits.eu).
 
     ::
-    pub   1024D/5AA32256 2010-01-14
-          Key fingerprint = 19E6 703D 4113 236A 4C1F  B492 9ADD 8741 5AA3 2256
-    uid                  Julien Pivotto (roidelapluie) <roidelapluie@inuits.eu>
-    uid                  Julien Pivotto (roidelapluie) <roidelapluie@roidelapluie.be>
-    uid                  Julien Pivotto <julien@inuits.eu>
-    uid                  Julien Pivotto <julien.pivotto@gmail.com>
-    uid                  Julien Pivotto (roidelapluie) <roidelapluie@gmail.com>
-    uid                  [jpeg image of size 5136]
-    uid                  Julien Pivotto (roidelapluie) <roidelapluie@esquimaux.be>
-    uid                  Julien Pivotto <julien@esquimaux.be>
-    uid                  Julien Pivotto <julien.pivotto@alcatel-lucent.com>
-    sub   8192R/341A726C 2013-02-05
-    sub   8192R/66748C55 2013-02-05
+    pub   rsa4096/33AE92DA 2014-12-11 [expires: 2019-06-01]
+          Key fingerprint = 0C7F 1877 69D0 72B9 3B64  2BB9 E484 2505 33AE 92DA
+    uid       [ultimate] Julien Pivotto <julien@inuits.eu>
+    uid       [ultimate] Julien Pivotto (roidelapluie) <roidelapluie@inuits.eu>
+    uid       [ultimate] Julien Pivotto <roidelapluie@gmail.com>
+    uid       [ultimate] Julien Pivotto (Private) <roidelapluie@roidelapluie.be>
+    uid       [ultimate] Julien Pivotto <julien.pivotto@alcatel-lucent.com>
+    uid       [ultimate] [jpeg image of size 4061]
+    sub   brainpoolP512r1/FBCD43C6 2014-12-11 brainpoolP512r1 [expires: 2016-06-01]
+
 

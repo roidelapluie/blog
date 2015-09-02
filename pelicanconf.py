@@ -86,13 +86,12 @@ STATIC_PATHS = [
     'extra/5AA32256.pub.js',
 ]
 EXTRA_PATH_METADATA = {
-    'extra/5AA32256.pub.js': {'path': 'gpg/mygpgkey.js' },
     'extra/humans.txt': {'path': 'humans.txt'},
     'extra/htaccess': {'path': '.htaccess'},
     'extra/hai.png': {'path': 'hai.png'},
     'extra/hai100.png': {'path': 'hackergotchi.png'},
     'extra/logo.png': {'path': 'logo.png'},
-    'extra/5AA32256.pub': {'path': 'gpg/5AA32256.pub'},
+    'extra/33AE92DA.pub': {'path': 'gpg/33AE92DA.pub'},
 }
 SIDEBAR_IMAGE = "logo.png"
 
