@@ -1,4 +1,5 @@
 Title: Fill your Belgian tax form with Linux
+lang: en
 Category: Linux
 Tags: belgium, planet-inuits
 Slug: tax-on-web

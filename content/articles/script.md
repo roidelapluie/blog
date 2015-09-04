@@ -1,4 +1,5 @@
 Title: Script, a must-know command for sysadmins
+lang: en
 Category: Linux
 Tags: sysadmin, planet-inuits
 Slug: script

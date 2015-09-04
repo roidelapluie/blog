@@ -1,4 +1,5 @@
 Title: Usefull strace commands
+lang: en
 
 open-close
 ---

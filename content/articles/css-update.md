@@ -1,4 +1,5 @@
 Title: CSS update
+lang: en
 Category: Blog
 Tags: pelican, css
 Slug: css-update

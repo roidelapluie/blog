@@ -1,4 +1,5 @@
 Title: Waiting for Christmas .... Advent blogs
+lang: en
 
 * [sysadvent](http://sysadvent.blogspot.be/)
 * [24 jours de webdev](http://www.24joursdeweb.fr/) (French)

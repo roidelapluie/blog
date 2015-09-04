@@ -1,4 +1,5 @@
 URL: wiki
+lang: en
 save_as: wiki/index.html
 Template: wiki
 Title: Wiki

@@ -1,4 +1,5 @@
 URL: index.html
+lang: en
 save_as: gpg/index.html
 Title: PGP key
 Hide: True

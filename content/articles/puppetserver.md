@@ -1,4 +1,5 @@
 Title: Puppet Server
+lang: en
 Category: Automation
 Tags: centos,automation, planet-inuits, puppet
 Slug: puppet-server

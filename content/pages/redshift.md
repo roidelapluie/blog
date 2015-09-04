@@ -1,4 +1,5 @@
 Title: Redshift
+lang: en
 
 
   * equivalent to f.lux

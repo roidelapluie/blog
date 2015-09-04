@@ -1,4 +1,5 @@
 Title: Cloning jenkins pipelines
+lang: en
 
 <div class="box error">The content of this page is deprecated. Please see my <a href="http://www.youtube.com/watch?v=xeqk8v7IVCE">talk</a> about building pipelines at scale for more up-to-date information, together with the build flow plugin and the job DSL plugin.</div>
 

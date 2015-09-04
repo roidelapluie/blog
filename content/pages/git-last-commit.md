@@ -1,4 +1,5 @@
 Title: Removing the last commit in git
+lang: en
 
 A one shot command to remove the last commit in git.. useful when you want to re-apply a patch.
 

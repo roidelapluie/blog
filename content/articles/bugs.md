@@ -1,4 +1,5 @@
 Title: 5 bugs
+lang: en
 Category: Linux
 Tags: security
 Slug: bugs-bugs-bugs

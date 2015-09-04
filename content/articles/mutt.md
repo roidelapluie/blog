@@ -1,4 +1,5 @@
 Title: Mutt
+lang: en
 Category: Linux
 Tags: mail, Mutt, planet-inuits
 Slug: mutt

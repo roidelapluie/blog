@@ -1,4 +1,5 @@
 Title: Burtning audio CD's
+lang: en
 
 Here is the procedure to burn an audio cd under Linux.
 

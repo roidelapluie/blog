@@ -1,4 +1,5 @@
 Title: Mcollective agent to use drush
+lang: en
 Category: Linux
 Tags: sysadmin, drupal, planet-inuits
 Slug: drush-mcollective

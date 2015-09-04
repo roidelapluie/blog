@@ -1,4 +1,5 @@
 Title: Puppet: no such file to load -- json (LoadError)
+lang: en
 
 A Ruby & Json error
 

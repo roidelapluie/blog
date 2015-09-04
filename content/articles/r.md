@@ -1,4 +1,5 @@
 Title: R and Graphite
+lang: en
 Category: Monitoring
 Tags: statistics, graphite, planet-inuits
 Slug: r-and-graphite

@@ -1,4 +1,5 @@
 Title: Munin 2 "not a reference" error
+lang: en
 Category: Monitoring
 Tags: munin,monitoring, planet-inuits, puppet
 Slug: munin2-not-a-reference-error

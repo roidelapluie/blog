@@ -3,6 +3,7 @@ save_as: index.html
 Title: Julien Pivotto
 slug: about-me
 Hide: True
+lang: en
 Sidebar: <h4>Welcome</h4>
          <p>This is my personal website.</p>
          <p>It is composed of two main parts: my <a href="https://roidelapluie.be/blog/">blog</a> and my <a href="https://roidelapluie.be/wiki">notes</a>. The second part is like a wiki that is mainly there so I can google myself problems I had in the past.</p>

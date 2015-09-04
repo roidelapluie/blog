@@ -1,5 +1,6 @@
 Title: Disclaimer
 Hide: true
+lang: en
 save_as: disclaimer/index.html
 
 ## License

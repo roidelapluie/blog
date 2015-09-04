@@ -1,4 +1,5 @@
 Title: Lightweight open source tools for everyday use
+lang: en
 
 
   * image viewer: feh

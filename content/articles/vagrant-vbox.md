@@ -1,4 +1,5 @@
 Title: Vagrant will support VirtualBox linked clones
+lang: en
 Category: Linux
 Tags: vagrant,virtualbox, planet-inuits
 Slug: vagrant-will-support-vbox-clones

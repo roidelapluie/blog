@@ -1,4 +1,5 @@
 Title: Gitlab makes the Entreprise edition code public
+lang: en
 Category: Open-Source
 Tags: licenses, philosophy
 Slug: gitlab-ee

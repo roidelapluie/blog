@@ -1,4 +1,5 @@
 Title: Collectd 5.4.1 RPM's
+lang: en
 Category: Linux
 Tags: vagrant,monitoring,collectd, planet-inuits
 Slug: vagrant-collectd

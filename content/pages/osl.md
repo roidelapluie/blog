@@ -1,4 +1,5 @@
 Title: My Open-Source Exception List
+lang: en
 slug: open-source-exception-list
 
 I am a true defender of Open-Source software. I have been using them since 10

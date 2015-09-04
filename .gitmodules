@@ -10,3 +10,6 @@
 [submodule "git-arr"]
 	path = git-arr
 	url = git://blitiri.com.ar/git-arr
+[submodule "upstreamplugins"]
+	path = upstreamplugins
+	url = https://github.com/getpelican/pelican-plugins.git

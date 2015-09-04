@@ -1,4 +1,5 @@
 Title: Make stuck in a loop
+lang: en
 Category: Linux
 Tags: exherbo, planet-inuits
 Slug: make-in-a-loop

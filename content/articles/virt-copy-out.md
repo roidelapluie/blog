@@ -1,4 +1,5 @@
 Title: Easily extract files from qemu-kvm guests
+lang: en
 Category: Linux
 Tags: kvm, qemu, virtualization, planet-inuits
 Slug: virt-copy-out

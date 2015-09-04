@@ -1,4 +1,5 @@
 Title: Peering a server to a GlusterFS cluster
+lang: en
 Category: Linux
 Tags: GlusterFS, planet-inuits
 Slug: peering-a-server-to-a-glusterfs-cluster

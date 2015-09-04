@@ -1,4 +1,5 @@
 Title: Math in bash
+lang: en
 
 the simple way
 

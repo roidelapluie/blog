@@ -1,4 +1,5 @@
 Title: Official CentOS boxes for CentOS
+lang: en
 Category: Linux
 Tags: centos, planet-inuits, vagrant
 Slug: vagrant-centos

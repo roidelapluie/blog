@@ -1,4 +1,5 @@
 Title: Yum could'n connect to host
+lang: en
 
 The following error is not always what it looks like:
 

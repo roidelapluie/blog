@@ -1,4 +1,5 @@
 Title: Pt-heartbeat can't use an undefined value as an ARRAY reference
+lang: en
 Category: Linux
 Tags: mysql,HA, planet-inuits
 Slug: pt-heartbeat-array-error

@@ -1,4 +1,5 @@
 Title: The LibreOffice Calc 1024 columns bug
+lang: en
 Category: Open-Source
 Tags: libreoffice, office, planet-inuits
 Slug: libreoffice-calc-1024-columns

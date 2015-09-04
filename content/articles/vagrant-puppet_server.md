@@ -1,4 +1,5 @@
 Title: Vagrant puppet_server tip
+lang: en
 Category: Automation
 Tags: vagrant,puppet, planet-inuits
 Slug: vagrant-puppet-agent

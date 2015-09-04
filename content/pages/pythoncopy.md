@@ -1,4 +1,5 @@
 Title: Python dict() copy
+lang: en
 
     :::python
     $ python

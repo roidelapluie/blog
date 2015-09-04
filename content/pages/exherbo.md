@@ -1,4 +1,5 @@
 URL: exherbo
+lang: en
 save_as: exherbo/index.html
 Title: Exherbo
 Hide: true

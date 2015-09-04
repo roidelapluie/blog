@@ -1,4 +1,5 @@
 save_as: pumpkin.html
+lang: en
 title: Pumpkin image rights
 hide: true
 

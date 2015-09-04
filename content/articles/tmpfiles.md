@@ -1,4 +1,5 @@
 Title: An Augeas lens for tmpfiles.d
+lang: en
 Category: Automation
 Tags: augeas, systemd, puppet
 Slug: augeas-tmpfiles

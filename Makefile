@@ -79,6 +79,9 @@ serve:
 devserver:
 	$(BASEDIR)/develop_server.sh restart
 
+trans:
+	cd primertheme && make
+
 stopserver:
 	kill -9 `cat pelican.pid`
 	kill -9 `cat srv.pid`

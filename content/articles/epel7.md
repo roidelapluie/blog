@@ -1,4 +1,5 @@
 Title: EPEL 7 released
+lang: en
 Category: Linux
 Tags: centos,planet-inuits,packaging
 Slug: epel7

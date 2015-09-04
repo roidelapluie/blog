@@ -1,4 +1,5 @@
 Title: F-droid welcomes BeTrains
+lang: en
 Category: Android
 Tags: public services, belgium, planet-inuits
 Slug: f-droid-welcomes-betrains

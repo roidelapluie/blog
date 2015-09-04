@@ -1,4 +1,5 @@
 Title: Importing a CA into OpenLDAP
+lang: en
 Category: Linux
 Tags: centos,planet-inuits,ldap
 Slug: openldap-ca

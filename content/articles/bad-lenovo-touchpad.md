@@ -1,4 +1,5 @@
 Title: Soft-fixing Lenovo touchpad
+lang: en
 Category: Linux
 Tags: hardware, planet-inuits
 Slug: lenovo-touchpad

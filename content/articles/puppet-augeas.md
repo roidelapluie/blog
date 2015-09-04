@@ -1,4 +1,5 @@
 Title: Speed up Puppet and Augeas
+lang: en
 Category: Automation
 Tags: automation, planet-inuits, puppet
 Slug: speed-up-puppet-augeas

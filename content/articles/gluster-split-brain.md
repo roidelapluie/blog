@@ -1,4 +1,5 @@
 Title: Fixing a GlusterFS split-brain
+lang: en
 Category: Linux
 Tags: GlusterFS, planet-inuits
 Slug: glusterfs-split-brain

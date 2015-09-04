@@ -1,4 +1,5 @@
 Title: Paludis, a package manager
+lang: en
 Category: Linux
 Tags: exherbo, packaging, planet-inuits
 Slug: paludis

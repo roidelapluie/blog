@@ -1,4 +1,5 @@
 Title: About Devuan
+lang: en
 Category: Linux
 Tags: systemd, sysadmin
 Slug: devuan

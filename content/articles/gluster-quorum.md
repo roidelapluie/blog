@@ -1,4 +1,5 @@
 Title: GlusterFS quorums
+lang: en
 Category: Linux
 Tags: GlusterFS, planet-inuits
 Slug: glusterfs-quorum

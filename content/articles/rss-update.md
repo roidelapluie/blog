@@ -1,4 +1,5 @@
 Title: RSS/Atom feeds update
+lang: en
 Category: Blog
 Tags: pelican, rss
 Slug: rss-feed-update

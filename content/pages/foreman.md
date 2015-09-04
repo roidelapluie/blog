@@ -1,4 +1,5 @@
 Title: Foreman
+lang: en
 
 Enable foreman novnc on firefox:
 

@@ -1,4 +1,5 @@
 Title: A classical pulp upgrade ....
+lang: en
 Category: Linux
 Tags: centos,pulp, planet-inuits, mongodb
 Slug: pulp-horror-fest

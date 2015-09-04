@@ -1,4 +1,5 @@
 Title: Git status and submodules
+lang: en
 Category: Linux
 Tags: git, planet-inuits
 Slug: git-status-submodules

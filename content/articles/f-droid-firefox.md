@@ -1,4 +1,5 @@
 Title: F-Droid drops Firefox
+lang: en
 Category: Android
 Tags: mozilla, firefox
 Slug: f-droid-firefox

@@ -1,4 +1,5 @@
 Title: Ipv6 and linux
+lang: en
 
 disable ipv6
 ------------

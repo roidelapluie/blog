@@ -1,4 +1,5 @@
 Title: Percona XtraBackup 2.2.10 is incompatible with MariaDB 10.0
+lang: en
 Category: Linux
 Tags: mysql, planet-inuits
 Slug: xtrabackup-and-mariadb

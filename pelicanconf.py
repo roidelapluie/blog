@@ -14,9 +14,9 @@ TIMEZONE = 'Europe/Paris'
 import sys
 sys.path.append('./')
 
-from plugins import git_dates, git_history, copyarticle, feed, gitdiff, colorize
+from plugins import git_dates, git_history, copyarticle, feed, gitdiff, colorize, i18n_subsites
 
-PLUGINS = [git_dates, git_history, copyarticle, feed, gitdiff]
+PLUGINS = [git_dates, git_history, copyarticle, feed, gitdiff, i18n_subsites]
 CACHE_CONTENT = False
 LICENSE='Written by <a href="https://roidelapluie.be/">Julien Pivotto</a>. Licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.en_US">Creative Commons Attribution 4.0 International License</a>.'
 
@@ -30,6 +30,8 @@ TRANSLATION_FEED_ATOM = None
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 JINJA_FILTERS = {'tojson': json.dumps, 'colorize': colorize.colorize}
+
+JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 
 FEED_RSS='rss.xml'
 FEED_ALL_ATOM='atom.xml'
@@ -96,6 +98,19 @@ SIDEBAR_IMAGE = "logo.png"
 
 MD_EXTENSIONS = ['codehilite','extra']
 EXTRA_TEMPLATES_PATHS=['templates']
+I18N_SUBSITES = {
+        'fr': {
+            }
+        }
 
+
+languages_lookup = {
+            'en': 'English',
+            'fr': 'Français',
+        }
+
+
+def lookup_lang_name(lang_code):
+    return languages_lookup[lang_code]
 
 #TOP_TEXT='<strong>Happy New Year!</strong> Best wishes for 2015!'

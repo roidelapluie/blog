@@ -1,4 +1,5 @@
 Title: Grok and httpd
+lang: en
 Category: Monitoring
 Tags: grok, logstash, planet-inuits
 Slug: grok-httpd

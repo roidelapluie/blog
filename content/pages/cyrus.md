@@ -1,4 +1,5 @@
 Title: Playing with cyrus-imapd replication
+lang: en
 
 * Run everything as the Cyrus user
 * sync_client must run on the master

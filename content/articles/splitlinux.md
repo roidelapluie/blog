@@ -1,4 +1,5 @@
 Title: It's not time to split Linux distros in two
+lang: en
 Category: Linux
 Tags: linux,imho,planet-inuits
 Slug: dont-split-linux-in-two

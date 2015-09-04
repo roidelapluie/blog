@@ -1,4 +1,5 @@
 Title: A Puppet module for Puppet 4
+lang: en
 Category: Automation
 Tags: automation, planet-inuits, puppet
 Slug: puppet-puppet-4

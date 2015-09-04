@@ -1,4 +1,5 @@
 Title: Rattaching a running process to a screen
+lang: en
 Category: Linux
 Tags: sysadmin, screen, planet-inuits
 Slug: reptyr

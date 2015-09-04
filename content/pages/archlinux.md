@@ -1,4 +1,5 @@
 Title: Archlinux on a Raspberry pi
+lang: en
 
 install a package
 

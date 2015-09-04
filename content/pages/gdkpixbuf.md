@@ -1,4 +1,5 @@
 Title: Couldn't recognize the image file format for file 'foo.png'
+lang: en
 
 Solution 1
 ----

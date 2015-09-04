@@ -1,4 +1,5 @@
 Title: 3 years of automation with Puppet
+lang: en
 Category: Automation
 Tags: centos,automation, planet-inuits, puppet
 Slug: 3-years-of-puppet

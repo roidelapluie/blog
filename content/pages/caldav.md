@@ -1,4 +1,5 @@
 Title: Caldav sync for android
+lang: en
 
 
 <div class="alert">This article is outdated. Please read the <a href="http://roidelapluie.be/blog/2014/08/15/caldav-android/">blog post</a> on that topic.</div>

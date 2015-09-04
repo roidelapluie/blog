@@ -1,4 +1,5 @@
 Title: Google to shut down Google Code
+lang: en
 Category: Open-Source
 Tags: code
 

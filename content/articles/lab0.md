@@ -1,4 +1,5 @@
 Title: lab0, a light frontend to foreman
+lang: en
 Category: Automation
 Tags: foreman, puppet, automation, planet-inuits
 Slug: lab0

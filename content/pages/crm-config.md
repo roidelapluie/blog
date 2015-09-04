@@ -1,4 +1,5 @@
 Title: Pacemaker and corosync
+lang: en
 
 If you get the following:
 
