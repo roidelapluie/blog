@@ -5,8 +5,6 @@
   {%if page.sidebar%}<div class="columns">{%endif%}
   {%if page.sidebar%}<div class="column three-fourths">{%endif%}
   <h2>{{ page.title }}</h2>
-  {% import 'translations.html' as translations with context %}
-  {{ translations.translations_for(page) }}
 
   {{ page.content }}
   {%if page.sidebar%}</div><div class="column one-fourth">

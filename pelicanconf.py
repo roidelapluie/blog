@@ -5,7 +5,7 @@ import json
 
 AUTHOR = u'Julien Pivotto'
 SITENAME = u'roidelapluie'
-SITEURL = u'file:///home/roidelapluie/blog/blog/output/'
+SITEURL = u'file:///home/roidelapluie/blog/blog/output'
 EXHERBO_SITEURL = u'https://roidelapluie.be/exherbo'
 TAGLINE="Julien Pivotto is a passionate Linux Systems Administrator, currently working at <a href=\"https://www.inuits.eu/\">Inuits</a>."
 
@@ -69,7 +69,7 @@ THEME='./primertheme'
 PAGE_URL='wiki/{slug}.html'
 PAGE_SAVE_AS='wiki/{slug}.html'
 DIRECT_TEMPLATES = ('index', 'categories', 'archives')
-PAGINATED_DIRECT_TEMPLATES=('index')
+PAGINATED_DIRECT_TEMPLATES=('index',)
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = False

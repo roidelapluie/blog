@@ -5,13 +5,13 @@
   %h2
     <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
   %h4
-    Revision log
+    {% trans %}Revision log{% endtrans %}
   {% for commit in gitcommits %}
-  <h4>Commit {{commit.hash}}</h4>
+  <h4>{% trans %}Commit{%endtrans%} {{commit.hash}}</h4>
   <p>{{commit.date}}</p>
-  <h6>Commit message:</h6>
+  <h6>{% trans %}Commit message{% endtrans %}:</h6>
   <pre class="codehilite">{{commit.message|e}}</pre>
-  <h6>{% if loop.first %}Original content:{%else%}Diff:{% endif %}</h6>
+  <h6>{% if loop.first %}{% trans %}Original content{% endtrans %}:{%else%}{% trans %}Diff{% endtrans %}:{% endif %}</h6>
   {{commit.content}}
   {% endfor %}
   {% include "article_infos.html"%}
