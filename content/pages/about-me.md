@@ -32,7 +32,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 ### 2015
 
 * October, [LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe), Dublin, Ireland, OpenSSH
-* September, [Belgian Puppet User Group meetup](http://www.meetup.com/Belgian-Puppet-User-Group/), Etterbeek, Belgium, Puppet 4
+* September, [Belgian Puppet User Group meetup](http://www.meetup.com/Belgian-Puppet-User-Group/), Etterbeek, Belgium, [Dive into Puppet 4](http://www.slideshare.net/roidelapluie/dive-into-puppet-4)
 * July, [Inuits](http://inuits.eu), Antwerp, Belgium, pytriage
 * June 17, [Foreman case studies: Inuits](https://www.youtube.com/watch?v=8-o27p39dIM), Google Hangout, with [Daniel Lobato](http://blog.daniellobato.me/) and [Kris Buytaert](http://krisbuytaert.be)
 * May 29, [Inuits](http://inuits.eu), Antwerp, Belgium, An introduction to Pulp
@@ -76,7 +76,8 @@ a French-speaking podcast about Open-Source.
 
 ### 2015
 
-* September, [NipSource](http://nipcast.com/category/nipsource/), Épisode HS: retour au Libre
+* September 16, [NipSource](http://nipcast.com/category/nipsource/), Épisode 14
+* September 3, [NipSource](http://nipcast.com/category/nipsource/), [Épisode HS: le libre (partie 1)](http://nipcast.com/nipsource-episode-hs-le-libre-partie-1/)
 * August 14, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 13: le bug sonnera deux fois](http://nipcast.com/nipsource-13-le-bug-sonnera-deux-fois/)
 * July 30, [NipSource](http://nipcast.com/category/nipsource/), [Épisode HS: CentOS](http://nipcast.com/nipsource-hs-centos/)
 
