@@ -18,19 +18,7 @@ software then maybe it is not so important to me.
 The last 1% is the subject of this page: I use some proprietary software to achieve
 some very specific tasks. And I want to explain why I have decided to use them.
 
-Number of items in the list: 2.
-
-### Google Hangout
-
-I am using Google hangout. The main reason is because there is no real alternative.
-I know at least 6 webrtc implementations, and softwares like mumble, but the
-quality is almost always better with hangout and it has some exclusive features,
-like recording.
-
-I do not use it for personal, 1-to-1, conversations. I use it with a dedicated
-browser (chromium) with HTML5.
-
-Note: To be deprecated by jitsi meet
+Number of items in the list: 1.
 
 ### Widevine Content Decryption Module plugin
 
@@ -43,5 +31,3 @@ Netflix made a lot of efforts to come to Belgium and to serve content that
 I can watch legally. No one could offer such a good offer before them, and most
 of the others do not care about Linux. So Netflix made half the way to me, and I
 decided that I would go the other half by installing the Widevine plugin.
-
-### Pebble Time
