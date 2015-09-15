@@ -99,12 +99,12 @@ In a loop:
 ```Puppet
 $parameters = {
   content => 'foo',
-  ensure => present,
+  ensure  => present,
 }
 
 $default = {
-  noop   => true,
-  mode   => '0644',
+  noop => true,
+  mode => '0644',
 }
 
 $files = ['/tmp/foo', '/tmp/bar']
