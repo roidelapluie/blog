@@ -16,7 +16,7 @@ $parameters = {
 }
 
 file {
-  '/tmp/test_base':
+  '/tmp/myfile':
     * => $parameters
 }
 ```
@@ -25,7 +25,7 @@ It is the same as:
 
 ```Puppet
 file {
-  '/tmp/test_base':
+  '/tmp/myfile':
     mode    => '0755',
     content => 'foo',
 }
@@ -38,8 +38,8 @@ file {
   default:
     mode    => '0755',
     content => 'foo';
-  '/tmp/test_base':;
-  '/tmp/test_base':
+  '/tmp/my_file1':;
+  '/tmp/my_file2':
     mode => '0644',
 }
 ```
@@ -49,10 +49,10 @@ Is the same as:
 
 ```Puppet
 file {
-  '/tmp/test_base':
+  '/tmp/my_file1':
     mode    => '0755',
     content => 'foo';
-  '/tmp/test_base':
+  '/tmp/my_file2':
     mode    => '0644',
     content => 'foo';
 }
@@ -66,8 +66,8 @@ File {
   content => 'foo';
 }
 file {
-  '/tmp/test_base':;
-  '/tmp/test_base':
+  '/tmp/my_file1':;
+  '/tmp/my_file2':
     mode => '0644',
 }
 ```
@@ -89,7 +89,7 @@ $default = {
 file {
   default:
     * => $default;
-  '/tmp/test':
+  '/tmp/my_file':
     * => $parameters
 }
 ```
@@ -107,7 +107,7 @@ $default = {
   mode => '0644',
 }
 
-$files = ['/tmp/foo', '/tmp/bar']
+$files = ['/tmp/my_file1', '/tmp/my_file2']
 
 $files.each | String $file_path | {
   file {
