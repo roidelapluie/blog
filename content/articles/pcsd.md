@@ -2,7 +2,7 @@ Title: pcsd limitations in EL7
 lang: en
 Category: Linux
 Tags: centos,automation,HA, planet-inuits
-Slug: pcs-resource-debug
+Slug: pcsd
 
 The High Availability stack shipped with CentOS/RHEL 7.1 comes with a daemon
 called `pcsd` that provides a web UI to manage a clusters. You can reach
