@@ -1,6 +1,6 @@
 Title: Debugging resource failures with pcs
 lang: en
-Category: Automation
+Category: Linux
 Tags: centos,automation,HA, planet-inuits
 Slug: pcs-resource-debug
 
