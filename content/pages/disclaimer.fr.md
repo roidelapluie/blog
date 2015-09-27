@@ -11,7 +11,7 @@ Pour le thème et les polices d'écriture, le bas de page contient des informati
 
 ## Securité
 
-Le certificat SSL est émis par [Startssl](https://www.startssl.com/). Ils n'ont pas eu copie la clé privée. Ce site est classé A par [Qualys SSL Labs tester](https://www.ssllabs.com/ssltest/analyze.html?d=roidelapluie.be&hideResults=on).
+Le certificat SSL est émis par [Comodo](https://www.comodo.com/). Ils n'ont pas eu copie la clé privée. Ce site est classé A par [Qualys SSL Labs tester](https://www.ssllabs.com/ssltest/analyze.html?d=roidelapluie.be&hideResults=on).
 
 Les enregistrements DNS sont signés avec DNSSEC et il y a des entrées TSLA pour protéger les certificats.
 
