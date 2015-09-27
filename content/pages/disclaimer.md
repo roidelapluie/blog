@@ -11,7 +11,7 @@ For the blog templates, fonts and CSS framework see in the footer for up-to-date
 
 ## Security
 
-The SSL certificate is emitted by [Comodo](https://www.comodo.com/). They don't have the RSA private key. The site is ranked A on [Qualys SSL Labs tester](https://www.ssllabs.com/ssltest/analyze.html?d=roidelapluie.be&hideResults=on).
+The SSL certificate is emitted by [Comodo](https://www.comodo.com/). They don't have the RSA private key. The site is ranked A+ on [Qualys SSL Labs tester](https://www.ssllabs.com/ssltest/analyze.html?d=roidelapluie.be&hideResults=on).
 
 The DNS records are signed with DNSSEC, and there are TLSA records with the certificates.
 
