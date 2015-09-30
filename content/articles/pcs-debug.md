@@ -29,7 +29,8 @@ grep Attributes:|
 awk '{$1=""; print}'|
 tr " " "\n"|
 grep .|
-xargs -I X echo export OCF_RESKEY_X)
+xargs -I X echo export OCF_RESKEY_X|
+sed 's/=\(.*\)/="\1"/')
 
 # Run the RA now that we have the right environment
 bash -x /usr/lib/ocf/resource.d/$(pcs resource show $resource|
