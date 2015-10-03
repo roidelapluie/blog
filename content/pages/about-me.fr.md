@@ -78,11 +78,12 @@ un podcast francophone qui traite de l'Open-Source.
 
 ### 2015
 
-* September 16, [NipSource](http://nipcast.com/category/nipsource/), Épisode 14
-* September 3, [NipSource](http://nipcast.com/category/nipsource/), [Épisode HS: le libre (partie 1)](http://nipcast.com/nipsource-episode-hs-le-libre-partie-1/)
-* August 14, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 13: le bug sonnera deux fois](http://nipcast.com/nipsource-13-le-bug-sonnera-deux-fois/)
-* July 30, [NipSource](http://nipcast.com/category/nipsource/), [Épisode HS: CentOS](http://nipcast.com/nipsource-hs-centos/)
+* 2 octobre, [NipSource](http://nipcast.com/category/nipsource/), [Épisode HS: le libre (partie 2)](http://nipcast.com/nipsource-episode-hs-le-libre-partie-2/)
+* 16 septembre, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 14: Héloise is back](http://nipcast.com/nipsource-14-heloise-is-back/)
+* 3 septembre, [NipSource](http://nipcast.com/category/nipsource/), [Épisode HS: le libre (partie 1)](http://nipcast.com/nipsource-episode-hs-le-libre-partie-1/)
+* 14 aout, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 13: le bug sonnera deux fois](http://nipcast.com/nipsource-13-le-bug-sonnera-deux-fois/)
+* 30 juillet, [NipSource](http://nipcast.com/category/nipsource/), [Épisode HS: CentOS](http://nipcast.com/nipsource-hs-centos/)
 
 ### 2010
 
-* March 24, [Good Morning Stallman](http://www.radiopanik.org/emissions/good-morning-stallman/) on [Radio Panik](http://www.radiopanik.org/), [L'ACTA](http://www.radiopanik.org/emissions/good-morning-stallman/emission-du-24-mars-l-acta/)
+* 24 mars, [Good Morning Stallman](http://www.radiopanik.org/emissions/good-morning-stallman/) on [Radio Panik](http://www.radiopanik.org/), [L'ACTA](http://www.radiopanik.org/emissions/good-morning-stallman/emission-du-24-mars-l-acta/)
