@@ -8,5 +8,6 @@ Title: Software preferences
 * I prefer *uBlock* over *Adblock Plus Edge*.
 * I prefer *cclive* over *youtube-dl*.
 * I prefer *firefox* over *chromium*.
+* I prefer *Disconnect* over *Ghostery*
 
 
