@@ -7,7 +7,7 @@ Slug: specific-routing-table
 I have multiple VPNs launched at any time that route all of my traffic outside
 the eyes of my ISP (including default gateway).
 
-Some services however require me to have my 'begian' ip address. The easy
+Some services however require me to have my 'belgian' ip address. The easy
 solution is of course to stop my VPN but hey, no way!
 
 So here is another solution, quite simple (it does not involve mangling or bridges).
