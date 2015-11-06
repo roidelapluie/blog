@@ -78,6 +78,8 @@ a French-speaking podcast about Open-Source.
 
 ### 2015
 
+* November 3, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 16: du tournevis/marteau à la grue de chantier](http://nipcast.com/nipsource-16-du-tournevismarteau-a-la-grue-de-chantier/)
+* October 16, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 15: j’ai inversé mes brols](http://nipcast.com/nipsource-15-jai-inverse-mes-brols/)
 * October 2, [NipSource](http://nipcast.com/category/nipsource/), [Épisode HS: le libre (partie 2)](http://nipcast.com/nipsource-episode-hs-le-libre-partie-2/)
 * September 16, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 14: Héloise is back](http://nipcast.com/nipsource-14-heloise-is-back/)
 * September 3, [NipSource](http://nipcast.com/category/nipsource/), [Épisode HS: le libre (partie 1)](http://nipcast.com/nipsource-episode-hs-le-libre-partie-1/)
