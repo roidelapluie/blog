@@ -31,8 +31,8 @@ He is a strong believer in the devops movement and has technical focus towards i
 
 ### 2015
 
-* November, [systemd.events](http://systemd.events), Berlin, Germany, configuration management
-* October, [LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe), Dublin, Ireland, OpenSSH
+* November, [systemd.events](http://systemd.events), Berlin, Germany, [systemd and configuration management](http://www.slideshare.net/roidelapluie/systemd-and-configuration-management)
+* October, [LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe), Dublin, Ireland, [Enhance OpenSSH for fun and Security](http://www.slideshare.net/roidelapluie/enhance-openssh-for-fun-and-security)
 * September, [Inuits](http://inuits.eu), Antwerp, Belgium, Puppet 4
 * September 10, [Belgian Puppet User Group meetup](http://www.meetup.com/Belgian-Puppet-User-Group/), Etterbeek, Belgium, [Dive into Puppet 4](http://www.slideshare.net/roidelapluie/dive-into-puppet-4)
 * July 31, [Inuits](http://inuits.eu), Antwerp, Belgium, pytriage
