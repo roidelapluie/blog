@@ -31,8 +31,8 @@ Il est membre de la communauté DevOps et ses intérêts techniques sont l'autom
 
 ### 2015
 
-* November, [systemd.events](http://systemd.events), Berlin, Germany, configuration management
-* October, [LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe), Dublin, Ireland, OpenSSH
+* November, [systemd.events](http://systemd.events), Berlin, Germany, [systemd and configuration management](http://www.slideshare.net/roidelapluie/systemd-and-configuration-management)
+* October, [LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe), Dublin, Ireland, [Enhance OpenSSH for fun and Security](http://www.slideshare.net/roidelapluie/enhance-openssh-for-fun-and-security)
 * September, [Inuits](http://inuits.eu), Antwerp, Belgium, Puppet 4
 * September 10, [Belgian Puppet User Group meetup](http://www.meetup.com/Belgian-Puppet-User-Group/), Etterbeek, Belgium, [Dive into Puppet 4](http://www.slideshare.net/roidelapluie/dive-into-puppet-4)
 * July 31, [Inuits](http://inuits.eu), Antwerp, Belgium, pytriage
@@ -78,6 +78,10 @@ un podcast francophone qui traite de l'Open-Source.
 
 ### 2015
 
+* 5 décembre, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 18: systemd et les moufles de Cyril](http://nipcast.com/nipsource-18-systemd-et-les-moufles-de-cyril/)
+* 20 novembre, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 17: K-9 le chien d’Android](http://nipcast.com/nipsource-17-k-9-le-chien-dandroid/)
+* 3 novembre, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 16: du tournevis/marteau à la grue de chantier](http://nipcast.com/nipsource-16-du-tournevismarteau-a-la-grue-de-chantier/)
+* October 16, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 15: j’ai inversé mes brols](http://nipcast.com/nipsource-15-jai-inverse-mes-brols/)
 * 2 octobre, [NipSource](http://nipcast.com/category/nipsource/), [Épisode HS: le libre (partie 2)](http://nipcast.com/nipsource-episode-hs-le-libre-partie-2/)
 * 16 septembre, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 14: Héloise is back](http://nipcast.com/nipsource-14-heloise-is-back/)
 * 3 septembre, [NipSource](http://nipcast.com/category/nipsource/), [Épisode HS: le libre (partie 1)](http://nipcast.com/nipsource-episode-hs-le-libre-partie-1/)

@@ -78,6 +78,8 @@ a French-speaking podcast about Open-Source.
 
 ### 2015
 
+* December 5, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 18: systemd et les moufles de Cyril](http://nipcast.com/nipsource-18-systemd-et-les-moufles-de-cyril/)
+* November 20, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 17: K-9 le chien d’Android](http://nipcast.com/nipsource-17-k-9-le-chien-dandroid/)
 * November 3, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 16: du tournevis/marteau à la grue de chantier](http://nipcast.com/nipsource-16-du-tournevismarteau-a-la-grue-de-chantier/)
 * October 16, [NipSource](http://nipcast.com/category/nipsource/), [Épisode 15: j’ai inversé mes brols](http://nipcast.com/nipsource-15-jai-inverse-mes-brols/)
 * October 2, [NipSource](http://nipcast.com/category/nipsource/), [Épisode HS: le libre (partie 2)](http://nipcast.com/nipsource-episode-hs-le-libre-partie-2/)
