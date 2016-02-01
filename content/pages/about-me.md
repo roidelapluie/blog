@@ -34,7 +34,7 @@ He is a strong believer in the devops movement and has technical focus towards i
 * April, [Open Source Data Center Conference](https://www.netways.de/en/events_trainings/osdc/overview/), Berlin, Germany
 * March, [FLOSS UK](http://www.flossuk.org/Events/Spring2015), London, UK
 * February 1, [Config Management Camp](http://cfgmgmtcamp.eu/), Ghent, Belgium, [Demystifying the Foreman](http://www.slideshare.net/roidelapluie/demystifying-the-foreman)
-* February 1, [Config Management Camp](http://cfgmgmtcamp.eu/), Ghent, Belgium, [CentOS Configuration Management SIG](http://www.slideshare.net/roidelapluie/centos-configuration-management-sig)
+* February 1, [Config Management Camp](http://cfgmgmtcamp.eu/), Ghent, Belgium, [CentOS Config Management SIG](http://www.slideshare.net/roidelapluie/centos-configuration-management-sig)
 
 
 ### 2015
