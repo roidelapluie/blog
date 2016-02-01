@@ -29,11 +29,18 @@ Il est membre de la communauté DevOps et ses intérêts techniques sont l'autom
 
 ## Présentations
 
+### 2016
+
+* April, [Open Source Data Center Conference](https://www.netways.de/en/events_trainings/osdc/overview/), Berlin, Germany
+* March, [FLOSS UK](http://www.flossuk.org/Events/Spring2015), London, UK
+* February 1, [Config Management Camp](http://cfgmgmtcamp.eu/), Ghent, Belgium, [Demystifying the Foreman](http://www.slideshare.net/roidelapluie/demystifying-the-foreman)
+* February 1, [Config Management Camp](http://cfgmgmtcamp.eu/), Ghent, Belgium, [CentOS Configuration Management SIG](http://www.slideshare.net/roidelapluie/centos-configuration-management-sig)
+
 ### 2015
 
-* November, [systemd.events](http://systemd.events), Berlin, Germany, [systemd and configuration management](http://www.slideshare.net/roidelapluie/systemd-and-configuration-management)
-* October, [LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe), Dublin, Ireland, [Enhance OpenSSH for fun and Security](http://www.slideshare.net/roidelapluie/enhance-openssh-for-fun-and-security)
-* September, [Inuits](http://inuits.eu), Antwerp, Belgium, Puppet 4
+* November 6, [systemd.events](http://systemd.events), Berlin, Germany, [systemd and configuration management](http://www.slideshare.net/roidelapluie/systemd-and-configuration-management)
+* October 5, [LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe), Dublin, Ireland, [Enhance OpenSSH for fun and Security](http://www.slideshare.net/roidelapluie/enhance-openssh-for-fun-and-security)
+* September 25, [Inuits](http://inuits.eu), Antwerp, Belgium, Puppet 4
 * September 10, [Belgian Puppet User Group meetup](http://www.meetup.com/Belgian-Puppet-User-Group/), Etterbeek, Belgium, [Dive into Puppet 4](http://www.slideshare.net/roidelapluie/dive-into-puppet-4)
 * July 31, [Inuits](http://inuits.eu), Antwerp, Belgium, pytriage
 * June 17, [Foreman case studies: Inuits](https://www.youtube.com/watch?v=8-o27p39dIM), Google Hangout, with [Daniel Lobato](http://blog.daniellobato.me/) and [Kris Buytaert](http://krisbuytaert.be)
