@@ -34,7 +34,7 @@ What it will change for you:
 * Smaller catalogs, with less hacks
 * No more duplicate concat and concat_modules in your puppet trees
 * Faster and easier concats
-* The price to depend on Concat resources and not on File resource ([like this][ex])
+* The only change needed: depend on Concat resources and not on File resource ([like this][ex])
 
 
 [augeas]:http://www.slideshare.net/roidelapluie/augeas-swiss-knife-resources-for-your-puppet-tree
