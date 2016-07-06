@@ -31,8 +31,12 @@ Il est membre de la communauté DevOps et ses intérêts techniques sont l'autom
 
 ### 2016
 
-* April, [Open Source Data Center Conference](https://www.netways.de/en/events_trainings/osdc/overview/), Berlin, Germany
-* March, [FLOSS UK](http://www.flossuk.org/Events/Spring2015), London, UK
+* July 5, [RMLL Security Track](https://sec2016.rmll.info), [DNSSec](http://www.slideshare.net/roidelapluie/dnssec-63767003), Paris, France
+* June 7, [Puppet Camp](https://puppet.com/community/events/camp/puppet-camp-paris-2016), [Diving into Puppet providers development](http://www.slideshare.net/roidelapluie/diving-into-puppet-providers-development-the-puppetcorosync-module), Paris, France
+* April, [Open Source Data Center Conference](https://www.netways.de/en/events_trainings/osdc/overview/), [Managing a R&D lab with The Foreman](http://www.slideshare.net/roidelapluie/managing-a-rd-lab-with-foreman), Berlin, Germany
+* March, [FLOSS UK](http://www.flossuk.org/Events/Spring2015), [Getting the
+  Maximum out of systemd](http://www.slideshare.net/roidelapluie/getting-the-maximum-out-of-systemd), London, UK
+* February 26, [Inuits](http://inuits.eu), Antwerp, Belgium, [RPM experiments](http://www.slideshare.net/roidelapluie/rpm-experiments)
 * February 1, [Config Management Camp](http://cfgmgmtcamp.eu/), Ghent, Belgium, [Demystifying the Foreman](http://www.slideshare.net/roidelapluie/demystifying-the-foreman)
 * February 1, [Config Management Camp](http://cfgmgmtcamp.eu/), Ghent, Belgium, [CentOS Config Management SIG](http://www.slideshare.net/roidelapluie/centos-configuration-management-sig)
 
