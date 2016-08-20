@@ -105,3 +105,26 @@ a French-speaking podcast about Open-Source.
 ### 2010
 
 * March 24, [Good Morning Stallman](http://www.radiopanik.org/emissions/good-morning-stallman/) on [Radio Panik](http://www.radiopanik.org/), [L'ACTA](http://www.radiopanik.org/emissions/good-morning-stallman/emission-du-24-mars-l-acta/)
+
+
+## Rejected proposals
+
+### 2016
+
+* [DevConf](http://devconf.cz/), about systemd for sysadmins
+* [PuppetCamp London](http://puppet.com), about how to use the Puppet-Corosync
+  modules, and the challenges around it -- I did speak two days before at Puppet
+  Camp Paris on a close topic
+* [Hashiconf](https://www.hashiconf.com/), about stories between the CentOS
+  project and Hashicorp tools -- and presenting the CentOS Config Management
+  SIG
+
+### 2015
+
+* [Paris Open Source Summit](http://www.opensourcesummit.paris/?lg=en), about
+  the importance of API's for Open Source infrastructures
+* [Rencontres Mondiales du Logiciel Libre](http://rmll.info), about OpenSSH and
+  security -- another similar talk was in the schedule
+* [Puppetconf](https://puppet.com/puppetconf), about how to successfully build
+  a MySQL HA stack with Puppet from scratch
+
