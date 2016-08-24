@@ -12,7 +12,10 @@ Sidebar: <h4>Welcome</h4>
          <strong>Inuits</strong><br />
          The opinions and views expressed in my this site do not reflect my employer's views. I am working at <a href="https://inuits.eu">Inuits</a>, a large open-source consultancy company based in Belgium.
          </p>
-         <a href="https://stop-ttip.org/what-is-the-problem-ttip-ceta/"><img src="images/md0341_banner-ttip_180x250_eng02.png" title="Stop TTIP" alt="Stop TTIP"/></a>
+         <p class="box info">
+         <strong>FSFE</strong><br />
+         <a href="https://fsfe.org/15"><img style="width:95%" src="images/FSFE_15_Sticker_RGB.svg" title="FSFE's 15th Anniversary! Pic licensed under CC-BY-SA 4.0 Markus Meier" alt="FSFE's 15th Anniversary!"/></a>
+         </p>
 
 Julien Pivotto is a young Open-Source consultant at [Inuits](https://inuits.eu) where he is helping organisations with the deployment of long-term solutions based on Open-Source infrastructure.
 
