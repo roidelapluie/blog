@@ -97,5 +97,5 @@ pas céder au chantage entre les data et la vie. Nous devons trouver des
 alternatives saines qui nous permettent de vivre au mieux et d'être au mieux
 informés sans que d'autres en sachent plus que nous. Dans le domaine de la vie
 privée, on ne peut qu'en donner plus. Le retour en arrière est malheureusement
-impossible, et on ne peut arrêter le progrès, juste le ralentir et essaye de la
+impossible, et on ne peut arrêter le progrès, juste le ralentir et essaye de le
 réorienter.
