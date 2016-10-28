@@ -114,6 +114,7 @@ a French-speaking podcast about Open-Source.
 
 ### 2016
 
+* [DevOps REX](http://www.devopsrex.fr/), about DevOps & Open-Source
 * [DevConf](http://devconf.cz/), about systemd for sysadmins
 * [PuppetCamp London](http://puppet.com), about how to use the Puppet-Corosync
   modules, and the challenges around it -- I did speak two days before at Puppet
