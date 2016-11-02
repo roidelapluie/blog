@@ -38,7 +38,7 @@ world, everyone speaks graphite. The bad move was to decide that the open source
 users don't deserve it. Yes, the same users that write and contribute to the
 real value of Puppet, the open source modules on github and the forge.
 
-What actually triggered that article is a new puppet function, called `return`.
+What actually triggered that article is a [new puppet function][48], called `return`.
 Let's go over a quick example:
 
 ```puppet
@@ -73,3 +73,4 @@ now what will end in the catalog at first sight.
 I kinda miss my past parser.
 
 [pem]:https://docs.puppet.com/pe/latest/puppet_server_metrics.html
+[48]:https://docs.puppet.com/puppet/4.8/reference/release_notes.html
